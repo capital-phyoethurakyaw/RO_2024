@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ID_Exchanger xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SYSTEMABBRE>SystemReservedLayer_</SYSTEMABBRE>
+  <SEGMENTABBRE>SG_</SEGMENTABBRE>
+  <IOABBRE>IO-</IOABBRE>
+  <TBABBRE>TB-</TBABBRE>
+  <xgap />
+  <ygap />
+  <MaxPoly>50</MaxPoly>
+  <SelectedGUID>0</SelectedGUID>
+  <PreviousVdFigure>0</PreviousVdFigure>
+  <AllRouteCollections />
+  <AllNodeInEachDuct />
+  <AllInstrument_Leader>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>a322a0d8064b42c4a2ce86e1e21ac9fd.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>5b4bfad3e99b42e2944061d6a72de67f.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>2194402f03304edb9ac324636cf0a097.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>819289b3d9b849779536dea5ff0aa23a.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>bd96e82223ba4ad19070e850a9ad1417.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>e97bf254023d4ab39b8657608b16754f.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>725087b197964bd9b89bc5c6736ac647.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>86cabdf1cfc84c5ca82ce1e5b32db4b0.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>774d06ea56184120953703e9813e1ae9.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>363bda2fd2354b3485b61a40d87d2e17.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>eba3914cc3c24a118316720a2f9b8e21.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>3259cb86da584a1a8352e2d0fc87fecb.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>14e52b46346a49f49ede5c494d00f3fd.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>0689b753a05640e0afdcf8e99e47e685.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>af005bf378f84d5da45c5249cff13911.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>985acf54825c42a3a3715d2a499c9558.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>214927ba12144c6b8a753d23966a4196.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>f9966b9c392a4ad1b8924f271e886ab5.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>8121edffb1ad4baab61336abeabfd5a9.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>cdde86168d6349029bbb35a4d810d637.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>1ad04fab8ddc4460864c25eb49490fc9.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>eb689efab9f04e61af85afcea3b6e602.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>69151c8422bb452abbe015b8afddaf9a.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+    <DictonaryTuple_ID_Exchanger>
+      <polyID />
+      <insertID>8317a4b3ed4e4b829f9a32b7ab19be33.wyzrs</insertID>
+      <LayerName />
+      <System />
+      <To />
+    </DictonaryTuple_ID_Exchanger>
+  </AllInstrument_Leader>
+  <LstTextName_Cricle_Cache />
+  <LstExternalRoute />
+  <LstAllRouteDrawn />
+  <LstLayerSelectedInstruments />
+  <LstLayerSelectedObstacles />
+  <LstLayerAllColumn />
+  <LstObstacles />
+  <LstTBBOXes />
+  <DGV_LstInstrument />
+  <LstSegmentInfo />
+  <LstSelectedSegmentInfo />
+  <LstInsRouteInfo />
+  <basicSettingEntity>
+    <MaxLengthInstrument>0</MaxLengthInstrument>
+    <DuctOptimizedRatio>20</DuctOptimizedRatio>
+    <HTolerence>3</HTolerence>
+    <YTolerence>3</YTolerence>
+    <Connectable />
+    <PanelBay />
+    <FrontPart />
+    <RearClearence />
+    <WallFront />
+    <SideFront />
+  </basicSettingEntity>
+  <DetectedObstacles>When the obstacle is loaded, the objects are imported.</DetectedObstacles>
+  <SelectedDestination>-1</SelectedDestination>
+  <SelectedMainBoundary>0</SelectedMainBoundary>
+</ID_Exchanger>

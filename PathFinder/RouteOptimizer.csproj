@@ -1,0 +1,738 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ApplicationIcon>favicon.ico</ApplicationIcon>
+    <PublishUrl>C:\Users\jaeun\Downloads\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>false</MapFileExtensions>
+    <ProductName>Path Finder</ProductName>
+    <SuiteName>Wyzrs</SuiteName>
+    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>F0711D2966C0887EC56A0CDA231BC17191198DF2</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>PathFinder_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <WarningLevel>0</WarningLevel>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5193631A-A8CE-44D4-874A-69C1B0019174}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>RouteOptimizer</RootNamespace>
+    <AssemblyName>RouteOptimizer</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>0</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Zip, Version=23.7.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Zip.23.7.0\lib\net40\Aspose.Zip.dll</HintPath>
+    </Reference>
+    <Reference Include="clipper_library, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\clipper_library.6.2.1\lib\net40\clipper_library.dll</HintPath>
+    </Reference>
+    <Reference Include="CsvHelper">
+      <HintPath>dll\CsvHelper.dll</HintPath>
+    </Reference>
+    <Reference Include="DocumentFormat.OpenXml, Version=2.19.0.0, Culture=neutral, PublicKeyToken=8fb06cb64d019a17, processorArchitecture=MSIL">
+      <HintPath>..\packages\DocumentFormat.OpenXml.2.19.0\lib\net46\DocumentFormat.OpenXml.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.OrTools">
+      <HintPath>dll\Google.OrTools.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf">
+      <HintPath>dll\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZipLib, Version=1.4.2.13, Culture=neutral, PublicKeyToken=1b03e6acf1164f73, processorArchitecture=MSIL">
+      <HintPath>..\packages\SharpZipLib.1.4.2\lib\netstandard2.0\ICSharpCode.SharpZipLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.1.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.HashCode, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.HashCode.1.0.0\lib\net461\Microsoft.Bcl.HashCode.dll</HintPath>
+    </Reference>
+    <Reference Include="ObjectListView">
+      <HintPath>.\ObjectListView.dll</HintPath>
+    </Reference>
+    <Reference Include="OpenVDF">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\OpenVDF.dll</HintPath>
+    </Reference>
+    <Reference Include="RenderFormats">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\RenderFormats.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Management.Automation, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\WindowsPowerShell\3.0\System.Management.Automation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=4.0.4.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.5.3\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.CodePages, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.4.5.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="vdCommandLine">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\vdCommandLine.dll</HintPath>
+    </Reference>
+    <Reference Include="vdDXF">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\vdDXF.dll</HintPath>
+    </Reference>
+    <Reference Include="vdFramedControl">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\vdFramedControl.dll</HintPath>
+    </Reference>
+    <Reference Include="vdgrAPI">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\vdgrAPI.dll</HintPath>
+    </Reference>
+    <Reference Include="vdIFC">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\vdIFC.dll</HintPath>
+    </Reference>
+    <Reference Include="VdProControl">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\VdProControl.dll</HintPath>
+    </Reference>
+    <Reference Include="vdPropertyGrid">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\vdPropertyGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="VDrawBaseControl">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\VDrawBaseControl.dll</HintPath>
+    </Reference>
+    <Reference Include="vdScrollableControl">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\vdScrollableControl.dll</HintPath>
+    </Reference>
+    <Reference Include="vdxFcnv">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\vdxFcnv.dll</HintPath>
+    </Reference>
+    <Reference Include="VectorDraw.Actions">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\VectorDraw.Actions.dll</HintPath>
+    </Reference>
+    <Reference Include="VectorDraw.Generics">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\VectorDraw.Generics.dll</HintPath>
+    </Reference>
+    <Reference Include="VectorDraw.Geometry">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\VectorDraw.Geometry.dll</HintPath>
+    </Reference>
+    <Reference Include="VectorDraw.Professional">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\VectorDraw.Professional.dll</HintPath>
+    </Reference>
+    <Reference Include="VectorDraw.Render">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\VectorDraw.Render.dll</HintPath>
+    </Reference>
+    <Reference Include="VectorDraw.Serialize">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\VectorDraw.Serialize.dll</HintPath>
+    </Reference>
+    <Reference Include="VectorDraw.SolidModel">
+      <HintPath>C:\Program Files (x86)\VectorDraw\vdAnyCPUSxS.1002\VectorDraw.SolidModel.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form\TestForm\Testform3D.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TestForm\Testform3D.Designer.cs">
+      <DependentUpon>Testform3D.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hub\Analysis1\AnaylisRoute.cs" />
+    <Compile Include="Hub\Analysis1\Connector.cs" />
+    <Compile Include="Hub\Analysis1\Dijkstra.cs" />
+    <Compile Include="Hub\Analysis1\DisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hub\Analysis1\DisForm.Designer.cs">
+      <DependentUpon>DisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hub\Analysis1\FindRoute.cs" />
+    <Compile Include="Hub\Analysis1\Graph.cs" />
+    <Compile Include="Hub\Analysis1\MatrixPoint.cs" />
+    <Compile Include="Hub\Analysis1\Node.cs" />
+    <Compile Include="Hub\Analysis1\Permutation.cs" />
+    <Compile Include="Hub\Analysis1\Route.cs" />
+    <Compile Include="Hub\Analysis1\Routes.cs" />
+    <Compile Include="Hub\Analysis1\SubRoute.cs" />
+    <Compile Include="Hub\Analysis1\Vertex.cs" />
+    <Compile Include="Layer\BL\AnalysisBL.cs" />
+    <Compile Include="Layer\BL\BasicInfoBL.cs" />
+    <Compile Include="Layer\BL\ProjectInfoBL.cs" />
+    <Compile Include="Layer\BL\SettingBL.cs" />
+    <Compile Include="Form\PopupForm\BoxSizing.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\BoxSizing.Designer.cs">
+      <DependentUpon>BoxSizing.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hub\CF\CommonFunction.cs" />
+    <Compile Include="Form\PopupForm\DestSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\DestSetForm.Designer.cs">
+      <DependentUpon>DestSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\DuctSizeOptimization.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\DuctSizeOptimization.Designer.cs">
+      <DependentUpon>DuctSizeOptimization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\DuplicateItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\DuplicateItem.Designer.cs">
+      <DependentUpon>DuplicateItem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Layer\Entity\AnalysisResultEntity.cs" />
+    <Compile Include="Layer\Entity\BasicInfoEntity.cs" />
+    <Compile Include="Layer\Entity\BasicSettingEntity.cs" />
+    <Compile Include="Layer\Entity\CableDuctList.cs" />
+    <Compile Include="Layer\Entity\CableDuctTypeListEntity.cs" />
+    <Compile Include="Layer\Entity\CableListEntity.cs" />
+    <Compile Include="Layer\Entity\CableScheuleEntity.cs" />
+    <Compile Include="Layer\Entity\DebugLog.cs" />
+    <Compile Include="Layer\Entity\DestinationPathEntity.cs" />
+    <Compile Include="Layer\Entity\DestinationSettingEntity.cs" />
+    <Compile Include="Layer\Entity\DuctLineEntity.cs" />
+    <Compile Include="Layer\Entity\InstCableEntity.cs" />
+    <Compile Include="Layer\Entity\InstrumentInfoEntity.cs" />
+    <Compile Include="Layer\Entity\InstrumentListEntity.cs" />
+    <Compile Include="Layer\Entity\InstrumentRouteInfoEntity.cs" />
+    <Compile Include="Layer\Entity\MCCEntity.cs" />
+    <Compile Include="Layer\Entity\ProjectInfoEntity.cs" />
+    <Compile Include="Layer\Entity\SegmentInfoEntity.cs" />
+    <Compile Include="Layer\Entity\SignalListEntity.cs" />
+    <Compile Include="Layer\Entity\StaticCache.cs" />
+    <Compile Include="Layer\Entity\SystemInfoEntity.cs" />
+    <Compile Include="Form\TestForm\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TestForm\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TestForm\Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\TestForm\Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\Gapped Item.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\Gapped Item.Designer.cs">
+      <DependentUpon>Gapped Item.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\Instrument.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\Instrument.Designer.cs">
+      <DependentUpon>Instrument.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\InstrumentParams.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\InstrumentParams.Designer.cs">
+      <DependentUpon>InstrumentParams.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\InstSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\InstSetForm.Designer.cs">
+      <DependentUpon>InstSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\IorDetailForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\IorDetailForm.designer.cs">
+      <DependentUpon>IorDetailForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\MainForm\mainP1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\MainForm\mainP1.Designer.cs">
+      <DependentUpon>mainP1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\MCCSetForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\MCCSetForm.Designer.cs">
+      <DependentUpon>MCCSetForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\MessageBoxControl.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\MessageBoxControl.Designer.cs">
+      <DependentUpon>MessageBoxControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\TestForm\mTreeNode.cs" />
+    <Compile Include="Form\TrashBin\mainP1_tsh.cs" />
+    <Compile Include="Hub\Object\ColorLibrary.cs" />
+    <Compile Include="Hub\Object\ConnectorLine.cs" />
+    <Compile Include="Hub\Object\IGroup.cs" />
+    <Compile Include="Hub\Object\Extensions.cs" />
+    <Compile Include="Hub\Object\InfoData.cs" />
+    <Compile Include="Hub\Object\Instrument.cs" />
+    <Compile Include="Hub\Object\IO_Room.cs" />
+    <Compile Include="Hub\Object\Layer.cs" />
+    <Compile Include="Hub\Object\Obstacle.cs" />
+    <Compile Include="Hub\Object\PointData.cs" />
+    <Compile Include="Hub\Object\RouteInfo.cs" />
+    <Compile Include="Hub\Object\SegmentDetail.cs" />
+    <Compile Include="Hub\Object\TBBOXDestination.cs" />
+    <Compile Include="Form\PInfoForms\C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\C.designer.cs">
+      <DependentUpon>C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Cd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Cd.designer.cs">
+      <DependentUpon>Cd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Inst.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Inst.designer.cs">
+      <DependentUpon>Inst.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\IoDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\IoDetails.Designer.cs">
+      <DependentUpon>IoDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Ior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Ior.designer.cs">
+      <DependentUpon>Ior.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\IorInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\IorInfo.Designer.cs">
+      <DependentUpon>IorInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Mccpkg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Mccpkg.Designer.cs">
+      <DependentUpon>Mccpkg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\PI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\PI.designer.cs">
+      <DependentUpon>PI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\PS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\PS.designer.cs">
+      <DependentUpon>PS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\SignalList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\SignalList.Designer.cs">
+      <DependentUpon>SignalList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Sys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Sys.Designer.cs">
+      <DependentUpon>Sys.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Form\PopupForm\Result.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PopupForm\Result.Designer.cs">
+      <DependentUpon>Result.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hub\SecurityManager\Permission.cs" />
+    <Compile Include="Form\TestForm\testCS.cs" />
+    <Compile Include="Hub\UD\OPERATION_MODE.cs" />
+    <Compile Include="Hub\Util\DestinationOld.cs" />
+    <Compile Include="Hub\Util\Dijkstra.cs" />
+    <Compile Include="Hub\Util\DwgUtil.cs" />
+    <Compile Include="Hub\Util\KmeanCluster.cs" />
+    <Compile Include="Hub\Util\Nearestpoint.cs" />
+    <Compile Include="Hub\Util\Protocol.cs" />
+    <Compile Include="Hub\Util\Routing.cs" />
+    <Compile Include="Form\PrerequisityForm\VD File Converter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PrerequisityForm\VD File Converter.Designer.cs">
+      <DependentUpon>VD File Converter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hub\XMLBuffer\Connector_ID_Exchanger.cs" />
+    <Compile Include="Hub\XMLBuffer\DictonaryTuple_ID_Exchanger.cs" />
+    <Compile Include="Hub\XMLBuffer\ID_Exchanger.cs" />
+    <Compile Include="Hub\XMLBuffer\InsInfo_ID_Exchanger.cs" />
+    <Compile Include="Hub\XMLBuffer\RouteInfo_ID_Exchanger.cs" />
+    <Compile Include="Hub\XMLBuffer\Route_ID_ExChanger.cs" />
+    <Compile Include="Hub\XMLBuffer\Segment_ID_Exchanger.cs" />
+    <Compile Include="Hub\XMLBuffer\Ana_DuctLine_Exchanger.cs" />
+    <Compile Include="Hub\XMLBuffer\TB_ID_Exchanger.cs" />
+    <Compile Include="Hub\XMLBuffer\TB_Node_Exchanger.cs" />
+    <Compile Include="Hub\XMLBuffer\TB_SubRoute_Exchanger.cs" />
+    <EmbeddedResource Include="Form\TestForm\Testform3D.resx">
+      <DependentUpon>Testform3D.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hub\Analysis1\DisForm.resx">
+      <DependentUpon>DisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\BoxSizing.resx">
+      <DependentUpon>BoxSizing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\DestSetForm.resx">
+      <DependentUpon>DestSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\DuctSizeOptimization.resx">
+      <DependentUpon>DuctSizeOptimization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\DuplicateItem.resx">
+      <DependentUpon>DuplicateItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TestForm\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\TestForm\Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\Gapped Item.resx">
+      <DependentUpon>Gapped Item.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\Instrument.resx">
+      <DependentUpon>Instrument.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\InstrumentParams.resx">
+      <DependentUpon>InstrumentParams.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\InstSetForm.resx">
+      <DependentUpon>InstSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\IorDetailForm.resx">
+      <DependentUpon>IorDetailForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\MainForm\mainP1.resx">
+      <DependentUpon>mainP1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\MCCSetForm.resx">
+      <DependentUpon>MCCSetForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\MessageBoxControl.resx">
+      <DependentUpon>MessageBoxControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\C.resx">
+      <DependentUpon>C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\Cd.resx">
+      <DependentUpon>Cd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\Inst.resx">
+      <DependentUpon>Inst.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\IoDetails.resx">
+      <DependentUpon>IoDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\Ior.resx">
+      <DependentUpon>Ior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\IorInfo.resx">
+      <DependentUpon>IorInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\Mccpkg.resx">
+      <DependentUpon>Mccpkg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\PI.resx">
+      <DependentUpon>PI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\PS.resx">
+      <DependentUpon>PS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\SignalList.resx">
+      <DependentUpon>SignalList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PInfoForms\Sys.resx">
+      <DependentUpon>Sys.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PopupForm\Result.resx">
+      <DependentUpon>Result.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form\PrerequisityForm\VD File Converter.resx">
+      <DependentUpon>VD File Converter.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include=".editorconfig" />
+    <Content Include="DS\BasicInfo.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\CableDuctList.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\CableList.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\EnumerationList1-ProjectInfo.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\EnumerationList2-ProjectInfo.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\EnumerationList3-ProjectInfo.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\InstCable.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\InstrumentList.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\Ior.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\MCCPanel.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\MccPkgList.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\ProjectInfo.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\PSCombo.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\Signal.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\SystemList.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\CableDuctCableList.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="DS\CableDuctTypeList.csv">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="PathFinder_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3D_Hide.ico" />
+    <Content Include="favicon.ico" />
+    <Content Include="iDeaq 3D -13.ico" />
+    <None Include="Resources\newfile.ico" />
+    <None Include="Resources\openfile.ico" />
+    <None Include="Resources\savefile.ico" />
+    <None Include="Resources\saveas.ico" />
+    <None Include="Resources\printfile.ico" />
+    <None Include="Resources\724827.png" />
+    <None Include="Resources\free-zip-file-format-489644.png" />
+    <None Include="Resources\unzip-one-logo.png" />
+    <None Include="Resources\downloadSetting.jpg" />
+    <None Include="Resources\SetIcon.jpg" />
+    <None Include="Resources\QLIDAR.PNG" />
+    <Content Include="vdfexe.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0 %28x86%29</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>"$(VDRAWDEV)vdlic.exe"  "$(TargetPath)"</PostBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+</Project>

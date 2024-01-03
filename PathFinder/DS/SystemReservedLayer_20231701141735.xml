@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ID_Exchanger xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SYSTEMABBRE>SystemReservedLayer_</SYSTEMABBRE>
+  <SEGMENTABBRE>SG_</SEGMENTABBRE>
+  <IOABBRE>IO-</IOABBRE>
+  <TBABBRE>TB-</TBABBRE>
+  <xgap />
+  <ygap />
+  <MaxPoly>50</MaxPoly>
+  <SelectedGUID>0</SelectedGUID>
+  <PreviousVdFigure>0</PreviousVdFigure>
+  <AllRouteCollections />
+  <AllNodeInEachDuct />
+  <AllInstrument_Leader />
+  <LstTextName_Cricle_Cache />
+  <LstExternalRoute />
+  <LstAllRouteDrawn />
+  <LstLayerSelectedInstruments />
+  <LstLayerSelectedObstacles />
+  <LstLayerAllColumn />
+  <LstObstacles />
+  <LstTBBOXes />
+  <DGV_LstInstrument />
+  <LstSegmentInfo />
+  <LstSelectedSegmentInfo />
+  <LstInsRouteInfo />
+  <basicSettingEntity>
+    <MaxLengthInstrument>0</MaxLengthInstrument>
+    <DuctOptimizedRatio>20</DuctOptimizedRatio>
+    <HTolerence>3</HTolerence>
+    <YTolerence>3</YTolerence>
+    <Connectable />
+    <PanelBay />
+    <FrontPart />
+    <RearClearence />
+    <WallFront />
+    <SideFront />
+  </basicSettingEntity>
+  <DetectedObstacles>When the obstacle is loaded, the objects are imported.</DetectedObstacles>
+  <SelectedDestination>-1</SelectedDestination>
+  <SelectedMainBoundary>0</SelectedMainBoundary>
+</ID_Exchanger>

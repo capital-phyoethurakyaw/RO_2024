@@ -1,0 +1,51 @@
+Title,Type,Width,Height
+ST-20,Communication,20,20
+ST-40,Communication,40,8
+ST-110,Communication,100,100
+ST-110,Communication,100,100
+ST-215,Communication,200,150
+ST-610,Communication,600,100
+ST-420,Communication,400,200
+ST-15,Cable Duct (Power),15,10
+ST-40,Cable Duct (Power),40,8
+ST-110,Cable Duct (Signal),100,100
+ST-210,Cable Duct (Signal),200,100
+ST-510,Cable Duct (Signal),500,100
+ST-320,Cable Duct (Signal),300,200
+ST-720,Cable Duct (Signal),700,200
+ST-730,Cable Duct (Signal),800,210
+ST-10,Cable Duct (Power),10,10
+ST-31,Cable Duct (Power),30,50
+ST-110,Cable Duct (Power),100,100
+ST-1515,Cable Duct (Power),150,150
+ST-410,Cable Duct (Power),400,100
+ST-810,Cable Duct (Power),800,100
+ST-620,Cable Duct (Power),600,200
+ST-650,Cable Duct (Power),600,310
+ST-001,Destination,20,100
+ST-30,SMCS,30,50
+ST-1510,SMCS,150,100
+ST-310,SMCS,300,100
+ST-710,SMCS,700,100
+ST-520,SMCS,500,200
+ST-20,Destination,20,20
+ST-40,Destination,40,8
+ST-110,Destination,100,100
+ST-110,Destination,100,100
+ST-215,Destination,200,150
+ST-610,Destination,600,100
+ST-420,Destination,400,200
+ST-15,Destination,15,10
+ST-210,Destination,200,100
+ST-510,Destination,500,100
+ST-320,Destination,300,200
+ST-720,Destination,700,200
+ST-730,Destination,800,210
+ST-10,Destination,10,10
+ST-31,Destination,30,50
+ST-1515,Destination,150,150
+ST-410,Destination,400,100
+ST-810,Destination,800,100
+ST-620,Destination,600,200
+ST-650,Destination,600,310
+ST-001,Destination,20,100

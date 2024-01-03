@@ -1,0 +1,11 @@
+Title,Type,Diameter,CircleArea,RectArea,OperPower
+CVVS 1.5 SQ x 2C-95,Signal,5.5,95,121,null
+CVVS 1.5 SQ x 2C-38,Signal,3.5,38,49,null
+RS-485,Signal,3.5,38,49,null
+CVVS 1.5 SQ x 4C,Signal,6.3,123,156,null
+CVVS 1.5 SQ x 6C,Signal,7.2,165,210,null
+Comm Cable,Signal,3.5,38,49,null
+CVVS 1.5 SQ x 3C-DC24V,Power,5.8,104,132,DC24V
+CVVS 1.5 SQ x 3C-AC220V,Power,5.8,104,132,AC220V
+Loop Power,Power,null,null,null,null
+FCV 2.5 SQ x 3C,Power,7.0,154,196,AC220V

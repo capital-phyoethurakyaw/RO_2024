@@ -1,0 +1,12 @@
+Type,Title,AssignedCableDuct
+Signal,AI,Cable Duct (Signal)
+Signal,DI,Cable Duct (Power)
+Signal,DO,Cable Duct (Signal)
+Signal,RTD,Cable Duct (Power)
+Power,DC 24V,Communication
+Power,AC 220V,Cable Duct (Power)
+Comm.,RS-485,Cable Duct (Signal)
+Comm.,Ethenet(TCP/IP),Communication
+Comm.,Optical,Communication
+Comm.,,
+Etc.,PTFE Tube 1/2 in,Communication

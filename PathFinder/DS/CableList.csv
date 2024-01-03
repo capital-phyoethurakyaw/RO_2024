@@ -1,0 +1,11 @@
+Title,Type,Diameter
+Signal,CVVS 1.5SQ x 2C,5.5
+Signal,CVVS 1.5SQ x 3C,3.5
+Signal,CVVS 1.5SQ x 4C,3.5
+Signal,CVVS 1.5 SQ x 5C,6.3
+Signal,CVVS 1.5 SQ x 6C,7.2
+Signal,Comm Cable,3.5
+Power,CVVS 1.5 SQ x 3C-DC24V,5.8
+Power,CVVS 1.5 SQ x 3C-AC220V,5.8
+Power,Loop Power,5.8
+Power,FCV 2.5 SQ x 3C,7.0

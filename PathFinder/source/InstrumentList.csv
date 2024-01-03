@@ -1,0 +1,37 @@
+Classification_1,Classification_2,Classification_3
+Instrument,Sensor,Flow Meter
+Instrument,Sensor,Flow Meter_Comm. Type
+Instrument,Sensor,Pressure Transmitter
+Instrument,Sensor,Differential Pressure Transmitter
+Instrument,Sensor,Temp. Sensor(RTD)_3wire type
+Instrument,Sensor,Temp. Sensor(RTD)_3wire type
+Instrument,Sensor,Humidity & Temp. Sensor
+Instrument,Sensor,Humidity Sensor
+Instrument,Sensor,Dewpoint Sensor
+Instrument,Sensor,Moisture Sensor
+Instrument,Sensor,Level Transmitter
+Instrument,Sensor,Level Switch
+Instrument,Sensor,Vibration Sensor
+Instrument,Sensor,CO2 Sensor
+Instrument,Sensor,Leak Sensor_Film Type
+Instrument,Sensor,Leak Sensor_Point Type
+Instrument,Sensor,Particle Counter
+Instrument,Actuator,Control Valve(Pneumatic)_PID
+Instrument,Actuator,Control Valve(Pneumatic)_Open/Close
+Instrument,Actuator,MOV(Motor Operation Valve)
+Instrument,Actuator,MD(Motor Damper)
+Instrument,Actuator,MVD(Motor Volume Damper)
+Instrument,Actuator,"Analyzer_PH, CI, RS"
+Instrument,Detector,Gas Detector
+Instrument,Detector,Gas Detector_Comm. Type
+Instrument,Detector,Gas Detector_Receiver
+Instrument,Detector,Oil Detector
+Instrument,PKG,Air Compressor
+Instrument,PKG,Air Dryer
+Instrument,PKG,Chiller
+Instrument,PKG,Boiler
+Instrument,PKG,Chemical Dosing System
+Instrument,PKG,Expansion Tank
+Instrument,PKG,Booster Pump
+Instrument,PKG,Process Vaccum Pump
+Instrument,PKG,CleanignVaccum
