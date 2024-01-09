@@ -75,7 +75,7 @@
             // 
             this.txtWidth.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtWidth.Location = new System.Drawing.Point(110, 12);
-            this.txtWidth.MaxLength = 4;
+            this.txtWidth.MaxLength = 6;
             this.txtWidth.Name = "txtWidth";
             this.txtWidth.Size = new System.Drawing.Size(114, 20);
             this.txtWidth.TabIndex = 2;
@@ -84,7 +84,7 @@
             // 
             this.txtHeight.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.txtHeight.Location = new System.Drawing.Point(110, 57);
-            this.txtHeight.MaxLength = 4;
+            this.txtHeight.MaxLength = 6;
             this.txtHeight.Name = "txtHeight";
             this.txtHeight.Size = new System.Drawing.Size(114, 20);
             this.txtHeight.TabIndex = 3;

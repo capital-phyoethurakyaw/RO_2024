@@ -90,17 +90,17 @@ namespace RouteOptimizer
                 return;
             }
 
-            if (Convert.ToInt32(txtWidth.Text) < 1000 || Convert.ToInt32(txtWidth.Text) > 10000)
+            if (Convert.ToInt32(txtWidth.Text) < 1000 || Convert.ToInt32(txtWidth.Text) > 100000)
             {
                 IsError = true;
             }
-            if (Convert.ToInt32(txtHeight.Text) < 1000 || Convert.ToInt32(txtHeight.Text) > 10000)
+            if (Convert.ToInt32(txtHeight.Text) < 1000 || Convert.ToInt32(txtHeight.Text) > 100000)
             {
                 IsError = true;
             }
             if (IsError)
             {
-                MessageBox.Show("Please enter the value which is inputable range between 1000 and 10000. Please fix this.");
+                MessageBox.Show("Please enter the value which is inputable range between 1000 and 100000. Please fix this.");
                 return;
             }
 
