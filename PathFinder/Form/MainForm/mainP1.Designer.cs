@@ -31,32 +31,32 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainP1));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle625 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle626 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle627 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle628 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle629 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle630 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle631 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle632 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle633 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle634 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle635 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle636 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle637 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle638 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle639 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle640 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle641 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle642 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle643 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle644 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle645 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle646 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle647 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle648 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle649 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle650 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle27 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle28 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle29 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle30 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle31 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle32 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle49 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle50 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle51 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle52 = new System.Windows.Forms.DataGridViewCellStyle();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.toolStrip2 = new System.Windows.Forms.ToolStrip();
             this.toolStripDropDownButton1 = new System.Windows.Forms.ToolStripDropDownButton();
@@ -100,8 +100,6 @@
             this.tableLayoutPanel58 = new System.Windows.Forms.TableLayoutPanel();
             this.label40 = new System.Windows.Forms.Label();
             this.chk_Manual = new System.Windows.Forms.CheckBox();
-            this.btnMainRoute = new System.Windows.Forms.Button();
-            this.btnErase = new System.Windows.Forms.Button();
             this.label38 = new System.Windows.Forms.Label();
             this.tableLayoutPanel35 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel39 = new System.Windows.Forms.TableLayoutPanel();
@@ -145,6 +143,19 @@
             this.ytextbox = new System.Windows.Forms.TextBox();
             this.xtextbox = new System.Windows.Forms.TextBox();
             this.button6 = new System.Windows.Forms.Button();
+            this.panel8 = new System.Windows.Forms.Panel();
+            this.tableLayoutPanel38 = new System.Windows.Forms.TableLayoutPanel();
+            this.button9 = new System.Windows.Forms.Button();
+            this.btnMainRoute = new System.Windows.Forms.Button();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.button26 = new System.Windows.Forms.Button();
+            this.button25 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button23 = new System.Windows.Forms.Button();
+            this.button22 = new System.Windows.Forms.Button();
+            this.button19 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.btnErase = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.tabControl2 = new System.Windows.Forms.TabControl();
@@ -217,12 +228,25 @@
             this.tableLayoutPanel28 = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.instDGV = new System.Windows.Forms.DataGridView();
             this.tableLayoutPanel36 = new System.Windows.Forms.TableLayoutPanel();
             this.label54 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.chk_CheckAll = new System.Windows.Forms.CheckBox();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.txtT2 = new System.Windows.Forms.TextBox();
+            this.txtT1 = new System.Windows.Forms.TextBox();
             this.btn333 = new System.Windows.Forms.Button();
             this.txtDetectedCount = new System.Windows.Forms.TextBox();
+            this.instDGV = new System.Windows.Forms.DataGridView();
+            this.LayerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.GUID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Iv = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colT1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colT2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colType = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.colSystem = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.colTo = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.col_Check_Instrument = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.tp_dest = new System.Windows.Forms.TabPage();
             this.splitContainer4 = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel12 = new System.Windows.Forms.TableLayoutPanel();
@@ -261,37 +285,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tabPage2 = new System.Windows.Forms.TabPage();
             this.tabControl3 = new System.Windows.Forms.TabControl();
-            this.tab_Scope = new System.Windows.Forms.TabPage();
-            this.tableLayoutPanel24 = new System.Windows.Forms.TableLayoutPanel();
-            this.label34 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.btn_DeleteConnector = new System.Windows.Forms.Button();
-            this.btn_next = new System.Windows.Forms.Button();
-            this.pnl_Alternative = new System.Windows.Forms.Panel();
-            this.dgv_alternaitve = new System.Windows.Forms.DataGridView();
-            this.a_route = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col_No = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col_length = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col_longest = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col_bend = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col_Analysis = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel49 = new System.Windows.Forms.TableLayoutPanel();
-            this.label44 = new System.Windows.Forms.Label();
-            this.cbo_Frequency = new System.Windows.Forms.ComboBox();
-            this.tableLayoutPanel34 = new System.Windows.Forms.TableLayoutPanel();
-            this.rdo_UserDefine = new System.Windows.Forms.RadioButton();
-            this.rdo_WithoutRoute = new System.Windows.Forms.RadioButton();
-            this.rdo_withroute = new System.Windows.Forms.RadioButton();
-            this.label56 = new System.Windows.Forms.Label();
-            this.tableLayoutPanel26 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel33 = new System.Windows.Forms.TableLayoutPanel();
-            this.btn_GenerateRoute = new System.Windows.Forms.Button();
-            this.btn_Restart = new System.Windows.Forms.Button();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.chk_TinySegment = new System.Windows.Forms.CheckBox();
-            this.chk_relation = new System.Windows.Forms.CheckBox();
             this.tab_Analysis = new System.Windows.Forms.TabPage();
             this.tableLayoutPanel55 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel60 = new System.Windows.Forms.TableLayoutPanel();
@@ -382,6 +375,37 @@
             this.btnDuctTypeExport = new System.Windows.Forms.Button();
             this.label53 = new System.Windows.Forms.Label();
             this.chk_SignalSegment = new System.Windows.Forms.CheckBox();
+            this.tab_Scope = new System.Windows.Forms.TabPage();
+            this.tableLayoutPanel24 = new System.Windows.Forms.TableLayoutPanel();
+            this.label34 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel25 = new System.Windows.Forms.TableLayoutPanel();
+            this.button3 = new System.Windows.Forms.Button();
+            this.btn_DeleteConnector = new System.Windows.Forms.Button();
+            this.btn_next = new System.Windows.Forms.Button();
+            this.pnl_Alternative = new System.Windows.Forms.Panel();
+            this.dgv_alternaitve = new System.Windows.Forms.DataGridView();
+            this.a_route = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_No = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_length = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_longest = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_bend = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_Analysis = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel49 = new System.Windows.Forms.TableLayoutPanel();
+            this.label44 = new System.Windows.Forms.Label();
+            this.cbo_Frequency = new System.Windows.Forms.ComboBox();
+            this.tableLayoutPanel34 = new System.Windows.Forms.TableLayoutPanel();
+            this.rdo_UserDefine = new System.Windows.Forms.RadioButton();
+            this.rdo_WithoutRoute = new System.Windows.Forms.RadioButton();
+            this.rdo_withroute = new System.Windows.Forms.RadioButton();
+            this.label56 = new System.Windows.Forms.Label();
+            this.tableLayoutPanel26 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel33 = new System.Windows.Forms.TableLayoutPanel();
+            this.btn_GenerateRoute = new System.Windows.Forms.Button();
+            this.btn_Restart = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.chk_TinySegment = new System.Windows.Forms.CheckBox();
+            this.chk_relation = new System.Windows.Forms.CheckBox();
             this.tableLayoutPanel27 = new System.Windows.Forms.TableLayoutPanel();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.tableLayoutPanel45 = new System.Windows.Forms.TableLayoutPanel();
@@ -402,22 +426,6 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.Column2 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.label31 = new System.Windows.Forms.Label();
-            this.LayerName = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.GUID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Iv = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colT1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colT2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colType = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.colSystem = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.colTo = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.col_Check_Instrument = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
-            this.txtT1 = new System.Windows.Forms.TextBox();
-            this.txtT2 = new System.Windows.Forms.TextBox();
-            this.panel8 = new System.Windows.Forms.Panel();
-            this.tableLayoutPanel38 = new System.Windows.Forms.TableLayoutPanel();
-            this.button9 = new System.Windows.Forms.Button();
             this.toolStrip2.SuspendLayout();
             this.tableLayoutPanel9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
@@ -440,6 +448,9 @@
             this.panel5.SuspendLayout();
             this.tableLayoutPanel40.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel8.SuspendLayout();
+            this.tableLayoutPanel38.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabControl2.SuspendLayout();
             this.tp_basic.SuspendLayout();
@@ -463,8 +474,10 @@
             this.tableLayoutPanel37.SuspendLayout();
             this.tableLayoutPanel30.SuspendLayout();
             this.tableLayoutPanel28.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.instDGV)).BeginInit();
             this.tableLayoutPanel36.SuspendLayout();
+            this.panel2.SuspendLayout();
+            this.panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.instDGV)).BeginInit();
             this.tp_dest.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
             this.splitContainer4.Panel1.SuspendLayout();
@@ -487,17 +500,6 @@
             this.tableLayoutPanel17.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabControl3.SuspendLayout();
-            this.tab_Scope.SuspendLayout();
-            this.tableLayoutPanel24.SuspendLayout();
-            this.tableLayoutPanel25.SuspendLayout();
-            this.pnl_Alternative.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_alternaitve)).BeginInit();
-            this.tableLayoutPanel5.SuspendLayout();
-            this.tableLayoutPanel49.SuspendLayout();
-            this.tableLayoutPanel34.SuspendLayout();
-            this.tableLayoutPanel26.SuspendLayout();
-            this.tableLayoutPanel33.SuspendLayout();
-            this.panel1.SuspendLayout();
             this.tab_Analysis.SuspendLayout();
             this.tableLayoutPanel55.SuspendLayout();
             this.tableLayoutPanel60.SuspendLayout();
@@ -530,12 +532,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv_3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_1)).BeginInit();
             this.tableLayoutPanel44.SuspendLayout();
+            this.tab_Scope.SuspendLayout();
+            this.tableLayoutPanel24.SuspendLayout();
+            this.tableLayoutPanel25.SuspendLayout();
+            this.pnl_Alternative.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_alternaitve)).BeginInit();
+            this.tableLayoutPanel5.SuspendLayout();
+            this.tableLayoutPanel49.SuspendLayout();
+            this.tableLayoutPanel34.SuspendLayout();
+            this.tableLayoutPanel26.SuspendLayout();
+            this.tableLayoutPanel33.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.tableLayoutPanel27.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.panel6.SuspendLayout();
-            this.panel8.SuspendLayout();
-            this.tableLayoutPanel38.SuspendLayout();
             this.SuspendLayout();
             // 
             // contextMenuStrip1
@@ -667,14 +676,14 @@
             // layerToolStripMenuItem
             // 
             this.layerToolStripMenuItem.Name = "layerToolStripMenuItem";
-            this.layerToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.layerToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.layerToolStripMenuItem.Text = "레이어 설정하기";
             this.layerToolStripMenuItem.Click += new System.EventHandler(this.btnLayer_Click);
             // 
             // xRefToolStripMenuItem
             // 
             this.xRefToolStripMenuItem.Name = "xRefToolStripMenuItem";
-            this.xRefToolStripMenuItem.Size = new System.Drawing.Size(156, 22);
+            this.xRefToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.xRefToolStripMenuItem.Text = "Xref 설정하기";
             this.xRefToolStripMenuItem.Click += new System.EventHandler(this.btnXRef_Click);
             // 
@@ -922,7 +931,6 @@
             this.tableLayoutPanel7.ColumnCount = 1;
             this.tableLayoutPanel7.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel58, 0, 5);
-            this.tableLayoutPanel7.Controls.Add(this.btnErase, 0, 12);
             this.tableLayoutPanel7.Controls.Add(this.label38, 0, 2);
             this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel35, 0, 1);
             this.tableLayoutPanel7.Controls.Add(this.tableLayoutPanel8, 0, 3);
@@ -935,6 +943,7 @@
             this.tableLayoutPanel7.Controls.Add(this.label42, 0, 8);
             this.tableLayoutPanel7.Controls.Add(this.panel7, 0, 10);
             this.tableLayoutPanel7.Controls.Add(this.panel8, 0, 11);
+            this.tableLayoutPanel7.Controls.Add(this.panel9, 0, 12);
             this.tableLayoutPanel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel7.Location = new System.Drawing.Point(0, 30);
             this.tableLayoutPanel7.Margin = new System.Windows.Forms.Padding(0);
@@ -999,36 +1008,6 @@
             this.chk_Manual.TabIndex = 1;
             this.chk_Manual.Text = "사용자 크기 지정";
             this.chk_Manual.UseVisualStyleBackColor = true;
-            // 
-            // btnMainRoute
-            // 
-            this.btnMainRoute.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnMainRoute.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.btnMainRoute.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.btnMainRoute.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnMainRoute.Location = new System.Drawing.Point(3, 4);
-            this.btnMainRoute.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnMainRoute.Name = "btnMainRoute";
-            this.btnMainRoute.Size = new System.Drawing.Size(254, 25);
-            this.btnMainRoute.TabIndex = 1;
-            this.btnMainRoute.Text = "사용자 경로 추가하기 (L)";
-            this.btnMainRoute.UseVisualStyleBackColor = true;
-            this.btnMainRoute.Click += new System.EventHandler(this.btnMainRoute_Click);
-            // 
-            // btnErase
-            // 
-            this.btnErase.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.btnErase.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.btnErase.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.btnErase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnErase.Location = new System.Drawing.Point(3, 476);
-            this.btnErase.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.btnErase.Name = "btnErase";
-            this.btnErase.Size = new System.Drawing.Size(521, 25);
-            this.btnErase.TabIndex = 2;
-            this.btnErase.Text = "TestID";
-            this.btnErase.UseVisualStyleBackColor = true;
-            this.btnErase.Click += new System.EventHandler(this.btnErase_Click);
             // 
             // label38
             // 
@@ -1224,7 +1203,7 @@
             this.cboObst.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboObst.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cboObst.FormattingEnabled = true;
-            this.cboObst.Location = new System.Drawing.Point(119, 7);
+            this.cboObst.Location = new System.Drawing.Point(119, 6);
             this.cboObst.Name = "cboObst";
             this.cboObst.Size = new System.Drawing.Size(275, 24);
             this.cboObst.TabIndex = 3;
@@ -1269,7 +1248,7 @@
             this.cbo_polyTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_polyTypes.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cbo_polyTypes.FormattingEnabled = true;
-            this.cbo_polyTypes.Location = new System.Drawing.Point(119, 7);
+            this.cbo_polyTypes.Location = new System.Drawing.Point(119, 6);
             this.cbo_polyTypes.Name = "cbo_polyTypes";
             this.cbo_polyTypes.Size = new System.Drawing.Size(275, 24);
             this.cbo_polyTypes.TabIndex = 4;
@@ -1309,7 +1288,7 @@
             this.cboDest.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboDest.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cboDest.FormattingEnabled = true;
-            this.cboDest.Location = new System.Drawing.Point(119, 7);
+            this.cboDest.Location = new System.Drawing.Point(119, 6);
             this.cboDest.Name = "cboDest";
             this.cboDest.Size = new System.Drawing.Size(275, 24);
             this.cboDest.TabIndex = 4;
@@ -1396,7 +1375,7 @@
             "I/O Room",
             "T/B Box",
             "MCC"});
-            this.cboDestType.Location = new System.Drawing.Point(119, 7);
+            this.cboDestType.Location = new System.Drawing.Point(119, 6);
             this.cboDestType.Name = "cboDestType";
             this.cboDestType.Size = new System.Drawing.Size(275, 24);
             this.cboDestType.TabIndex = 7;
@@ -1452,7 +1431,7 @@
             this.cboBoun.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBoun.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cboBoun.FormattingEnabled = true;
-            this.cboBoun.Location = new System.Drawing.Point(119, 7);
+            this.cboBoun.Location = new System.Drawing.Point(119, 6);
             this.cboBoun.Name = "cboBoun";
             this.cboBoun.Size = new System.Drawing.Size(275, 24);
             this.cboBoun.TabIndex = 5;
@@ -1607,6 +1586,161 @@
             this.button6.Text = "Zoom Test";
             this.button6.UseVisualStyleBackColor = true;
             this.button6.Click += new System.EventHandler(this.button6_Click_4);
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.tableLayoutPanel38);
+            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel8.Location = new System.Drawing.Point(3, 436);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(521, 33);
+            this.panel8.TabIndex = 29;
+            // 
+            // tableLayoutPanel38
+            // 
+            this.tableLayoutPanel38.ColumnCount = 2;
+            this.tableLayoutPanel38.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel38.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.tableLayoutPanel38.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel38.Controls.Add(this.button9, 1, 0);
+            this.tableLayoutPanel38.Controls.Add(this.btnMainRoute, 0, 0);
+            this.tableLayoutPanel38.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel38.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel38.Name = "tableLayoutPanel38";
+            this.tableLayoutPanel38.RowCount = 1;
+            this.tableLayoutPanel38.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel38.Size = new System.Drawing.Size(521, 33);
+            this.tableLayoutPanel38.TabIndex = 0;
+            // 
+            // button9
+            // 
+            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Location = new System.Drawing.Point(263, 4);
+            this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(255, 25);
+            this.button9.TabIndex = 2;
+            this.button9.Text = "모든 경로 제거 (Ctl+Alt+D)";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click_1);
+            // 
+            // btnMainRoute
+            // 
+            this.btnMainRoute.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnMainRoute.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnMainRoute.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.btnMainRoute.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMainRoute.Location = new System.Drawing.Point(3, 4);
+            this.btnMainRoute.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnMainRoute.Name = "btnMainRoute";
+            this.btnMainRoute.Size = new System.Drawing.Size(254, 25);
+            this.btnMainRoute.TabIndex = 1;
+            this.btnMainRoute.Text = "사용자 경로 추가하기 (L)";
+            this.btnMainRoute.UseVisualStyleBackColor = true;
+            this.btnMainRoute.Click += new System.EventHandler(this.btnMainRoute_Click);
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.button26);
+            this.panel9.Controls.Add(this.button25);
+            this.panel9.Controls.Add(this.button24);
+            this.panel9.Controls.Add(this.button23);
+            this.panel9.Controls.Add(this.button22);
+            this.panel9.Controls.Add(this.button19);
+            this.panel9.Controls.Add(this.button10);
+            this.panel9.Controls.Add(this.btnErase);
+            this.panel9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel9.Location = new System.Drawing.Point(3, 475);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(521, 27);
+            this.panel9.TabIndex = 30;
+            // 
+            // button26
+            // 
+            this.button26.Location = new System.Drawing.Point(455, 0);
+            this.button26.Name = "button26";
+            this.button26.Size = new System.Drawing.Size(46, 28);
+            this.button26.TabIndex = 6;
+            this.button26.Text = "Back";
+            this.button26.UseVisualStyleBackColor = true;
+            this.button26.Click += new System.EventHandler(this.button26_Click);
+            // 
+            // button25
+            // 
+            this.button25.Location = new System.Drawing.Point(403, 0);
+            this.button25.Name = "button25";
+            this.button25.Size = new System.Drawing.Size(46, 28);
+            this.button25.TabIndex = 1;
+            this.button25.Text = "Front";
+            this.button25.UseVisualStyleBackColor = true;
+            this.button25.Click += new System.EventHandler(this.button25_Click);
+            // 
+            // button24
+            // 
+            this.button24.Location = new System.Drawing.Point(91, 0);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(64, 26);
+            this.button24.TabIndex = 1;
+            this.button24.Text = "Id";
+            this.button24.UseVisualStyleBackColor = true;
+            this.button24.Click += new System.EventHandler(this.button24_Click);
+            // 
+            // button23
+            // 
+            this.button23.Location = new System.Drawing.Point(347, 1);
+            this.button23.Name = "button23";
+            this.button23.Size = new System.Drawing.Size(50, 23);
+            this.button23.TabIndex = 5;
+            this.button23.Text = "Eye Nearest";
+            this.button23.UseVisualStyleBackColor = true;
+            this.button23.Click += new System.EventHandler(this.button23_Click);
+            // 
+            // button22
+            // 
+            this.button22.Location = new System.Drawing.Point(276, 1);
+            this.button22.Name = "button22";
+            this.button22.Size = new System.Drawing.Size(65, 23);
+            this.button22.TabIndex = 4;
+            this.button22.Text = "Closet";
+            this.button22.UseVisualStyleBackColor = true;
+            this.button22.Click += new System.EventHandler(this.button22_Click);
+            // 
+            // button19
+            // 
+            this.button19.Location = new System.Drawing.Point(217, 0);
+            this.button19.Name = "button19";
+            this.button19.Size = new System.Drawing.Size(56, 23);
+            this.button19.TabIndex = 3;
+            this.button19.Text = "Auto";
+            this.button19.UseVisualStyleBackColor = true;
+            this.button19.Click += new System.EventHandler(this.button19_Click);
+            // 
+            // button10
+            // 
+            this.button10.Location = new System.Drawing.Point(157, 1);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(54, 23);
+            this.button10.TabIndex = 1;
+            this.button10.Text = "Draw Order";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click_1);
+            // 
+            // btnErase
+            // 
+            this.btnErase.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnErase.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.btnErase.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnErase.Location = new System.Drawing.Point(3, 2);
+            this.btnErase.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.btnErase.Name = "btnErase";
+            this.btnErase.Size = new System.Drawing.Size(87, 25);
+            this.btnErase.TabIndex = 2;
+            this.btnErase.Text = "TestID";
+            this.btnErase.UseVisualStyleBackColor = true;
+            this.btnErase.Click += new System.EventHandler(this.btnErase_Click);
             // 
             // label3
             // 
@@ -1954,7 +2088,7 @@
             this.tableLayoutPanel22.ColumnCount = 3;
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.5098F));
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.4902F));
-            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 340F));
+            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 345F));
             this.tableLayoutPanel22.Controls.Add(this.label24, 0, 4);
             this.tableLayoutPanel22.Controls.Add(this.label19, 0, 0);
             this.tableLayoutPanel22.Controls.Add(this.txtPanelbay, 1, 0);
@@ -1991,7 +2125,7 @@
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(3, 147);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(122, 13);
+            this.label24.Size = new System.Drawing.Size(119, 13);
             this.label24.TabIndex = 20;
             this.label24.Text = "벽면(측면) 이격 거리";
             // 
@@ -2002,48 +2136,48 @@
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(3, 19);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(122, 13);
+            this.label19.Size = new System.Drawing.Size(119, 13);
             this.label19.TabIndex = 10;
             this.label19.Text = "판넬 열반 개수 (Max)";
             // 
             // txtPanelbay
             // 
             this.txtPanelbay.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtPanelbay.Location = new System.Drawing.Point(131, 3);
+            this.txtPanelbay.Location = new System.Drawing.Point(128, 3);
             this.txtPanelbay.Name = "txtPanelbay";
-            this.txtPanelbay.Size = new System.Drawing.Size(38, 27);
+            this.txtPanelbay.Size = new System.Drawing.Size(36, 27);
             this.txtPanelbay.TabIndex = 11;
             // 
             // txtFrontpart
             // 
             this.txtFrontpart.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtFrontpart.Location = new System.Drawing.Point(131, 35);
+            this.txtFrontpart.Location = new System.Drawing.Point(128, 35);
             this.txtFrontpart.Name = "txtFrontpart";
-            this.txtFrontpart.Size = new System.Drawing.Size(38, 27);
+            this.txtFrontpart.Size = new System.Drawing.Size(36, 27);
             this.txtFrontpart.TabIndex = 12;
             // 
             // txtRearClearence
             // 
             this.txtRearClearence.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtRearClearence.Location = new System.Drawing.Point(131, 67);
+            this.txtRearClearence.Location = new System.Drawing.Point(128, 67);
             this.txtRearClearence.Name = "txtRearClearence";
-            this.txtRearClearence.Size = new System.Drawing.Size(38, 27);
+            this.txtRearClearence.Size = new System.Drawing.Size(36, 27);
             this.txtRearClearence.TabIndex = 13;
             // 
             // txtWallFrontSeparate
             // 
             this.txtWallFrontSeparate.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtWallFrontSeparate.Location = new System.Drawing.Point(131, 99);
+            this.txtWallFrontSeparate.Location = new System.Drawing.Point(128, 99);
             this.txtWallFrontSeparate.Name = "txtWallFrontSeparate";
-            this.txtWallFrontSeparate.Size = new System.Drawing.Size(38, 27);
+            this.txtWallFrontSeparate.Size = new System.Drawing.Size(36, 27);
             this.txtWallFrontSeparate.TabIndex = 14;
             // 
             // txtWallSideDistance
             // 
             this.txtWallSideDistance.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtWallSideDistance.Location = new System.Drawing.Point(131, 131);
+            this.txtWallSideDistance.Location = new System.Drawing.Point(128, 131);
             this.txtWallSideDistance.Name = "txtWallSideDistance";
-            this.txtWallSideDistance.Size = new System.Drawing.Size(38, 27);
+            this.txtWallSideDistance.Size = new System.Drawing.Size(36, 27);
             this.txtWallSideDistance.TabIndex = 15;
             // 
             // label20
@@ -2053,7 +2187,7 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(3, 51);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(122, 13);
+            this.label20.Size = new System.Drawing.Size(119, 13);
             this.label20.TabIndex = 16;
             this.label20.Text = "전면부 이격 거리";
             // 
@@ -2064,7 +2198,7 @@
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(3, 83);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(122, 13);
+            this.label21.Size = new System.Drawing.Size(119, 13);
             this.label21.TabIndex = 17;
             this.label21.Text = "후면부 이격 거리";
             // 
@@ -2075,7 +2209,7 @@
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(3, 115);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(122, 13);
+            this.label22.Size = new System.Drawing.Size(119, 13);
             this.label22.TabIndex = 18;
             this.label22.Text = "벽면(전/후) 이격 거리";
             // 
@@ -2084,9 +2218,9 @@
             this.label23.AutoSize = true;
             this.label23.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(175, 19);
+            this.label23.Location = new System.Drawing.Point(170, 19);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(335, 13);
+            this.label23.Size = new System.Drawing.Size(340, 13);
             this.label23.TabIndex = 19;
             this.label23.Text = "ea";
             // 
@@ -2095,9 +2229,9 @@
             this.label25.AutoSize = true;
             this.label25.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(175, 51);
+            this.label25.Location = new System.Drawing.Point(170, 51);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(335, 13);
+            this.label25.Size = new System.Drawing.Size(340, 13);
             this.label25.TabIndex = 21;
             this.label25.Text = "m";
             // 
@@ -2106,9 +2240,9 @@
             this.label26.AutoSize = true;
             this.label26.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(175, 83);
+            this.label26.Location = new System.Drawing.Point(170, 83);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(335, 13);
+            this.label26.Size = new System.Drawing.Size(340, 13);
             this.label26.TabIndex = 22;
             this.label26.Text = "m";
             // 
@@ -2117,9 +2251,9 @@
             this.label27.AutoSize = true;
             this.label27.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(175, 115);
+            this.label27.Location = new System.Drawing.Point(170, 115);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(335, 13);
+            this.label27.Size = new System.Drawing.Size(340, 13);
             this.label27.TabIndex = 23;
             this.label27.Text = "m";
             // 
@@ -2128,9 +2262,9 @@
             this.label28.AutoSize = true;
             this.label28.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(175, 147);
+            this.label28.Location = new System.Drawing.Point(170, 147);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(335, 13);
+            this.label28.Size = new System.Drawing.Size(340, 13);
             this.label28.TabIndex = 24;
             this.label28.Text = "m";
             // 
@@ -2411,7 +2545,7 @@
             this.tableLayoutPanel16.ColumnCount = 3;
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.76687F));
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.23313F));
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 179F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 184F));
             this.tableLayoutPanel16.Controls.Add(this.label32, 0, 0);
             this.tableLayoutPanel16.Controls.Add(this.btn_Duplicate, 2, 0);
             this.tableLayoutPanel16.Controls.Add(this.chk_Notify, 1, 0);
@@ -2458,9 +2592,9 @@
             this.chk_Notify.Checked = true;
             this.chk_Notify.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chk_Notify.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chk_Notify.Location = new System.Drawing.Point(251, 3);
+            this.chk_Notify.Location = new System.Drawing.Point(247, 3);
             this.chk_Notify.Name = "chk_Notify";
-            this.chk_Notify.Size = new System.Drawing.Size(73, 54);
+            this.chk_Notify.Size = new System.Drawing.Size(72, 54);
             this.chk_Notify.TabIndex = 14;
             this.chk_Notify.Text = "계측기기\r\n중복알림";
             this.chk_Notify.UseVisualStyleBackColor = true;
@@ -2592,6 +2726,117 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // tableLayoutPanel36
+            // 
+            this.tableLayoutPanel36.ColumnCount = 2;
+            this.tableLayoutPanel36.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
+            this.tableLayoutPanel36.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel36.Controls.Add(this.label54, 0, 0);
+            this.tableLayoutPanel36.Controls.Add(this.panel2, 1, 1);
+            this.tableLayoutPanel36.Controls.Add(this.panel6, 0, 1);
+            this.tableLayoutPanel36.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel36.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel36.Name = "tableLayoutPanel36";
+            this.tableLayoutPanel36.RowCount = 2;
+            this.tableLayoutPanel36.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tableLayoutPanel36.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
+            this.tableLayoutPanel36.Size = new System.Drawing.Size(507, 44);
+            this.tableLayoutPanel36.TabIndex = 12;
+            // 
+            // label54
+            // 
+            this.label54.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.Location = new System.Drawing.Point(15, 0);
+            this.label54.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(189, 11);
+            this.label54.TabIndex = 14;
+            this.label54.Text = "아래 계측기기로 분석을 진행합니다.";
+            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // panel2
+            // 
+            this.panel2.Controls.Add(this.chk_CheckAll);
+            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
+            this.panel2.Location = new System.Drawing.Point(341, 14);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(163, 27);
+            this.panel2.TabIndex = 15;
+            // 
+            // chk_CheckAll
+            // 
+            this.chk_CheckAll.AutoSize = true;
+            this.chk_CheckAll.Checked = true;
+            this.chk_CheckAll.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chk_CheckAll.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chk_CheckAll.Location = new System.Drawing.Point(84, 0);
+            this.chk_CheckAll.Name = "chk_CheckAll";
+            this.chk_CheckAll.Size = new System.Drawing.Size(79, 27);
+            this.chk_CheckAll.TabIndex = 4;
+            this.chk_CheckAll.Text = "Select All";
+            this.chk_CheckAll.UseVisualStyleBackColor = true;
+            this.chk_CheckAll.CheckedChanged += new System.EventHandler(this.chk_CheckAll_CheckedChanged);
+            // 
+            // panel6
+            // 
+            this.panel6.Controls.Add(this.txtT2);
+            this.panel6.Controls.Add(this.txtT1);
+            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel6.Location = new System.Drawing.Point(3, 14);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(332, 27);
+            this.panel6.TabIndex = 16;
+            // 
+            // txtT2
+            // 
+            this.txtT2.Location = new System.Drawing.Point(108, 0);
+            this.txtT2.MaxLength = 32;
+            this.txtT2.Name = "txtT2";
+            this.txtT2.Size = new System.Drawing.Size(100, 27);
+            this.txtT2.TabIndex = 1;
+            this.txtT2.TextChanged += new System.EventHandler(this.textBox2_TextChanged_1);
+            // 
+            // txtT1
+            // 
+            this.txtT1.Location = new System.Drawing.Point(2, 0);
+            this.txtT1.MaxLength = 12;
+            this.txtT1.Name = "txtT1";
+            this.txtT1.Size = new System.Drawing.Size(100, 27);
+            this.txtT1.TabIndex = 0;
+            this.txtT1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // btn333
+            // 
+            this.btn333.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btn333.BackColor = System.Drawing.Color.Green;
+            this.btn333.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btn333.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.btn333.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn333.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn333.ForeColor = System.Drawing.Color.White;
+            this.btn333.Location = new System.Drawing.Point(407, 198);
+            this.btn333.Margin = new System.Windows.Forms.Padding(0);
+            this.btn333.Name = "btn333";
+            this.btn333.Size = new System.Drawing.Size(100, 21);
+            this.btn333.TabIndex = 13;
+            this.btn333.Text = "CSV 추출하기";
+            this.btn333.UseVisualStyleBackColor = true;
+            this.btn333.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // txtDetectedCount
+            // 
+            this.txtDetectedCount.BackColor = System.Drawing.Color.White;
+            this.txtDetectedCount.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtDetectedCount.Location = new System.Drawing.Point(0, 171);
+            this.txtDetectedCount.Margin = new System.Windows.Forms.Padding(0);
+            this.txtDetectedCount.Name = "txtDetectedCount";
+            this.txtDetectedCount.ReadOnly = true;
+            this.txtDetectedCount.Size = new System.Drawing.Size(507, 27);
+            this.txtDetectedCount.TabIndex = 4;
+            this.txtDetectedCount.Text = "00 instruments are detected.";
+            // 
             // instDGV
             // 
             this.instDGV.AllowUserToAddRows = false;
@@ -2627,79 +2872,83 @@
             this.instDGV.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.instDGV_DataError);
             this.instDGV.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.instDGV_EditingControlShowing);
             // 
-            // tableLayoutPanel36
+            // LayerName
             // 
-            this.tableLayoutPanel36.ColumnCount = 2;
-            this.tableLayoutPanel36.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
-            this.tableLayoutPanel36.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel36.Controls.Add(this.label54, 0, 0);
-            this.tableLayoutPanel36.Controls.Add(this.panel2, 1, 1);
-            this.tableLayoutPanel36.Controls.Add(this.panel6, 0, 1);
-            this.tableLayoutPanel36.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel36.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel36.Name = "tableLayoutPanel36";
-            this.tableLayoutPanel36.RowCount = 2;
-            this.tableLayoutPanel36.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
-            this.tableLayoutPanel36.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
-            this.tableLayoutPanel36.Size = new System.Drawing.Size(507, 44);
-            this.tableLayoutPanel36.TabIndex = 12;
+            this.LayerName.DataPropertyName = "LayerName";
+            this.LayerName.HeaderText = "LayerName";
+            this.LayerName.Name = "LayerName";
+            this.LayerName.Visible = false;
             // 
-            // label54
+            // GUID
             // 
-            this.label54.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(15, 0);
-            this.label54.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(189, 11);
-            this.label54.TabIndex = 14;
-            this.label54.Text = "아래 계측기기로 분석을 진행합니다.";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.GUID.DataPropertyName = "GUID";
+            this.GUID.HeaderText = "GUID";
+            this.GUID.MinimumWidth = 12;
+            this.GUID.Name = "GUID";
+            this.GUID.ReadOnly = true;
+            this.GUID.Visible = false;
+            this.GUID.Width = 250;
             // 
-            // chk_CheckAll
+            // Iv
             // 
-            this.chk_CheckAll.AutoSize = true;
-            this.chk_CheckAll.Checked = true;
-            this.chk_CheckAll.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.chk_CheckAll.Dock = System.Windows.Forms.DockStyle.Right;
-            this.chk_CheckAll.Location = new System.Drawing.Point(85, 0);
-            this.chk_CheckAll.Name = "chk_CheckAll";
-            this.chk_CheckAll.Size = new System.Drawing.Size(79, 27);
-            this.chk_CheckAll.TabIndex = 4;
-            this.chk_CheckAll.Text = "Select All";
-            this.chk_CheckAll.UseVisualStyleBackColor = true;
-            this.chk_CheckAll.CheckedChanged += new System.EventHandler(this.chk_CheckAll_CheckedChanged);
+            this.Iv.HeaderText = "Iv";
+            this.Iv.Name = "Iv";
+            this.Iv.Visible = false;
             // 
-            // btn333
+            // colT1
             // 
-            this.btn333.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btn333.BackColor = System.Drawing.Color.Green;
-            this.btn333.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.btn333.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.btn333.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn333.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn333.ForeColor = System.Drawing.Color.White;
-            this.btn333.Location = new System.Drawing.Point(407, 198);
-            this.btn333.Margin = new System.Windows.Forms.Padding(0);
-            this.btn333.Name = "btn333";
-            this.btn333.Size = new System.Drawing.Size(100, 21);
-            this.btn333.TabIndex = 13;
-            this.btn333.Text = "CSV 추출하기";
-            this.btn333.UseVisualStyleBackColor = true;
-            this.btn333.Click += new System.EventHandler(this.button3_Click);
+            this.colT1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colT1.DataPropertyName = "T1";
+            this.colT1.HeaderText = "T1";
+            this.colT1.MinimumWidth = 12;
+            this.colT1.Name = "colT1";
+            this.colT1.ReadOnly = true;
             // 
-            // txtDetectedCount
+            // colT2
             // 
-            this.txtDetectedCount.BackColor = System.Drawing.Color.White;
-            this.txtDetectedCount.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.txtDetectedCount.Location = new System.Drawing.Point(0, 171);
-            this.txtDetectedCount.Margin = new System.Windows.Forms.Padding(0);
-            this.txtDetectedCount.Name = "txtDetectedCount";
-            this.txtDetectedCount.ReadOnly = true;
-            this.txtDetectedCount.Size = new System.Drawing.Size(507, 27);
-            this.txtDetectedCount.TabIndex = 4;
-            this.txtDetectedCount.Text = "00 instruments are detected.";
+            this.colT2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colT2.DataPropertyName = "T2";
+            this.colT2.HeaderText = "T2";
+            this.colT2.MinimumWidth = 12;
+            this.colT2.Name = "colT2";
+            this.colT2.ReadOnly = true;
+            // 
+            // colType
+            // 
+            this.colType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colType.DataPropertyName = "Type";
+            this.colType.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.colType.HeaderText = "Type";
+            this.colType.MinimumWidth = 12;
+            this.colType.Name = "colType";
+            // 
+            // colSystem
+            // 
+            this.colSystem.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colSystem.DataPropertyName = "System";
+            this.colSystem.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.colSystem.HeaderText = "System";
+            this.colSystem.MinimumWidth = 12;
+            this.colSystem.Name = "colSystem";
+            this.colSystem.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            // 
+            // colTo
+            // 
+            this.colTo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.colTo.DataPropertyName = "To";
+            this.colTo.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.colTo.HeaderText = "Destination";
+            this.colTo.MinimumWidth = 12;
+            this.colTo.Name = "colTo";
+            // 
+            // col_Check_Instrument
+            // 
+            this.col_Check_Instrument.DataPropertyName = "Check_Instrument";
+            this.col_Check_Instrument.FalseValue = "False";
+            this.col_Check_Instrument.HeaderText = "";
+            this.col_Check_Instrument.IndeterminateValue = "True";
+            this.col_Check_Instrument.Name = "col_Check_Instrument";
+            this.col_Check_Instrument.TrueValue = "True";
             // 
             // tp_dest
             // 
@@ -3216,6 +3465,1309 @@
             this.tabControl3.Selecting += new System.Windows.Forms.TabControlCancelEventHandler(this.tabControl3_Selecting);
             this.tabControl3.Selected += new System.Windows.Forms.TabControlEventHandler(this.tabControl3_Selected);
             // 
+            // tab_Analysis
+            // 
+            this.tab_Analysis.Controls.Add(this.tableLayoutPanel55);
+            this.tab_Analysis.Location = new System.Drawing.Point(4, 25);
+            this.tab_Analysis.Name = "tab_Analysis";
+            this.tab_Analysis.Padding = new System.Windows.Forms.Padding(3);
+            this.tab_Analysis.Size = new System.Drawing.Size(513, 573);
+            this.tab_Analysis.TabIndex = 2;
+            this.tab_Analysis.Text = "분석";
+            this.tab_Analysis.UseVisualStyleBackColor = true;
+            this.tab_Analysis.Click += new System.EventHandler(this.tabPage9_Click);
+            // 
+            // tableLayoutPanel55
+            // 
+            this.tableLayoutPanel55.ColumnCount = 1;
+            this.tableLayoutPanel55.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel55.Controls.Add(this.tableLayoutPanel60, 0, 1);
+            this.tableLayoutPanel55.Controls.Add(this.tableLayoutPanel59, 0, 0);
+            this.tableLayoutPanel55.Controls.Add(this.tableLayoutPanel57, 0, 2);
+            this.tableLayoutPanel55.Controls.Add(this.splitContainer8, 0, 3);
+            this.tableLayoutPanel55.Controls.Add(this.tableLayoutPanel56, 0, 4);
+            this.tableLayoutPanel55.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel55.Location = new System.Drawing.Point(3, 3);
+            this.tableLayoutPanel55.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel55.Name = "tableLayoutPanel55";
+            this.tableLayoutPanel55.RowCount = 5;
+            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
+            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
+            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel55.Size = new System.Drawing.Size(507, 567);
+            this.tableLayoutPanel55.TabIndex = 0;
+            // 
+            // tableLayoutPanel60
+            // 
+            this.tableLayoutPanel60.ColumnCount = 4;
+            this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
+            this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
+            this.tableLayoutPanel60.Controls.Add(this.label58, 2, 0);
+            this.tableLayoutPanel60.Controls.Add(this.button5, 0, 0);
+            this.tableLayoutPanel60.Controls.Add(this.cbo_Colorhighlight, 3, 0);
+            this.tableLayoutPanel60.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel60.Location = new System.Drawing.Point(0, 27);
+            this.tableLayoutPanel60.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel60.Name = "tableLayoutPanel60";
+            this.tableLayoutPanel60.RowCount = 1;
+            this.tableLayoutPanel60.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel60.Size = new System.Drawing.Size(507, 33);
+            this.tableLayoutPanel60.TabIndex = 16;
+            // 
+            // label58
+            // 
+            this.label58.AutoSize = true;
+            this.label58.Dock = System.Windows.Forms.DockStyle.Right;
+            this.label58.Location = new System.Drawing.Point(311, 0);
+            this.label58.Name = "label58";
+            this.label58.Size = new System.Drawing.Size(83, 33);
+            this.label58.TabIndex = 2;
+            this.label58.Text = "하이라이트 색";
+            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // button5
+            // 
+            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.button5.BackColor = System.Drawing.Color.White;
+            this.button5.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.Location = new System.Drawing.Point(3, 6);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(94, 21);
+            this.button5.TabIndex = 0;
+            this.button5.Text = "분석하기";
+            this.button5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click_2);
+            // 
+            // cbo_Colorhighlight
+            // 
+            this.cbo_Colorhighlight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_Colorhighlight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_Colorhighlight.FormattingEnabled = true;
+            this.cbo_Colorhighlight.Location = new System.Drawing.Point(397, 4);
+            this.cbo_Colorhighlight.Margin = new System.Windows.Forms.Padding(0);
+            this.cbo_Colorhighlight.Name = "cbo_Colorhighlight";
+            this.cbo_Colorhighlight.Size = new System.Drawing.Size(110, 24);
+            this.cbo_Colorhighlight.TabIndex = 3;
+            // 
+            // tableLayoutPanel59
+            // 
+            this.tableLayoutPanel59.ColumnCount = 2;
+            this.tableLayoutPanel59.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.89655F));
+            this.tableLayoutPanel59.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.10345F));
+            this.tableLayoutPanel59.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel59.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel59.Controls.Add(this.chk_EmtpyDucts, 1, 0);
+            this.tableLayoutPanel59.Controls.Add(this.label36, 0, 0);
+            this.tableLayoutPanel59.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel59.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel59.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel59.Name = "tableLayoutPanel59";
+            this.tableLayoutPanel59.RowCount = 1;
+            this.tableLayoutPanel59.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel59.Size = new System.Drawing.Size(507, 27);
+            this.tableLayoutPanel59.TabIndex = 15;
+            // 
+            // chk_EmtpyDucts
+            // 
+            this.chk_EmtpyDucts.AutoSize = true;
+            this.chk_EmtpyDucts.Dock = System.Windows.Forms.DockStyle.Right;
+            this.chk_EmtpyDucts.Location = new System.Drawing.Point(348, 3);
+            this.chk_EmtpyDucts.Name = "chk_EmtpyDucts";
+            this.chk_EmtpyDucts.Size = new System.Drawing.Size(156, 21);
+            this.chk_EmtpyDucts.TabIndex = 1;
+            this.chk_EmtpyDucts.Text = "빈 케이블 덕트 확인하기";
+            this.chk_EmtpyDucts.UseVisualStyleBackColor = true;
+            this.chk_EmtpyDucts.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
+            // 
+            // label36
+            // 
+            this.label36.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label36.AutoSize = true;
+            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label36.Location = new System.Drawing.Point(15, 5);
+            this.label36.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
+            this.label36.Name = "label36";
+            this.label36.Size = new System.Drawing.Size(160, 16);
+            this.label36.TabIndex = 11;
+            this.label36.Text = "선택된 경로 분석 및 결과 확인";
+            // 
+            // tableLayoutPanel57
+            // 
+            this.tableLayoutPanel57.ColumnCount = 4;
+            this.tableLayoutPanel57.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
+            this.tableLayoutPanel57.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135F));
+            this.tableLayoutPanel57.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel57.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
+            this.tableLayoutPanel57.Controls.Add(this.cbo_MaxLineWeight, 3, 0);
+            this.tableLayoutPanel57.Controls.Add(this.btn_Visualize, 0, 0);
+            this.tableLayoutPanel57.Controls.Add(this.rdo_defaultDuct, 1, 0);
+            this.tableLayoutPanel57.Controls.Add(this.rdo_CableDuct, 2, 0);
+            this.tableLayoutPanel57.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel57.Location = new System.Drawing.Point(0, 60);
+            this.tableLayoutPanel57.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel57.Name = "tableLayoutPanel57";
+            this.tableLayoutPanel57.RowCount = 1;
+            this.tableLayoutPanel57.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel57.Size = new System.Drawing.Size(507, 30);
+            this.tableLayoutPanel57.TabIndex = 13;
+            // 
+            // cbo_MaxLineWeight
+            // 
+            this.cbo_MaxLineWeight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.cbo_MaxLineWeight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cbo_MaxLineWeight.FormattingEnabled = true;
+            this.cbo_MaxLineWeight.Location = new System.Drawing.Point(397, 3);
+            this.cbo_MaxLineWeight.Margin = new System.Windows.Forms.Padding(0);
+            this.cbo_MaxLineWeight.Name = "cbo_MaxLineWeight";
+            this.cbo_MaxLineWeight.Size = new System.Drawing.Size(110, 24);
+            this.cbo_MaxLineWeight.TabIndex = 0;
+            this.cbo_MaxLineWeight.SelectedIndexChanged += new System.EventHandler(this.cbo_MaxLineWeight_SelectedIndexChanged);
+            // 
+            // btn_Visualize
+            // 
+            this.btn_Visualize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_Visualize.BackColor = System.Drawing.Color.White;
+            this.btn_Visualize.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
+            this.btn_Visualize.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.btn_Visualize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_Visualize.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Visualize.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btn_Visualize.Location = new System.Drawing.Point(3, 4);
+            this.btn_Visualize.Name = "btn_Visualize";
+            this.btn_Visualize.Size = new System.Drawing.Size(94, 21);
+            this.btn_Visualize.TabIndex = 2;
+            this.btn_Visualize.Text = "시각화하기";
+            this.btn_Visualize.UseVisualStyleBackColor = false;
+            this.btn_Visualize.Click += new System.EventHandler(this.button19_Click_1);
+            // 
+            // rdo_defaultDuct
+            // 
+            this.rdo_defaultDuct.AutoSize = true;
+            this.rdo_defaultDuct.Checked = true;
+            this.rdo_defaultDuct.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rdo_defaultDuct.Location = new System.Drawing.Point(103, 3);
+            this.rdo_defaultDuct.Name = "rdo_defaultDuct";
+            this.rdo_defaultDuct.Size = new System.Drawing.Size(125, 24);
+            this.rdo_defaultDuct.TabIndex = 0;
+            this.rdo_defaultDuct.TabStop = true;
+            this.rdo_defaultDuct.Text = "단선으로 확인하기";
+            this.rdo_defaultDuct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.rdo_defaultDuct.UseVisualStyleBackColor = true;
+            this.rdo_defaultDuct.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
+            // 
+            // rdo_CableDuct
+            // 
+            this.rdo_CableDuct.AutoSize = true;
+            this.rdo_CableDuct.Dock = System.Windows.Forms.DockStyle.Left;
+            this.rdo_CableDuct.Location = new System.Drawing.Point(238, 3);
+            this.rdo_CableDuct.Name = "rdo_CableDuct";
+            this.rdo_CableDuct.Size = new System.Drawing.Size(152, 24);
+            this.rdo_CableDuct.TabIndex = 1;
+            this.rdo_CableDuct.Text = "케이블 덕트로 확인하기";
+            this.rdo_CableDuct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.rdo_CableDuct.UseVisualStyleBackColor = true;
+            this.rdo_CableDuct.CheckedChanged += new System.EventHandler(this.rdo_CableDuct_CheckedChanged);
+            // 
+            // splitContainer8
+            // 
+            this.splitContainer8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.splitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer8.Location = new System.Drawing.Point(0, 90);
+            this.splitContainer8.Margin = new System.Windows.Forms.Padding(0);
+            this.splitContainer8.Name = "splitContainer8";
+            // 
+            // splitContainer8.Panel1
+            // 
+            this.splitContainer8.Panel1.Controls.Add(this.splitContainer9);
+            // 
+            // splitContainer8.Panel2
+            // 
+            this.splitContainer8.Panel2.Controls.Add(this.splitContainer10);
+            this.splitContainer8.Size = new System.Drawing.Size(507, 447);
+            this.splitContainer8.SplitterDistance = 248;
+            this.splitContainer8.TabIndex = 14;
+            // 
+            // splitContainer9
+            // 
+            this.splitContainer9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer9.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer9.Name = "splitContainer9";
+            this.splitContainer9.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer9.Panel1
+            // 
+            this.splitContainer9.Panel1.Controls.Add(this.tableLayoutPanel50);
+            // 
+            // splitContainer9.Panel2
+            // 
+            this.splitContainer9.Panel2.Controls.Add(this.tableLayoutPanel51);
+            this.splitContainer9.Size = new System.Drawing.Size(246, 445);
+            this.splitContainer9.SplitterDistance = 212;
+            this.splitContainer9.TabIndex = 0;
+            // 
+            // tableLayoutPanel50
+            // 
+            this.tableLayoutPanel50.ColumnCount = 1;
+            this.tableLayoutPanel50.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel50.Controls.Add(this.dgv_InsAnalysis, 0, 1);
+            this.tableLayoutPanel50.Controls.Add(this.label46, 0, 0);
+            this.tableLayoutPanel50.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel50.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel50.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel50.Name = "tableLayoutPanel50";
+            this.tableLayoutPanel50.RowCount = 2;
+            this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel50.Size = new System.Drawing.Size(246, 212);
+            this.tableLayoutPanel50.TabIndex = 0;
+            // 
+            // dgv_InsAnalysis
+            // 
+            this.dgv_InsAnalysis.AllowUserToAddRows = false;
+            this.dgv_InsAnalysis.AllowUserToDeleteRows = false;
+            this.dgv_InsAnalysis.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_InsAnalysis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_InsAnalysis.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.A_SignalType,
+            this.A_SystemType,
+            this.A_Ins,
+            this.A_To,
+            this.A_Type,
+            this.A_Length,
+            this.A_Seg});
+            this.dgv_InsAnalysis.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgv_InsAnalysis.EnableHeadersVisualStyles = false;
+            this.dgv_InsAnalysis.Location = new System.Drawing.Point(0, 25);
+            this.dgv_InsAnalysis.Margin = new System.Windows.Forms.Padding(0);
+            this.dgv_InsAnalysis.Name = "dgv_InsAnalysis";
+            this.dgv_InsAnalysis.ReadOnly = true;
+            this.dgv_InsAnalysis.RowHeadersVisible = false;
+            this.dgv_InsAnalysis.Size = new System.Drawing.Size(246, 187);
+            this.dgv_InsAnalysis.TabIndex = 3;
+            this.dgv_InsAnalysis.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
+            this.dgv_InsAnalysis.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_InsAnalysis_CellContentClick);
+            // 
+            // A_SignalType
+            // 
+            this.A_SignalType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_SignalType.DataPropertyName = "A_SignalType";
+            this.A_SignalType.HeaderText = "Assigned Duct";
+            this.A_SignalType.MinimumWidth = 6;
+            this.A_SignalType.Name = "A_SignalType";
+            this.A_SignalType.ReadOnly = true;
+            this.A_SignalType.Width = 72;
+            // 
+            // A_SystemType
+            // 
+            this.A_SystemType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_SystemType.DataPropertyName = "A_SystemType";
+            this.A_SystemType.HeaderText = "Signal";
+            this.A_SystemType.MinimumWidth = 6;
+            this.A_SystemType.Name = "A_SystemType";
+            this.A_SystemType.ReadOnly = true;
+            this.A_SystemType.Width = 72;
+            // 
+            // A_Ins
+            // 
+            this.A_Ins.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.A_Ins.DataPropertyName = "Instrument";
+            this.A_Ins.FillWeight = 142.514F;
+            this.A_Ins.HeaderText = "From";
+            this.A_Ins.MinimumWidth = 6;
+            this.A_Ins.Name = "A_Ins";
+            this.A_Ins.ReadOnly = true;
+            this.A_Ins.Width = 60;
+            // 
+            // A_To
+            // 
+            this.A_To.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_To.DataPropertyName = "To";
+            this.A_To.FillWeight = 34.55964F;
+            this.A_To.HeaderText = "To";
+            this.A_To.MinimumWidth = 6;
+            this.A_To.Name = "A_To";
+            this.A_To.ReadOnly = true;
+            // 
+            // A_Type
+            // 
+            this.A_Type.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.A_Type.DataPropertyName = "Type";
+            dataGridViewCellStyle27.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.A_Type.DefaultCellStyle = dataGridViewCellStyle27;
+            this.A_Type.FillWeight = 253.8071F;
+            this.A_Type.HeaderText = "CableType";
+            this.A_Type.MinimumWidth = 150;
+            this.A_Type.Name = "A_Type";
+            this.A_Type.ReadOnly = true;
+            this.A_Type.Width = 150;
+            // 
+            // A_Length
+            // 
+            this.A_Length.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.A_Length.DataPropertyName = "Length";
+            dataGridViewCellStyle28.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle28.Format = "N2";
+            dataGridViewCellStyle28.NullValue = null;
+            this.A_Length.DefaultCellStyle = dataGridViewCellStyle28;
+            this.A_Length.FillWeight = 34.55964F;
+            this.A_Length.HeaderText = "Length (m)";
+            this.A_Length.MinimumWidth = 6;
+            this.A_Length.Name = "A_Length";
+            this.A_Length.ReadOnly = true;
+            // 
+            // A_Seg
+            // 
+            this.A_Seg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.A_Seg.DataPropertyName = "TotalSegment";
+            dataGridViewCellStyle29.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.A_Seg.DefaultCellStyle = dataGridViewCellStyle29;
+            this.A_Seg.FillWeight = 34.55964F;
+            this.A_Seg.HeaderText = "No. of Segments";
+            this.A_Seg.MinimumWidth = 6;
+            this.A_Seg.Name = "A_Seg";
+            this.A_Seg.ReadOnly = true;
+            // 
+            // label46
+            // 
+            this.label46.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label46.AutoSize = true;
+            this.label46.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label46.Location = new System.Drawing.Point(3, 4);
+            this.label46.Name = "label46";
+            this.label46.Size = new System.Drawing.Size(98, 16);
+            this.label46.TabIndex = 10;
+            this.label46.Text = "시그널 별 스케줄";
+            // 
+            // tableLayoutPanel51
+            // 
+            this.tableLayoutPanel51.ColumnCount = 1;
+            this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel51.Controls.Add(this.label51, 0, 1);
+            this.tableLayoutPanel51.Controls.Add(this.dgv_SubIns, 0, 2);
+            this.tableLayoutPanel51.Controls.Add(this.label45, 0, 0);
+            this.tableLayoutPanel51.Controls.Add(this.button18, 0, 3);
+            this.tableLayoutPanel51.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel51.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel51.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel51.Name = "tableLayoutPanel51";
+            this.tableLayoutPanel51.RowCount = 4;
+            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel51.Size = new System.Drawing.Size(246, 229);
+            this.tableLayoutPanel51.TabIndex = 1;
+            // 
+            // label51
+            // 
+            this.label51.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.Location = new System.Drawing.Point(3, 26);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(110, 16);
+            this.label51.TabIndex = 9;
+            this.label51.Text = "세그먼트 별 스케줄";
+            this.label51.Click += new System.EventHandler(this.label51_Click);
+            // 
+            // dgv_SubIns
+            // 
+            this.dgv_SubIns.AllowUserToAddRows = false;
+            this.dgv_SubIns.AllowUserToDeleteRows = false;
+            this.dgv_SubIns.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_SubIns.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_SubIns.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Sub_No,
+            this.Sub_SegSignalType,
+            this.Sub_Segment,
+            this.Sub_Length});
+            this.dgv_SubIns.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgv_SubIns.EnableHeadersVisualStyles = false;
+            this.dgv_SubIns.Location = new System.Drawing.Point(0, 46);
+            this.dgv_SubIns.Margin = new System.Windows.Forms.Padding(0);
+            this.dgv_SubIns.Name = "dgv_SubIns";
+            this.dgv_SubIns.ReadOnly = true;
+            this.dgv_SubIns.RowHeadersVisible = false;
+            this.dgv_SubIns.Size = new System.Drawing.Size(246, 160);
+            this.dgv_SubIns.TabIndex = 7;
+            this.dgv_SubIns.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellContentClick);
+            // 
+            // Sub_No
+            // 
+            this.Sub_No.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Sub_No.DataPropertyName = "No";
+            dataGridViewCellStyle30.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Sub_No.DefaultCellStyle = dataGridViewCellStyle30;
+            this.Sub_No.FillWeight = 31.91489F;
+            this.Sub_No.HeaderText = "No";
+            this.Sub_No.MinimumWidth = 6;
+            this.Sub_No.Name = "Sub_No";
+            this.Sub_No.ReadOnly = true;
+            this.Sub_No.Width = 30;
+            // 
+            // Sub_SegSignalType
+            // 
+            this.Sub_SegSignalType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.Sub_SegSignalType.DataPropertyName = "Sub_SegSignalType";
+            this.Sub_SegSignalType.HeaderText = "Assigned Duct";
+            this.Sub_SegSignalType.MinimumWidth = 6;
+            this.Sub_SegSignalType.Name = "Sub_SegSignalType";
+            this.Sub_SegSignalType.ReadOnly = true;
+            // 
+            // Sub_Segment
+            // 
+            this.Sub_Segment.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Sub_Segment.DataPropertyName = "Segment";
+            this.Sub_Segment.FillWeight = 236.1702F;
+            this.Sub_Segment.HeaderText = "Segment";
+            this.Sub_Segment.MinimumWidth = 6;
+            this.Sub_Segment.Name = "Sub_Segment";
+            this.Sub_Segment.ReadOnly = true;
+            this.Sub_Segment.Width = 72;
+            // 
+            // Sub_Length
+            // 
+            this.Sub_Length.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.Sub_Length.DataPropertyName = "Length";
+            dataGridViewCellStyle31.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle31.Format = "N2";
+            dataGridViewCellStyle31.NullValue = null;
+            this.Sub_Length.DefaultCellStyle = dataGridViewCellStyle31;
+            this.Sub_Length.FillWeight = 31.91489F;
+            this.Sub_Length.HeaderText = "Length (m)";
+            this.Sub_Length.MinimumWidth = 6;
+            this.Sub_Length.Name = "Sub_Length";
+            this.Sub_Length.ReadOnly = true;
+            this.Sub_Length.Width = 95;
+            // 
+            // label45
+            // 
+            this.label45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label45.AutoSize = true;
+            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label45.Location = new System.Drawing.Point(3, 1);
+            this.label45.Name = "label45";
+            this.label45.Size = new System.Drawing.Size(240, 20);
+            this.label45.TabIndex = 0;
+            this.label45.Text = "▼";
+            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // button18
+            // 
+            this.button18.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button18.BackColor = System.Drawing.Color.Green;
+            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button18.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.Location = new System.Drawing.Point(145, 207);
+            this.button18.Margin = new System.Windows.Forms.Padding(1);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(100, 21);
+            this.button18.TabIndex = 8;
+            this.button18.Text = "CSV 추출하기";
+            this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.button7_Click_1);
+            // 
+            // splitContainer10
+            // 
+            this.splitContainer10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.splitContainer10.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer10.Name = "splitContainer10";
+            this.splitContainer10.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer10.Panel1
+            // 
+            this.splitContainer10.Panel1.Controls.Add(this.tableLayoutPanel53);
+            // 
+            // splitContainer10.Panel2
+            // 
+            this.splitContainer10.Panel2.Controls.Add(this.tableLayoutPanel54);
+            this.splitContainer10.Size = new System.Drawing.Size(253, 445);
+            this.splitContainer10.SplitterDistance = 212;
+            this.splitContainer10.TabIndex = 1;
+            // 
+            // tableLayoutPanel53
+            // 
+            this.tableLayoutPanel53.ColumnCount = 1;
+            this.tableLayoutPanel53.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel53.Controls.Add(this.label48, 0, 0);
+            this.tableLayoutPanel53.Controls.Add(this.dgv_SegAnalysis, 0, 1);
+            this.tableLayoutPanel53.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel53.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel53.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel53.Name = "tableLayoutPanel53";
+            this.tableLayoutPanel53.RowCount = 2;
+            this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
+            this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel53.Size = new System.Drawing.Size(253, 212);
+            this.tableLayoutPanel53.TabIndex = 1;
+            // 
+            // label48
+            // 
+            this.label48.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.Location = new System.Drawing.Point(3, 4);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(110, 16);
+            this.label48.TabIndex = 10;
+            this.label48.Text = "케이블 덕트 스케줄";
+            // 
+            // dgv_SegAnalysis
+            // 
+            this.dgv_SegAnalysis.AllowUserToAddRows = false;
+            this.dgv_SegAnalysis.AllowUserToDeleteRows = false;
+            this.dgv_SegAnalysis.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_SegAnalysis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_SegAnalysis.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.A_SegSignalType,
+            this.A_SegName,
+            this.A_AllCable,
+            this.A_SLength,
+            this.A_TotalArea,
+            this.A_OptimalSize,
+            this.A_ActualOptimalResult,
+            this.A_OptimalRatio,
+            this.A_UserDefinedSize,
+            this.A_UserDefinedRato});
+            this.dgv_SegAnalysis.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgv_SegAnalysis.EnableHeadersVisualStyles = false;
+            this.dgv_SegAnalysis.Location = new System.Drawing.Point(0, 25);
+            this.dgv_SegAnalysis.Margin = new System.Windows.Forms.Padding(0);
+            this.dgv_SegAnalysis.Name = "dgv_SegAnalysis";
+            this.dgv_SegAnalysis.RowHeadersVisible = false;
+            this.dgv_SegAnalysis.Size = new System.Drawing.Size(253, 187);
+            this.dgv_SegAnalysis.TabIndex = 4;
+            this.dgv_SegAnalysis.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SegAnalysis_CellContentClick);
+            this.dgv_SegAnalysis.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SegAnalysis_CellContentClick_1);
+            this.dgv_SegAnalysis.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SegAnalysis_CellEnter);
+            this.dgv_SegAnalysis.CurrentCellDirtyStateChanged += new System.EventHandler(this.dgv_SegAnalysis_CurrentCellDirtyStateChanged);
+            this.dgv_SegAnalysis.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dgv_SegAnalysis_DataError);
+            this.dgv_SegAnalysis.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dgv_SegAnalysis_EditingControlShowing);
+            this.dgv_SegAnalysis.Sorted += new System.EventHandler(this.dgv_SegAnalysis_Sorted);
+            // 
+            // A_SegSignalType
+            // 
+            this.A_SegSignalType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.A_SegSignalType.DataPropertyName = "A_SegSignalType";
+            dataGridViewCellStyle32.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.A_SegSignalType.DefaultCellStyle = dataGridViewCellStyle32;
+            this.A_SegSignalType.HeaderText = "Assgined Duct";
+            this.A_SegSignalType.MinimumWidth = 6;
+            this.A_SegSignalType.Name = "A_SegSignalType";
+            this.A_SegSignalType.ReadOnly = true;
+            this.A_SegSignalType.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.A_SegSignalType.Width = 85;
+            // 
+            // A_SegName
+            // 
+            this.A_SegName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_SegName.DataPropertyName = "Segment";
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.A_SegName.DefaultCellStyle = dataGridViewCellStyle33;
+            this.A_SegName.HeaderText = "Segment";
+            this.A_SegName.MinimumWidth = 6;
+            this.A_SegName.Name = "A_SegName";
+            this.A_SegName.ReadOnly = true;
+            this.A_SegName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.A_SegName.Width = 72;
+            // 
+            // A_AllCable
+            // 
+            this.A_AllCable.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_AllCable.DataPropertyName = "TotalCable";
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.A_AllCable.DefaultCellStyle = dataGridViewCellStyle34;
+            this.A_AllCable.HeaderText = "No. of Cables";
+            this.A_AllCable.MinimumWidth = 6;
+            this.A_AllCable.Name = "A_AllCable";
+            this.A_AllCable.ReadOnly = true;
+            this.A_AllCable.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.A_AllCable.Width = 72;
+            // 
+            // A_SLength
+            // 
+            this.A_SLength.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_SLength.DataPropertyName = "Length";
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle35.Format = "N2";
+            dataGridViewCellStyle35.NullValue = null;
+            this.A_SLength.DefaultCellStyle = dataGridViewCellStyle35;
+            this.A_SLength.HeaderText = "Length (m)";
+            this.A_SLength.MinimumWidth = 6;
+            this.A_SLength.Name = "A_SLength";
+            this.A_SLength.ReadOnly = true;
+            this.A_SLength.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.A_SLength.Width = 72;
+            // 
+            // A_TotalArea
+            // 
+            this.A_TotalArea.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_TotalArea.DataPropertyName = "A_TotalArea";
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle36.Format = "N2";
+            dataGridViewCellStyle36.NullValue = null;
+            this.A_TotalArea.DefaultCellStyle = dataGridViewCellStyle36;
+            this.A_TotalArea.HeaderText = "Sum of Cable\'s Area (mm2)";
+            this.A_TotalArea.MinimumWidth = 6;
+            this.A_TotalArea.Name = "A_TotalArea";
+            this.A_TotalArea.ReadOnly = true;
+            this.A_TotalArea.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.A_TotalArea.Width = 72;
+            // 
+            // A_OptimalSize
+            // 
+            this.A_OptimalSize.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_OptimalSize.DataPropertyName = "A_OptimalSize";
+            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            this.A_OptimalSize.DefaultCellStyle = dataGridViewCellStyle37;
+            this.A_OptimalSize.HeaderText = "Optimal Duct";
+            this.A_OptimalSize.MinimumWidth = 6;
+            this.A_OptimalSize.Name = "A_OptimalSize";
+            this.A_OptimalSize.ReadOnly = true;
+            this.A_OptimalSize.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.A_OptimalSize.Width = 72;
+            // 
+            // A_ActualOptimalResult
+            // 
+            this.A_ActualOptimalResult.DataPropertyName = "A_ActualOptimalResult";
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.A_ActualOptimalResult.DefaultCellStyle = dataGridViewCellStyle38;
+            this.A_ActualOptimalResult.HeaderText = "ActualOptimalResult";
+            this.A_ActualOptimalResult.MinimumWidth = 6;
+            this.A_ActualOptimalResult.Name = "A_ActualOptimalResult";
+            this.A_ActualOptimalResult.ReadOnly = true;
+            this.A_ActualOptimalResult.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.A_ActualOptimalResult.Visible = false;
+            // 
+            // A_OptimalRatio
+            // 
+            this.A_OptimalRatio.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_OptimalRatio.DataPropertyName = "A_OptimalRatio";
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle39.Format = "N2";
+            dataGridViewCellStyle39.NullValue = null;
+            this.A_OptimalRatio.DefaultCellStyle = dataGridViewCellStyle39;
+            this.A_OptimalRatio.HeaderText = "Occupied Ratio (%)";
+            this.A_OptimalRatio.MinimumWidth = 6;
+            this.A_OptimalRatio.Name = "A_OptimalRatio";
+            this.A_OptimalRatio.ReadOnly = true;
+            this.A_OptimalRatio.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.A_OptimalRatio.Width = 72;
+            // 
+            // A_UserDefinedSize
+            // 
+            this.A_UserDefinedSize.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            this.A_UserDefinedSize.DataPropertyName = "A_UserDefinedSize";
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            this.A_UserDefinedSize.DefaultCellStyle = dataGridViewCellStyle40;
+            this.A_UserDefinedSize.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
+            this.A_UserDefinedSize.HeaderText = "User Defined Duct";
+            this.A_UserDefinedSize.MinimumWidth = 6;
+            this.A_UserDefinedSize.Name = "A_UserDefinedSize";
+            // 
+            // A_UserDefinedRato
+            // 
+            this.A_UserDefinedRato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.A_UserDefinedRato.DataPropertyName = "A_UserDefinedRato";
+            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle41.Format = "N2";
+            dataGridViewCellStyle41.NullValue = null;
+            this.A_UserDefinedRato.DefaultCellStyle = dataGridViewCellStyle41;
+            this.A_UserDefinedRato.HeaderText = "Occupied Ratio (%)";
+            this.A_UserDefinedRato.MinimumWidth = 6;
+            this.A_UserDefinedRato.Name = "A_UserDefinedRato";
+            this.A_UserDefinedRato.ReadOnly = true;
+            this.A_UserDefinedRato.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.A_UserDefinedRato.Width = 72;
+            // 
+            // tableLayoutPanel54
+            // 
+            this.tableLayoutPanel54.ColumnCount = 1;
+            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel54.Controls.Add(this.label47, 0, 1);
+            this.tableLayoutPanel54.Controls.Add(this.button7, 0, 3);
+            this.tableLayoutPanel54.Controls.Add(this.dgv_SubSeg, 0, 2);
+            this.tableLayoutPanel54.Controls.Add(this.label50, 0, 0);
+            this.tableLayoutPanel54.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel54.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel54.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel54.Name = "tableLayoutPanel54";
+            this.tableLayoutPanel54.RowCount = 4;
+            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel54.Size = new System.Drawing.Size(253, 229);
+            this.tableLayoutPanel54.TabIndex = 2;
+            // 
+            // label47
+            // 
+            this.label47.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.Location = new System.Drawing.Point(3, 26);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(164, 16);
+            this.label47.TabIndex = 10;
+            this.label47.Text = "케이블 덕트 별 케이블 스케줄";
+            // 
+            // button7
+            // 
+            this.button7.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.button7.BackColor = System.Drawing.Color.Green;
+            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.White;
+            this.button7.Location = new System.Drawing.Point(152, 207);
+            this.button7.Margin = new System.Windows.Forms.Padding(1);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(100, 21);
+            this.button7.TabIndex = 1;
+            this.button7.Text = "CSV 추출하기";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button6_Click_1);
+            // 
+            // dgv_SubSeg
+            // 
+            this.dgv_SubSeg.AllowUserToAddRows = false;
+            this.dgv_SubSeg.AllowUserToDeleteRows = false;
+            this.dgv_SubSeg.BackgroundColor = System.Drawing.Color.White;
+            this.dgv_SubSeg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_SubSeg.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Sub_NoS,
+            this.Sub_InsSingalType,
+            this.Sub_SystemType,
+            this.Sub_Instrument,
+            this.Sub_Type});
+            this.dgv_SubSeg.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgv_SubSeg.EnableHeadersVisualStyles = false;
+            this.dgv_SubSeg.Location = new System.Drawing.Point(0, 46);
+            this.dgv_SubSeg.Margin = new System.Windows.Forms.Padding(0);
+            this.dgv_SubSeg.Name = "dgv_SubSeg";
+            this.dgv_SubSeg.ReadOnly = true;
+            this.dgv_SubSeg.RowHeadersVisible = false;
+            this.dgv_SubSeg.Size = new System.Drawing.Size(253, 160);
+            this.dgv_SubSeg.TabIndex = 6;
+            this.dgv_SubSeg.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick_1);
+            // 
+            // Sub_NoS
+            // 
+            this.Sub_NoS.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            this.Sub_NoS.DataPropertyName = "No";
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.Sub_NoS.DefaultCellStyle = dataGridViewCellStyle42;
+            this.Sub_NoS.FillWeight = 35.88047F;
+            this.Sub_NoS.HeaderText = "No";
+            this.Sub_NoS.MinimumWidth = 6;
+            this.Sub_NoS.Name = "Sub_NoS";
+            this.Sub_NoS.ReadOnly = true;
+            this.Sub_NoS.Width = 30;
+            // 
+            // Sub_InsSingalType
+            // 
+            this.Sub_InsSingalType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.Sub_InsSingalType.DataPropertyName = "Sub_InsSignalType";
+            this.Sub_InsSingalType.HeaderText = "Assigned Duct";
+            this.Sub_InsSingalType.MinimumWidth = 150;
+            this.Sub_InsSingalType.Name = "Sub_InsSingalType";
+            this.Sub_InsSingalType.ReadOnly = true;
+            this.Sub_InsSingalType.Width = 150;
+            // 
+            // Sub_SystemType
+            // 
+            this.Sub_SystemType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.Sub_SystemType.DataPropertyName = "Sub_SystemType";
+            this.Sub_SystemType.HeaderText = "Signal";
+            this.Sub_SystemType.MinimumWidth = 150;
+            this.Sub_SystemType.Name = "Sub_SystemType";
+            this.Sub_SystemType.ReadOnly = true;
+            this.Sub_SystemType.Width = 150;
+            // 
+            // Sub_Instrument
+            // 
+            this.Sub_Instrument.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.Sub_Instrument.DataPropertyName = "Instrument";
+            this.Sub_Instrument.FillWeight = 111.8353F;
+            this.Sub_Instrument.HeaderText = "From";
+            this.Sub_Instrument.MinimumWidth = 6;
+            this.Sub_Instrument.Name = "Sub_Instrument";
+            this.Sub_Instrument.ReadOnly = true;
+            this.Sub_Instrument.Width = 60;
+            // 
+            // Sub_Type
+            // 
+            this.Sub_Type.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.Sub_Type.DataPropertyName = "Type";
+            this.Sub_Type.FillWeight = 152.2843F;
+            this.Sub_Type.HeaderText = "Cable Type";
+            this.Sub_Type.MinimumWidth = 6;
+            this.Sub_Type.Name = "Sub_Type";
+            this.Sub_Type.ReadOnly = true;
+            this.Sub_Type.Width = 95;
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.Location = new System.Drawing.Point(3, 0);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(247, 23);
+            this.label50.TabIndex = 0;
+            this.label50.Text = "▼";
+            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // tableLayoutPanel56
+            // 
+            this.tableLayoutPanel56.ColumnCount = 1;
+            this.tableLayoutPanel56.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel56.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel56.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.tableLayoutPanel56.Controls.Add(this.panel3, 0, 0);
+            this.tableLayoutPanel56.Location = new System.Drawing.Point(0, 537);
+            this.tableLayoutPanel56.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel56.Name = "tableLayoutPanel56";
+            this.tableLayoutPanel56.RowCount = 1;
+            this.tableLayoutPanel56.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel56.Size = new System.Drawing.Size(464, 30);
+            this.tableLayoutPanel56.TabIndex = 12;
+            // 
+            // panel3
+            // 
+            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel3.Location = new System.Drawing.Point(3, 3);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(458, 24);
+            this.panel3.TabIndex = 2;
+            // 
+            // tab_3table
+            // 
+            this.tab_3table.Controls.Add(this.tableLayoutPanel43);
+            this.tab_3table.Location = new System.Drawing.Point(4, 25);
+            this.tab_3table.Name = "tab_3table";
+            this.tab_3table.Size = new System.Drawing.Size(513, 573);
+            this.tab_3table.TabIndex = 4;
+            this.tab_3table.Text = "결과 추출";
+            this.tab_3table.UseVisualStyleBackColor = true;
+            this.tab_3table.Click += new System.EventHandler(this.tabPage3_Click);
+            // 
+            // tableLayoutPanel43
+            // 
+            this.tableLayoutPanel43.ColumnCount = 1;
+            this.tableLayoutPanel43.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel43.Controls.Add(this.label52, 0, 5);
+            this.tableLayoutPanel43.Controls.Add(this.label49, 0, 2);
+            this.tableLayoutPanel43.Controls.Add(this.label43, 0, 0);
+            this.tableLayoutPanel43.Controls.Add(this.dgv_2, 0, 6);
+            this.tableLayoutPanel43.Controls.Add(this.dgv_3, 0, 9);
+            this.tableLayoutPanel43.Controls.Add(this.btnCableTypeExport, 0, 10);
+            this.tableLayoutPanel43.Controls.Add(this.dgv_1, 0, 3);
+            this.tableLayoutPanel43.Controls.Add(this.tableLayoutPanel44, 0, 11);
+            this.tableLayoutPanel43.Controls.Add(this.btnDuctExport, 0, 4);
+            this.tableLayoutPanel43.Controls.Add(this.btnDuctTypeExport, 0, 7);
+            this.tableLayoutPanel43.Controls.Add(this.label53, 0, 8);
+            this.tableLayoutPanel43.Controls.Add(this.chk_SignalSegment, 0, 1);
+            this.tableLayoutPanel43.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel43.Location = new System.Drawing.Point(0, 0);
+            this.tableLayoutPanel43.Name = "tableLayoutPanel43";
+            this.tableLayoutPanel43.RowCount = 12;
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
+            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
+            this.tableLayoutPanel43.Size = new System.Drawing.Size(513, 573);
+            this.tableLayoutPanel43.TabIndex = 0;
+            this.tableLayoutPanel43.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel43_Paint);
+            // 
+            // label52
+            // 
+            this.label52.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.Location = new System.Drawing.Point(15, 219);
+            this.label52.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(187, 16);
+            this.label52.TabIndex = 19;
+            this.label52.Text = "덕트 타입 별 총 케이블 덕트 길이 2";
+            // 
+            // label49
+            // 
+            this.label49.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.Location = new System.Drawing.Point(15, 56);
+            this.label49.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(187, 16);
+            this.label49.TabIndex = 18;
+            this.label49.Text = "덕트 타입 별 총 케이블 덕트 길이 1";
+            // 
+            // label43
+            // 
+            this.label43.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label43.AutoSize = true;
+            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label43.Location = new System.Drawing.Point(15, 7);
+            this.label43.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
+            this.label43.Name = "label43";
+            this.label43.Size = new System.Drawing.Size(226, 16);
+            this.label43.TabIndex = 12;
+            this.label43.Text = "분석된 결과를 다양한 형식으로 추출합니다.";
+            // 
+            // dgv_2
+            // 
+            this.dgv_2.AllowUserToAddRows = false;
+            this.dgv_2.AllowUserToDeleteRows = false;
+            this.dgv_2.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv_2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colNo2,
+            this.colAssignedDuct2,
+            this.colDuctType2,
+            this.colTotalLength2,
+            this.colQuantity2});
+            this.dgv_2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgv_2.EnableHeadersVisualStyles = false;
+            this.dgv_2.Location = new System.Drawing.Point(3, 242);
+            this.dgv_2.Name = "dgv_2";
+            this.dgv_2.ReadOnly = true;
+            this.dgv_2.RowHeadersVisible = false;
+            this.dgv_2.Size = new System.Drawing.Size(507, 111);
+            this.dgv_2.TabIndex = 14;
+            // 
+            // colNo2
+            // 
+            this.colNo2.DataPropertyName = "colNo2";
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.colNo2.DefaultCellStyle = dataGridViewCellStyle43;
+            this.colNo2.HeaderText = "No";
+            this.colNo2.MinimumWidth = 50;
+            this.colNo2.Name = "colNo2";
+            this.colNo2.ReadOnly = true;
+            this.colNo2.Width = 50;
+            // 
+            // colAssignedDuct2
+            // 
+            this.colAssignedDuct2.DataPropertyName = "colAssignedDuct2";
+            this.colAssignedDuct2.HeaderText = "Assigned Duct";
+            this.colAssignedDuct2.MinimumWidth = 200;
+            this.colAssignedDuct2.Name = "colAssignedDuct2";
+            this.colAssignedDuct2.ReadOnly = true;
+            this.colAssignedDuct2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.colAssignedDuct2.Width = 200;
+            // 
+            // colDuctType2
+            // 
+            this.colDuctType2.DataPropertyName = "colDuctType2";
+            this.colDuctType2.HeaderText = "Duct Type";
+            this.colDuctType2.Name = "colDuctType2";
+            this.colDuctType2.ReadOnly = true;
+            this.colDuctType2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            // 
+            // colTotalLength2
+            // 
+            this.colTotalLength2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.colTotalLength2.DataPropertyName = "colTotalLength2";
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle44.Format = "N2";
+            this.colTotalLength2.DefaultCellStyle = dataGridViewCellStyle44;
+            this.colTotalLength2.HeaderText = "Total Length (m)";
+            this.colTotalLength2.Name = "colTotalLength2";
+            this.colTotalLength2.ReadOnly = true;
+            this.colTotalLength2.Width = 97;
+            // 
+            // colQuantity2
+            // 
+            this.colQuantity2.DataPropertyName = "colQuantity2";
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.colQuantity2.DefaultCellStyle = dataGridViewCellStyle45;
+            this.colQuantity2.HeaderText = "Quantity";
+            this.colQuantity2.Name = "colQuantity2";
+            this.colQuantity2.ReadOnly = true;
+            // 
+            // dgv_3
+            // 
+            this.dgv_3.AllowUserToAddRows = false;
+            this.dgv_3.AllowUserToDeleteRows = false;
+            this.dgv_3.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv_3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colNo3,
+            this.colCableType3,
+            this.colTotalLength3,
+            this.colQuantity3});
+            this.dgv_3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgv_3.EnableHeadersVisualStyles = false;
+            this.dgv_3.Location = new System.Drawing.Point(3, 405);
+            this.dgv_3.Name = "dgv_3";
+            this.dgv_3.ReadOnly = true;
+            this.dgv_3.RowHeadersVisible = false;
+            this.dgv_3.Size = new System.Drawing.Size(507, 111);
+            this.dgv_3.TabIndex = 15;
+            this.dgv_3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_3_CellContentClick);
+            // 
+            // colNo3
+            // 
+            this.colNo3.DataPropertyName = "colNo3";
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.colNo3.DefaultCellStyle = dataGridViewCellStyle46;
+            this.colNo3.HeaderText = "No";
+            this.colNo3.MinimumWidth = 50;
+            this.colNo3.Name = "colNo3";
+            this.colNo3.ReadOnly = true;
+            this.colNo3.Width = 50;
+            // 
+            // colCableType3
+            // 
+            this.colCableType3.DataPropertyName = "colCableType3";
+            this.colCableType3.HeaderText = "Cable Type";
+            this.colCableType3.MinimumWidth = 300;
+            this.colCableType3.Name = "colCableType3";
+            this.colCableType3.ReadOnly = true;
+            this.colCableType3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.colCableType3.Width = 300;
+            // 
+            // colTotalLength3
+            // 
+            this.colTotalLength3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.colTotalLength3.DataPropertyName = "colTotalLength3";
+            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle47.Format = "N2";
+            this.colTotalLength3.DefaultCellStyle = dataGridViewCellStyle47;
+            this.colTotalLength3.HeaderText = "Total Length (m)";
+            this.colTotalLength3.Name = "colTotalLength3";
+            this.colTotalLength3.ReadOnly = true;
+            this.colTotalLength3.Width = 97;
+            // 
+            // colQuantity3
+            // 
+            this.colQuantity3.DataPropertyName = "colQuantity3";
+            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.colQuantity3.DefaultCellStyle = dataGridViewCellStyle48;
+            this.colQuantity3.HeaderText = "Quantity";
+            this.colQuantity3.Name = "colQuantity3";
+            this.colQuantity3.ReadOnly = true;
+            // 
+            // btnCableTypeExport
+            // 
+            this.btnCableTypeExport.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnCableTypeExport.BackColor = System.Drawing.Color.Green;
+            this.btnCableTypeExport.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnCableTypeExport.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.btnCableTypeExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCableTypeExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCableTypeExport.ForeColor = System.Drawing.Color.White;
+            this.btnCableTypeExport.Location = new System.Drawing.Point(412, 520);
+            this.btnCableTypeExport.Margin = new System.Windows.Forms.Padding(1);
+            this.btnCableTypeExport.Name = "btnCableTypeExport";
+            this.btnCableTypeExport.Size = new System.Drawing.Size(100, 21);
+            this.btnCableTypeExport.TabIndex = 5;
+            this.btnCableTypeExport.Text = "CSV 추출하기";
+            this.btnCableTypeExport.UseVisualStyleBackColor = false;
+            this.btnCableTypeExport.Click += new System.EventHandler(this.btnCableTypeExport_Click);
+            // 
+            // dgv_1
+            // 
+            this.dgv_1.AllowUserToAddRows = false;
+            this.dgv_1.AllowUserToDeleteRows = false;
+            this.dgv_1.BackgroundColor = System.Drawing.SystemColors.Window;
+            this.dgv_1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgv_1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.colNo1,
+            this.colAssignedDuct1,
+            this.colTotalLength1,
+            this.colQuantity1});
+            this.dgv_1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.dgv_1.EnableHeadersVisualStyles = false;
+            this.dgv_1.Location = new System.Drawing.Point(3, 79);
+            this.dgv_1.Name = "dgv_1";
+            this.dgv_1.ReadOnly = true;
+            this.dgv_1.RowHeadersVisible = false;
+            this.dgv_1.Size = new System.Drawing.Size(507, 111);
+            this.dgv_1.TabIndex = 13;
+            this.dgv_1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_1_CellContentClick);
+            // 
+            // colNo1
+            // 
+            this.colNo1.DataPropertyName = "colNo1";
+            dataGridViewCellStyle49.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.colNo1.DefaultCellStyle = dataGridViewCellStyle49;
+            this.colNo1.HeaderText = "No";
+            this.colNo1.MinimumWidth = 50;
+            this.colNo1.Name = "colNo1";
+            this.colNo1.ReadOnly = true;
+            this.colNo1.Width = 50;
+            // 
+            // colAssignedDuct1
+            // 
+            this.colAssignedDuct1.DataPropertyName = "colAssignedDuct1";
+            this.colAssignedDuct1.HeaderText = "Assigned Duct";
+            this.colAssignedDuct1.MinimumWidth = 300;
+            this.colAssignedDuct1.Name = "colAssignedDuct1";
+            this.colAssignedDuct1.ReadOnly = true;
+            this.colAssignedDuct1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
+            this.colAssignedDuct1.Width = 300;
+            // 
+            // colTotalLength1
+            // 
+            this.colTotalLength1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
+            this.colTotalLength1.DataPropertyName = "colTotalLength1";
+            dataGridViewCellStyle50.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            dataGridViewCellStyle50.Format = "N2";
+            dataGridViewCellStyle50.NullValue = null;
+            this.colTotalLength1.DefaultCellStyle = dataGridViewCellStyle50;
+            this.colTotalLength1.HeaderText = "Total Length (m)";
+            this.colTotalLength1.Name = "colTotalLength1";
+            this.colTotalLength1.ReadOnly = true;
+            this.colTotalLength1.Width = 97;
+            // 
+            // colQuantity1
+            // 
+            this.colQuantity1.DataPropertyName = "colQuantity1";
+            dataGridViewCellStyle51.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
+            this.colQuantity1.DefaultCellStyle = dataGridViewCellStyle51;
+            this.colQuantity1.HeaderText = "Quantity";
+            this.colQuantity1.Name = "colQuantity1";
+            this.colQuantity1.ReadOnly = true;
+            // 
+            // tableLayoutPanel44
+            // 
+            this.tableLayoutPanel44.ColumnCount = 5;
+            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.35741F));
+            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.04563F));
+            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.27757F));
+            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.31939F));
+            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 195F));
+            this.tableLayoutPanel44.Controls.Add(this.button21, 0, 0);
+            this.tableLayoutPanel44.Controls.Add(this.button20, 4, 0);
+            this.tableLayoutPanel44.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel44.Location = new System.Drawing.Point(0, 542);
+            this.tableLayoutPanel44.Margin = new System.Windows.Forms.Padding(0);
+            this.tableLayoutPanel44.Name = "tableLayoutPanel44";
+            this.tableLayoutPanel44.RowCount = 1;
+            this.tableLayoutPanel44.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel44.Size = new System.Drawing.Size(513, 31);
+            this.tableLayoutPanel44.TabIndex = 16;
+            // 
+            // button21
+            // 
+            this.button21.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button21.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button21.Location = new System.Drawing.Point(3, 3);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(33, 25);
+            this.button21.TabIndex = 6;
+            this.button21.Text = "<<이전";
+            this.button21.UseVisualStyleBackColor = true;
+            this.button21.Visible = false;
+            this.button21.Click += new System.EventHandler(this.button21_Click_1);
+            // 
+            // button20
+            // 
+            this.button20.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
+            this.button20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.button20.Location = new System.Drawing.Point(319, 3);
+            this.button20.Name = "button20";
+            this.button20.Size = new System.Drawing.Size(191, 25);
+            this.button20.TabIndex = 8;
+            this.button20.Text = "다음>>";
+            this.button20.UseVisualStyleBackColor = true;
+            this.button20.Visible = false;
+            this.button20.Click += new System.EventHandler(this.button20_Click_1);
+            // 
+            // btnDuctExport
+            // 
+            this.btnDuctExport.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnDuctExport.BackColor = System.Drawing.Color.Green;
+            this.btnDuctExport.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDuctExport.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.btnDuctExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDuctExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDuctExport.ForeColor = System.Drawing.Color.White;
+            this.btnDuctExport.Location = new System.Drawing.Point(412, 194);
+            this.btnDuctExport.Margin = new System.Windows.Forms.Padding(1);
+            this.btnDuctExport.Name = "btnDuctExport";
+            this.btnDuctExport.Size = new System.Drawing.Size(100, 21);
+            this.btnDuctExport.TabIndex = 7;
+            this.btnDuctExport.Text = "CSV 추출하기";
+            this.btnDuctExport.UseVisualStyleBackColor = false;
+            this.btnDuctExport.Click += new System.EventHandler(this.btnDuctExport_Click);
+            // 
+            // btnDuctTypeExport
+            // 
+            this.btnDuctTypeExport.Anchor = System.Windows.Forms.AnchorStyles.Right;
+            this.btnDuctTypeExport.BackColor = System.Drawing.Color.Green;
+            this.btnDuctTypeExport.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
+            this.btnDuctTypeExport.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
+            this.btnDuctTypeExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDuctTypeExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDuctTypeExport.ForeColor = System.Drawing.Color.White;
+            this.btnDuctTypeExport.Location = new System.Drawing.Point(412, 357);
+            this.btnDuctTypeExport.Margin = new System.Windows.Forms.Padding(1);
+            this.btnDuctTypeExport.Name = "btnDuctTypeExport";
+            this.btnDuctTypeExport.Size = new System.Drawing.Size(100, 21);
+            this.btnDuctTypeExport.TabIndex = 1;
+            this.btnDuctTypeExport.Text = "CSV 추출하기";
+            this.btnDuctTypeExport.UseVisualStyleBackColor = false;
+            this.btnDuctTypeExport.Click += new System.EventHandler(this.btnDuctTypeExport_Click);
+            // 
+            // label53
+            // 
+            this.label53.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.Location = new System.Drawing.Point(15, 382);
+            this.label53.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(160, 16);
+            this.label53.TabIndex = 20;
+            this.label53.Text = "케이블 타입 별 총 케이블 길이";
+            // 
+            // chk_SignalSegment
+            // 
+            this.chk_SignalSegment.Anchor = System.Windows.Forms.AnchorStyles.Left;
+            this.chk_SignalSegment.AutoSize = true;
+            this.chk_SignalSegment.Location = new System.Drawing.Point(15, 33);
+            this.chk_SignalSegment.Margin = new System.Windows.Forms.Padding(15, 3, 3, 3);
+            this.chk_SignalSegment.Name = "chk_SignalSegment";
+            this.chk_SignalSegment.Size = new System.Drawing.Size(114, 17);
+            this.chk_SignalSegment.TabIndex = 17;
+            this.chk_SignalSegment.Text = "자세히 확인하기";
+            this.chk_SignalSegment.UseVisualStyleBackColor = true;
+            this.chk_SignalSegment.CheckedChanged += new System.EventHandler(this.chk_SignalSegment_CheckedChanged);
+            // 
             // tab_Scope
             // 
             this.tab_Scope.Controls.Add(this.tableLayoutPanel24);
@@ -3407,9 +4959,9 @@
             // 
             // col_Analysis
             // 
-            dataGridViewCellStyle625.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle625.NullValue = "False";
-            this.col_Analysis.DefaultCellStyle = dataGridViewCellStyle625;
+            dataGridViewCellStyle52.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle52.NullValue = "False";
+            this.col_Analysis.DefaultCellStyle = dataGridViewCellStyle52;
             this.col_Analysis.FalseValue = "0";
             this.col_Analysis.HeaderText = "Analysis";
             this.col_Analysis.IndeterminateValue = "0";
@@ -3653,1309 +5205,6 @@
             this.chk_relation.UseVisualStyleBackColor = true;
             this.chk_relation.CheckedChanged += new System.EventHandler(this.chk_relation_CheckedChanged);
             // 
-            // tab_Analysis
-            // 
-            this.tab_Analysis.Controls.Add(this.tableLayoutPanel55);
-            this.tab_Analysis.Location = new System.Drawing.Point(4, 25);
-            this.tab_Analysis.Name = "tab_Analysis";
-            this.tab_Analysis.Padding = new System.Windows.Forms.Padding(3);
-            this.tab_Analysis.Size = new System.Drawing.Size(513, 573);
-            this.tab_Analysis.TabIndex = 2;
-            this.tab_Analysis.Text = "분석";
-            this.tab_Analysis.UseVisualStyleBackColor = true;
-            this.tab_Analysis.Click += new System.EventHandler(this.tabPage9_Click);
-            // 
-            // tableLayoutPanel55
-            // 
-            this.tableLayoutPanel55.ColumnCount = 1;
-            this.tableLayoutPanel55.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel55.Controls.Add(this.tableLayoutPanel60, 0, 1);
-            this.tableLayoutPanel55.Controls.Add(this.tableLayoutPanel59, 0, 0);
-            this.tableLayoutPanel55.Controls.Add(this.tableLayoutPanel57, 0, 2);
-            this.tableLayoutPanel55.Controls.Add(this.splitContainer8, 0, 3);
-            this.tableLayoutPanel55.Controls.Add(this.tableLayoutPanel56, 0, 4);
-            this.tableLayoutPanel55.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel55.Location = new System.Drawing.Point(3, 3);
-            this.tableLayoutPanel55.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel55.Name = "tableLayoutPanel55";
-            this.tableLayoutPanel55.RowCount = 5;
-            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 27F));
-            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 33F));
-            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel55.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel55.Size = new System.Drawing.Size(507, 567);
-            this.tableLayoutPanel55.TabIndex = 0;
-            // 
-            // tableLayoutPanel60
-            // 
-            this.tableLayoutPanel60.ColumnCount = 4;
-            this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tableLayoutPanel60.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tableLayoutPanel60.Controls.Add(this.label58, 2, 0);
-            this.tableLayoutPanel60.Controls.Add(this.button5, 0, 0);
-            this.tableLayoutPanel60.Controls.Add(this.cbo_Colorhighlight, 3, 0);
-            this.tableLayoutPanel60.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel60.Location = new System.Drawing.Point(0, 27);
-            this.tableLayoutPanel60.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel60.Name = "tableLayoutPanel60";
-            this.tableLayoutPanel60.RowCount = 1;
-            this.tableLayoutPanel60.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel60.Size = new System.Drawing.Size(507, 33);
-            this.tableLayoutPanel60.TabIndex = 16;
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Dock = System.Windows.Forms.DockStyle.Right;
-            this.label58.Location = new System.Drawing.Point(311, 0);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(83, 33);
-            this.label58.TabIndex = 2;
-            this.label58.Text = "하이라이트 색";
-            this.label58.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // button5
-            // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.Location = new System.Drawing.Point(3, 6);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(94, 21);
-            this.button5.TabIndex = 0;
-            this.button5.Text = "분석하기";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click_2);
-            // 
-            // cbo_Colorhighlight
-            // 
-            this.cbo_Colorhighlight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbo_Colorhighlight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_Colorhighlight.FormattingEnabled = true;
-            this.cbo_Colorhighlight.Location = new System.Drawing.Point(397, 6);
-            this.cbo_Colorhighlight.Margin = new System.Windows.Forms.Padding(0);
-            this.cbo_Colorhighlight.Name = "cbo_Colorhighlight";
-            this.cbo_Colorhighlight.Size = new System.Drawing.Size(110, 24);
-            this.cbo_Colorhighlight.TabIndex = 3;
-            // 
-            // tableLayoutPanel59
-            // 
-            this.tableLayoutPanel59.ColumnCount = 2;
-            this.tableLayoutPanel59.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.89655F));
-            this.tableLayoutPanel59.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.10345F));
-            this.tableLayoutPanel59.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel59.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel59.Controls.Add(this.chk_EmtpyDucts, 1, 0);
-            this.tableLayoutPanel59.Controls.Add(this.label36, 0, 0);
-            this.tableLayoutPanel59.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel59.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel59.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel59.Name = "tableLayoutPanel59";
-            this.tableLayoutPanel59.RowCount = 1;
-            this.tableLayoutPanel59.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel59.Size = new System.Drawing.Size(507, 27);
-            this.tableLayoutPanel59.TabIndex = 15;
-            // 
-            // chk_EmtpyDucts
-            // 
-            this.chk_EmtpyDucts.AutoSize = true;
-            this.chk_EmtpyDucts.Dock = System.Windows.Forms.DockStyle.Right;
-            this.chk_EmtpyDucts.Location = new System.Drawing.Point(348, 3);
-            this.chk_EmtpyDucts.Name = "chk_EmtpyDucts";
-            this.chk_EmtpyDucts.Size = new System.Drawing.Size(156, 21);
-            this.chk_EmtpyDucts.TabIndex = 1;
-            this.chk_EmtpyDucts.Text = "빈 케이블 덕트 확인하기";
-            this.chk_EmtpyDucts.UseVisualStyleBackColor = true;
-            this.chk_EmtpyDucts.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged_1);
-            // 
-            // label36
-            // 
-            this.label36.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label36.AutoSize = true;
-            this.label36.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label36.Location = new System.Drawing.Point(15, 5);
-            this.label36.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(160, 16);
-            this.label36.TabIndex = 11;
-            this.label36.Text = "선택된 경로 분석 및 결과 확인";
-            // 
-            // tableLayoutPanel57
-            // 
-            this.tableLayoutPanel57.ColumnCount = 4;
-            this.tableLayoutPanel57.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 100F));
-            this.tableLayoutPanel57.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 135F));
-            this.tableLayoutPanel57.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel57.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 110F));
-            this.tableLayoutPanel57.Controls.Add(this.cbo_MaxLineWeight, 3, 0);
-            this.tableLayoutPanel57.Controls.Add(this.btn_Visualize, 0, 0);
-            this.tableLayoutPanel57.Controls.Add(this.rdo_defaultDuct, 1, 0);
-            this.tableLayoutPanel57.Controls.Add(this.rdo_CableDuct, 2, 0);
-            this.tableLayoutPanel57.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel57.Location = new System.Drawing.Point(0, 60);
-            this.tableLayoutPanel57.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel57.Name = "tableLayoutPanel57";
-            this.tableLayoutPanel57.RowCount = 1;
-            this.tableLayoutPanel57.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel57.Size = new System.Drawing.Size(507, 30);
-            this.tableLayoutPanel57.TabIndex = 13;
-            // 
-            // cbo_MaxLineWeight
-            // 
-            this.cbo_MaxLineWeight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.cbo_MaxLineWeight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cbo_MaxLineWeight.FormattingEnabled = true;
-            this.cbo_MaxLineWeight.Location = new System.Drawing.Point(397, 4);
-            this.cbo_MaxLineWeight.Margin = new System.Windows.Forms.Padding(0);
-            this.cbo_MaxLineWeight.Name = "cbo_MaxLineWeight";
-            this.cbo_MaxLineWeight.Size = new System.Drawing.Size(110, 24);
-            this.cbo_MaxLineWeight.TabIndex = 0;
-            this.cbo_MaxLineWeight.SelectedIndexChanged += new System.EventHandler(this.cbo_MaxLineWeight_SelectedIndexChanged);
-            // 
-            // btn_Visualize
-            // 
-            this.btn_Visualize.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_Visualize.BackColor = System.Drawing.Color.White;
-            this.btn_Visualize.FlatAppearance.BorderColor = System.Drawing.SystemColors.ActiveBorder;
-            this.btn_Visualize.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.btn_Visualize.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_Visualize.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Visualize.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btn_Visualize.Location = new System.Drawing.Point(3, 4);
-            this.btn_Visualize.Name = "btn_Visualize";
-            this.btn_Visualize.Size = new System.Drawing.Size(94, 21);
-            this.btn_Visualize.TabIndex = 2;
-            this.btn_Visualize.Text = "시각화하기";
-            this.btn_Visualize.UseVisualStyleBackColor = false;
-            this.btn_Visualize.Click += new System.EventHandler(this.button19_Click_1);
-            // 
-            // rdo_defaultDuct
-            // 
-            this.rdo_defaultDuct.AutoSize = true;
-            this.rdo_defaultDuct.Checked = true;
-            this.rdo_defaultDuct.Dock = System.Windows.Forms.DockStyle.Left;
-            this.rdo_defaultDuct.Location = new System.Drawing.Point(103, 3);
-            this.rdo_defaultDuct.Name = "rdo_defaultDuct";
-            this.rdo_defaultDuct.Size = new System.Drawing.Size(125, 24);
-            this.rdo_defaultDuct.TabIndex = 0;
-            this.rdo_defaultDuct.TabStop = true;
-            this.rdo_defaultDuct.Text = "단선으로 확인하기";
-            this.rdo_defaultDuct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.rdo_defaultDuct.UseVisualStyleBackColor = true;
-            this.rdo_defaultDuct.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
-            // 
-            // rdo_CableDuct
-            // 
-            this.rdo_CableDuct.AutoSize = true;
-            this.rdo_CableDuct.Dock = System.Windows.Forms.DockStyle.Left;
-            this.rdo_CableDuct.Location = new System.Drawing.Point(238, 3);
-            this.rdo_CableDuct.Name = "rdo_CableDuct";
-            this.rdo_CableDuct.Size = new System.Drawing.Size(152, 24);
-            this.rdo_CableDuct.TabIndex = 1;
-            this.rdo_CableDuct.Text = "케이블 덕트로 확인하기";
-            this.rdo_CableDuct.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.rdo_CableDuct.UseVisualStyleBackColor = true;
-            this.rdo_CableDuct.CheckedChanged += new System.EventHandler(this.rdo_CableDuct_CheckedChanged);
-            // 
-            // splitContainer8
-            // 
-            this.splitContainer8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.splitContainer8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer8.Location = new System.Drawing.Point(0, 90);
-            this.splitContainer8.Margin = new System.Windows.Forms.Padding(0);
-            this.splitContainer8.Name = "splitContainer8";
-            // 
-            // splitContainer8.Panel1
-            // 
-            this.splitContainer8.Panel1.Controls.Add(this.splitContainer9);
-            // 
-            // splitContainer8.Panel2
-            // 
-            this.splitContainer8.Panel2.Controls.Add(this.splitContainer10);
-            this.splitContainer8.Size = new System.Drawing.Size(507, 447);
-            this.splitContainer8.SplitterDistance = 248;
-            this.splitContainer8.TabIndex = 14;
-            // 
-            // splitContainer9
-            // 
-            this.splitContainer9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer9.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer9.Name = "splitContainer9";
-            this.splitContainer9.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer9.Panel1
-            // 
-            this.splitContainer9.Panel1.Controls.Add(this.tableLayoutPanel50);
-            // 
-            // splitContainer9.Panel2
-            // 
-            this.splitContainer9.Panel2.Controls.Add(this.tableLayoutPanel51);
-            this.splitContainer9.Size = new System.Drawing.Size(246, 445);
-            this.splitContainer9.SplitterDistance = 212;
-            this.splitContainer9.TabIndex = 0;
-            // 
-            // tableLayoutPanel50
-            // 
-            this.tableLayoutPanel50.ColumnCount = 1;
-            this.tableLayoutPanel50.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel50.Controls.Add(this.dgv_InsAnalysis, 0, 1);
-            this.tableLayoutPanel50.Controls.Add(this.label46, 0, 0);
-            this.tableLayoutPanel50.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel50.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel50.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel50.Name = "tableLayoutPanel50";
-            this.tableLayoutPanel50.RowCount = 2;
-            this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel50.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel50.Size = new System.Drawing.Size(246, 212);
-            this.tableLayoutPanel50.TabIndex = 0;
-            // 
-            // dgv_InsAnalysis
-            // 
-            this.dgv_InsAnalysis.AllowUserToAddRows = false;
-            this.dgv_InsAnalysis.AllowUserToDeleteRows = false;
-            this.dgv_InsAnalysis.BackgroundColor = System.Drawing.Color.White;
-            this.dgv_InsAnalysis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_InsAnalysis.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.A_SignalType,
-            this.A_SystemType,
-            this.A_Ins,
-            this.A_To,
-            this.A_Type,
-            this.A_Length,
-            this.A_Seg});
-            this.dgv_InsAnalysis.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv_InsAnalysis.EnableHeadersVisualStyles = false;
-            this.dgv_InsAnalysis.Location = new System.Drawing.Point(0, 25);
-            this.dgv_InsAnalysis.Margin = new System.Windows.Forms.Padding(0);
-            this.dgv_InsAnalysis.Name = "dgv_InsAnalysis";
-            this.dgv_InsAnalysis.ReadOnly = true;
-            this.dgv_InsAnalysis.RowHeadersVisible = false;
-            this.dgv_InsAnalysis.Size = new System.Drawing.Size(246, 187);
-            this.dgv_InsAnalysis.TabIndex = 3;
-            this.dgv_InsAnalysis.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
-            this.dgv_InsAnalysis.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_InsAnalysis_CellContentClick);
-            // 
-            // A_SignalType
-            // 
-            this.A_SignalType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_SignalType.DataPropertyName = "A_SignalType";
-            this.A_SignalType.HeaderText = "Assigned Duct";
-            this.A_SignalType.MinimumWidth = 6;
-            this.A_SignalType.Name = "A_SignalType";
-            this.A_SignalType.ReadOnly = true;
-            this.A_SignalType.Width = 72;
-            // 
-            // A_SystemType
-            // 
-            this.A_SystemType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_SystemType.DataPropertyName = "A_SystemType";
-            this.A_SystemType.HeaderText = "Signal";
-            this.A_SystemType.MinimumWidth = 6;
-            this.A_SystemType.Name = "A_SystemType";
-            this.A_SystemType.ReadOnly = true;
-            this.A_SystemType.Width = 72;
-            // 
-            // A_Ins
-            // 
-            this.A_Ins.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.A_Ins.DataPropertyName = "Instrument";
-            this.A_Ins.FillWeight = 142.514F;
-            this.A_Ins.HeaderText = "From";
-            this.A_Ins.MinimumWidth = 6;
-            this.A_Ins.Name = "A_Ins";
-            this.A_Ins.ReadOnly = true;
-            this.A_Ins.Width = 60;
-            // 
-            // A_To
-            // 
-            this.A_To.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_To.DataPropertyName = "To";
-            this.A_To.FillWeight = 34.55964F;
-            this.A_To.HeaderText = "To";
-            this.A_To.MinimumWidth = 6;
-            this.A_To.Name = "A_To";
-            this.A_To.ReadOnly = true;
-            // 
-            // A_Type
-            // 
-            this.A_Type.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.A_Type.DataPropertyName = "Type";
-            dataGridViewCellStyle626.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.A_Type.DefaultCellStyle = dataGridViewCellStyle626;
-            this.A_Type.FillWeight = 253.8071F;
-            this.A_Type.HeaderText = "CableType";
-            this.A_Type.MinimumWidth = 150;
-            this.A_Type.Name = "A_Type";
-            this.A_Type.ReadOnly = true;
-            this.A_Type.Width = 150;
-            // 
-            // A_Length
-            // 
-            this.A_Length.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.A_Length.DataPropertyName = "Length";
-            dataGridViewCellStyle627.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle627.Format = "N2";
-            dataGridViewCellStyle627.NullValue = null;
-            this.A_Length.DefaultCellStyle = dataGridViewCellStyle627;
-            this.A_Length.FillWeight = 34.55964F;
-            this.A_Length.HeaderText = "Length (m)";
-            this.A_Length.MinimumWidth = 6;
-            this.A_Length.Name = "A_Length";
-            this.A_Length.ReadOnly = true;
-            // 
-            // A_Seg
-            // 
-            this.A_Seg.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.A_Seg.DataPropertyName = "TotalSegment";
-            dataGridViewCellStyle628.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.A_Seg.DefaultCellStyle = dataGridViewCellStyle628;
-            this.A_Seg.FillWeight = 34.55964F;
-            this.A_Seg.HeaderText = "No. of Segments";
-            this.A_Seg.MinimumWidth = 6;
-            this.A_Seg.Name = "A_Seg";
-            this.A_Seg.ReadOnly = true;
-            // 
-            // label46
-            // 
-            this.label46.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label46.AutoSize = true;
-            this.label46.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label46.Location = new System.Drawing.Point(3, 4);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(98, 16);
-            this.label46.TabIndex = 10;
-            this.label46.Text = "시그널 별 스케줄";
-            // 
-            // tableLayoutPanel51
-            // 
-            this.tableLayoutPanel51.ColumnCount = 1;
-            this.tableLayoutPanel51.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel51.Controls.Add(this.label51, 0, 1);
-            this.tableLayoutPanel51.Controls.Add(this.dgv_SubIns, 0, 2);
-            this.tableLayoutPanel51.Controls.Add(this.label45, 0, 0);
-            this.tableLayoutPanel51.Controls.Add(this.button18, 0, 3);
-            this.tableLayoutPanel51.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel51.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel51.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel51.Name = "tableLayoutPanel51";
-            this.tableLayoutPanel51.RowCount = 4;
-            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel51.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel51.Size = new System.Drawing.Size(246, 229);
-            this.tableLayoutPanel51.TabIndex = 1;
-            // 
-            // label51
-            // 
-            this.label51.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.Location = new System.Drawing.Point(3, 26);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(110, 16);
-            this.label51.TabIndex = 9;
-            this.label51.Text = "세그먼트 별 스케줄";
-            this.label51.Click += new System.EventHandler(this.label51_Click);
-            // 
-            // dgv_SubIns
-            // 
-            this.dgv_SubIns.AllowUserToAddRows = false;
-            this.dgv_SubIns.AllowUserToDeleteRows = false;
-            this.dgv_SubIns.BackgroundColor = System.Drawing.Color.White;
-            this.dgv_SubIns.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_SubIns.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Sub_No,
-            this.Sub_SegSignalType,
-            this.Sub_Segment,
-            this.Sub_Length});
-            this.dgv_SubIns.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv_SubIns.EnableHeadersVisualStyles = false;
-            this.dgv_SubIns.Location = new System.Drawing.Point(0, 46);
-            this.dgv_SubIns.Margin = new System.Windows.Forms.Padding(0);
-            this.dgv_SubIns.Name = "dgv_SubIns";
-            this.dgv_SubIns.ReadOnly = true;
-            this.dgv_SubIns.RowHeadersVisible = false;
-            this.dgv_SubIns.Size = new System.Drawing.Size(246, 160);
-            this.dgv_SubIns.TabIndex = 7;
-            this.dgv_SubIns.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView3_CellContentClick);
-            // 
-            // Sub_No
-            // 
-            this.Sub_No.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Sub_No.DataPropertyName = "No";
-            dataGridViewCellStyle629.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Sub_No.DefaultCellStyle = dataGridViewCellStyle629;
-            this.Sub_No.FillWeight = 31.91489F;
-            this.Sub_No.HeaderText = "No";
-            this.Sub_No.MinimumWidth = 6;
-            this.Sub_No.Name = "Sub_No";
-            this.Sub_No.ReadOnly = true;
-            this.Sub_No.Width = 30;
-            // 
-            // Sub_SegSignalType
-            // 
-            this.Sub_SegSignalType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.Sub_SegSignalType.DataPropertyName = "Sub_SegSignalType";
-            this.Sub_SegSignalType.HeaderText = "Assigned Duct";
-            this.Sub_SegSignalType.MinimumWidth = 6;
-            this.Sub_SegSignalType.Name = "Sub_SegSignalType";
-            this.Sub_SegSignalType.ReadOnly = true;
-            // 
-            // Sub_Segment
-            // 
-            this.Sub_Segment.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Sub_Segment.DataPropertyName = "Segment";
-            this.Sub_Segment.FillWeight = 236.1702F;
-            this.Sub_Segment.HeaderText = "Segment";
-            this.Sub_Segment.MinimumWidth = 6;
-            this.Sub_Segment.Name = "Sub_Segment";
-            this.Sub_Segment.ReadOnly = true;
-            this.Sub_Segment.Width = 72;
-            // 
-            // Sub_Length
-            // 
-            this.Sub_Length.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Sub_Length.DataPropertyName = "Length";
-            dataGridViewCellStyle630.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle630.Format = "N2";
-            dataGridViewCellStyle630.NullValue = null;
-            this.Sub_Length.DefaultCellStyle = dataGridViewCellStyle630;
-            this.Sub_Length.FillWeight = 31.91489F;
-            this.Sub_Length.HeaderText = "Length (m)";
-            this.Sub_Length.MinimumWidth = 6;
-            this.Sub_Length.Name = "Sub_Length";
-            this.Sub_Length.ReadOnly = true;
-            this.Sub_Length.Width = 95;
-            // 
-            // label45
-            // 
-            this.label45.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label45.AutoSize = true;
-            this.label45.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label45.Location = new System.Drawing.Point(3, 1);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(240, 20);
-            this.label45.TabIndex = 0;
-            this.label45.Text = "▼";
-            this.label45.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // button18
-            // 
-            this.button18.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button18.BackColor = System.Drawing.Color.Green;
-            this.button18.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button18.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(145, 207);
-            this.button18.Margin = new System.Windows.Forms.Padding(1);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 21);
-            this.button18.TabIndex = 8;
-            this.button18.Text = "CSV 추출하기";
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.button7_Click_1);
-            // 
-            // splitContainer10
-            // 
-            this.splitContainer10.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer10.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer10.Name = "splitContainer10";
-            this.splitContainer10.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer10.Panel1
-            // 
-            this.splitContainer10.Panel1.Controls.Add(this.tableLayoutPanel53);
-            // 
-            // splitContainer10.Panel2
-            // 
-            this.splitContainer10.Panel2.Controls.Add(this.tableLayoutPanel54);
-            this.splitContainer10.Size = new System.Drawing.Size(253, 445);
-            this.splitContainer10.SplitterDistance = 212;
-            this.splitContainer10.TabIndex = 1;
-            // 
-            // tableLayoutPanel53
-            // 
-            this.tableLayoutPanel53.ColumnCount = 1;
-            this.tableLayoutPanel53.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel53.Controls.Add(this.label48, 0, 0);
-            this.tableLayoutPanel53.Controls.Add(this.dgv_SegAnalysis, 0, 1);
-            this.tableLayoutPanel53.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel53.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel53.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel53.Name = "tableLayoutPanel53";
-            this.tableLayoutPanel53.RowCount = 2;
-            this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 25F));
-            this.tableLayoutPanel53.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel53.Size = new System.Drawing.Size(253, 212);
-            this.tableLayoutPanel53.TabIndex = 1;
-            // 
-            // label48
-            // 
-            this.label48.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.Location = new System.Drawing.Point(3, 4);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(110, 16);
-            this.label48.TabIndex = 10;
-            this.label48.Text = "케이블 덕트 스케줄";
-            // 
-            // dgv_SegAnalysis
-            // 
-            this.dgv_SegAnalysis.AllowUserToAddRows = false;
-            this.dgv_SegAnalysis.AllowUserToDeleteRows = false;
-            this.dgv_SegAnalysis.BackgroundColor = System.Drawing.Color.White;
-            this.dgv_SegAnalysis.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_SegAnalysis.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.A_SegSignalType,
-            this.A_SegName,
-            this.A_AllCable,
-            this.A_SLength,
-            this.A_TotalArea,
-            this.A_OptimalSize,
-            this.A_ActualOptimalResult,
-            this.A_OptimalRatio,
-            this.A_UserDefinedSize,
-            this.A_UserDefinedRato});
-            this.dgv_SegAnalysis.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv_SegAnalysis.EnableHeadersVisualStyles = false;
-            this.dgv_SegAnalysis.Location = new System.Drawing.Point(0, 25);
-            this.dgv_SegAnalysis.Margin = new System.Windows.Forms.Padding(0);
-            this.dgv_SegAnalysis.Name = "dgv_SegAnalysis";
-            this.dgv_SegAnalysis.RowHeadersVisible = false;
-            this.dgv_SegAnalysis.Size = new System.Drawing.Size(253, 187);
-            this.dgv_SegAnalysis.TabIndex = 4;
-            this.dgv_SegAnalysis.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SegAnalysis_CellContentClick);
-            this.dgv_SegAnalysis.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SegAnalysis_CellContentClick_1);
-            this.dgv_SegAnalysis.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_SegAnalysis_CellEnter);
-            this.dgv_SegAnalysis.CurrentCellDirtyStateChanged += new System.EventHandler(this.dgv_SegAnalysis_CurrentCellDirtyStateChanged);
-            this.dgv_SegAnalysis.DataError += new System.Windows.Forms.DataGridViewDataErrorEventHandler(this.dgv_SegAnalysis_DataError);
-            this.dgv_SegAnalysis.EditingControlShowing += new System.Windows.Forms.DataGridViewEditingControlShowingEventHandler(this.dgv_SegAnalysis_EditingControlShowing);
-            this.dgv_SegAnalysis.Sorted += new System.EventHandler(this.dgv_SegAnalysis_Sorted);
-            // 
-            // A_SegSignalType
-            // 
-            this.A_SegSignalType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.A_SegSignalType.DataPropertyName = "A_SegSignalType";
-            dataGridViewCellStyle631.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.A_SegSignalType.DefaultCellStyle = dataGridViewCellStyle631;
-            this.A_SegSignalType.HeaderText = "Assgined Duct";
-            this.A_SegSignalType.MinimumWidth = 6;
-            this.A_SegSignalType.Name = "A_SegSignalType";
-            this.A_SegSignalType.ReadOnly = true;
-            this.A_SegSignalType.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.A_SegSignalType.Width = 85;
-            // 
-            // A_SegName
-            // 
-            this.A_SegName.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_SegName.DataPropertyName = "Segment";
-            dataGridViewCellStyle632.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.A_SegName.DefaultCellStyle = dataGridViewCellStyle632;
-            this.A_SegName.HeaderText = "Segment";
-            this.A_SegName.MinimumWidth = 6;
-            this.A_SegName.Name = "A_SegName";
-            this.A_SegName.ReadOnly = true;
-            this.A_SegName.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.A_SegName.Width = 72;
-            // 
-            // A_AllCable
-            // 
-            this.A_AllCable.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_AllCable.DataPropertyName = "TotalCable";
-            dataGridViewCellStyle633.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.A_AllCable.DefaultCellStyle = dataGridViewCellStyle633;
-            this.A_AllCable.HeaderText = "No. of Cables";
-            this.A_AllCable.MinimumWidth = 6;
-            this.A_AllCable.Name = "A_AllCable";
-            this.A_AllCable.ReadOnly = true;
-            this.A_AllCable.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.A_AllCable.Width = 72;
-            // 
-            // A_SLength
-            // 
-            this.A_SLength.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_SLength.DataPropertyName = "Length";
-            dataGridViewCellStyle634.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle634.Format = "N2";
-            dataGridViewCellStyle634.NullValue = null;
-            this.A_SLength.DefaultCellStyle = dataGridViewCellStyle634;
-            this.A_SLength.HeaderText = "Length (m)";
-            this.A_SLength.MinimumWidth = 6;
-            this.A_SLength.Name = "A_SLength";
-            this.A_SLength.ReadOnly = true;
-            this.A_SLength.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.A_SLength.Width = 72;
-            // 
-            // A_TotalArea
-            // 
-            this.A_TotalArea.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_TotalArea.DataPropertyName = "A_TotalArea";
-            dataGridViewCellStyle635.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle635.Format = "N2";
-            dataGridViewCellStyle635.NullValue = null;
-            this.A_TotalArea.DefaultCellStyle = dataGridViewCellStyle635;
-            this.A_TotalArea.HeaderText = "Sum of Cable\'s Area (mm2)";
-            this.A_TotalArea.MinimumWidth = 6;
-            this.A_TotalArea.Name = "A_TotalArea";
-            this.A_TotalArea.ReadOnly = true;
-            this.A_TotalArea.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.A_TotalArea.Width = 72;
-            // 
-            // A_OptimalSize
-            // 
-            this.A_OptimalSize.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_OptimalSize.DataPropertyName = "A_OptimalSize";
-            dataGridViewCellStyle636.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            this.A_OptimalSize.DefaultCellStyle = dataGridViewCellStyle636;
-            this.A_OptimalSize.HeaderText = "Optimal Duct";
-            this.A_OptimalSize.MinimumWidth = 6;
-            this.A_OptimalSize.Name = "A_OptimalSize";
-            this.A_OptimalSize.ReadOnly = true;
-            this.A_OptimalSize.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.A_OptimalSize.Width = 72;
-            // 
-            // A_ActualOptimalResult
-            // 
-            this.A_ActualOptimalResult.DataPropertyName = "A_ActualOptimalResult";
-            dataGridViewCellStyle637.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.A_ActualOptimalResult.DefaultCellStyle = dataGridViewCellStyle637;
-            this.A_ActualOptimalResult.HeaderText = "ActualOptimalResult";
-            this.A_ActualOptimalResult.MinimumWidth = 6;
-            this.A_ActualOptimalResult.Name = "A_ActualOptimalResult";
-            this.A_ActualOptimalResult.ReadOnly = true;
-            this.A_ActualOptimalResult.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.A_ActualOptimalResult.Visible = false;
-            // 
-            // A_OptimalRatio
-            // 
-            this.A_OptimalRatio.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_OptimalRatio.DataPropertyName = "A_OptimalRatio";
-            dataGridViewCellStyle638.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle638.Format = "N2";
-            dataGridViewCellStyle638.NullValue = null;
-            this.A_OptimalRatio.DefaultCellStyle = dataGridViewCellStyle638;
-            this.A_OptimalRatio.HeaderText = "Occupied Ratio (%)";
-            this.A_OptimalRatio.MinimumWidth = 6;
-            this.A_OptimalRatio.Name = "A_OptimalRatio";
-            this.A_OptimalRatio.ReadOnly = true;
-            this.A_OptimalRatio.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.A_OptimalRatio.Width = 72;
-            // 
-            // A_UserDefinedSize
-            // 
-            this.A_UserDefinedSize.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.A_UserDefinedSize.DataPropertyName = "A_UserDefinedSize";
-            dataGridViewCellStyle639.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            this.A_UserDefinedSize.DefaultCellStyle = dataGridViewCellStyle639;
-            this.A_UserDefinedSize.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.A_UserDefinedSize.HeaderText = "User Defined Duct";
-            this.A_UserDefinedSize.MinimumWidth = 6;
-            this.A_UserDefinedSize.Name = "A_UserDefinedSize";
-            // 
-            // A_UserDefinedRato
-            // 
-            this.A_UserDefinedRato.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.A_UserDefinedRato.DataPropertyName = "A_UserDefinedRato";
-            dataGridViewCellStyle640.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle640.Format = "N2";
-            dataGridViewCellStyle640.NullValue = null;
-            this.A_UserDefinedRato.DefaultCellStyle = dataGridViewCellStyle640;
-            this.A_UserDefinedRato.HeaderText = "Occupied Ratio (%)";
-            this.A_UserDefinedRato.MinimumWidth = 6;
-            this.A_UserDefinedRato.Name = "A_UserDefinedRato";
-            this.A_UserDefinedRato.ReadOnly = true;
-            this.A_UserDefinedRato.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.A_UserDefinedRato.Width = 72;
-            // 
-            // tableLayoutPanel54
-            // 
-            this.tableLayoutPanel54.ColumnCount = 1;
-            this.tableLayoutPanel54.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel54.Controls.Add(this.label47, 0, 1);
-            this.tableLayoutPanel54.Controls.Add(this.button7, 0, 3);
-            this.tableLayoutPanel54.Controls.Add(this.dgv_SubSeg, 0, 2);
-            this.tableLayoutPanel54.Controls.Add(this.label50, 0, 0);
-            this.tableLayoutPanel54.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel54.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel54.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel54.Name = "tableLayoutPanel54";
-            this.tableLayoutPanel54.RowCount = 4;
-            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel54.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel54.Size = new System.Drawing.Size(253, 229);
-            this.tableLayoutPanel54.TabIndex = 2;
-            // 
-            // label47
-            // 
-            this.label47.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Yu Gothic", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.Location = new System.Drawing.Point(3, 26);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(164, 16);
-            this.label47.TabIndex = 10;
-            this.label47.Text = "케이블 덕트 별 케이블 스케줄";
-            // 
-            // button7
-            // 
-            this.button7.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.button7.BackColor = System.Drawing.Color.Green;
-            this.button7.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(152, 207);
-            this.button7.Margin = new System.Windows.Forms.Padding(1);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(100, 21);
-            this.button7.TabIndex = 1;
-            this.button7.Text = "CSV 추출하기";
-            this.button7.UseVisualStyleBackColor = false;
-            this.button7.Click += new System.EventHandler(this.button6_Click_1);
-            // 
-            // dgv_SubSeg
-            // 
-            this.dgv_SubSeg.AllowUserToAddRows = false;
-            this.dgv_SubSeg.AllowUserToDeleteRows = false;
-            this.dgv_SubSeg.BackgroundColor = System.Drawing.Color.White;
-            this.dgv_SubSeg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_SubSeg.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Sub_NoS,
-            this.Sub_InsSingalType,
-            this.Sub_SystemType,
-            this.Sub_Instrument,
-            this.Sub_Type});
-            this.dgv_SubSeg.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv_SubSeg.EnableHeadersVisualStyles = false;
-            this.dgv_SubSeg.Location = new System.Drawing.Point(0, 46);
-            this.dgv_SubSeg.Margin = new System.Windows.Forms.Padding(0);
-            this.dgv_SubSeg.Name = "dgv_SubSeg";
-            this.dgv_SubSeg.ReadOnly = true;
-            this.dgv_SubSeg.RowHeadersVisible = false;
-            this.dgv_SubSeg.Size = new System.Drawing.Size(253, 160);
-            this.dgv_SubSeg.TabIndex = 6;
-            this.dgv_SubSeg.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick_1);
-            // 
-            // Sub_NoS
-            // 
-            this.Sub_NoS.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.Sub_NoS.DataPropertyName = "No";
-            dataGridViewCellStyle641.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.Sub_NoS.DefaultCellStyle = dataGridViewCellStyle641;
-            this.Sub_NoS.FillWeight = 35.88047F;
-            this.Sub_NoS.HeaderText = "No";
-            this.Sub_NoS.MinimumWidth = 6;
-            this.Sub_NoS.Name = "Sub_NoS";
-            this.Sub_NoS.ReadOnly = true;
-            this.Sub_NoS.Width = 30;
-            // 
-            // Sub_InsSingalType
-            // 
-            this.Sub_InsSingalType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Sub_InsSingalType.DataPropertyName = "Sub_InsSignalType";
-            this.Sub_InsSingalType.HeaderText = "Assigned Duct";
-            this.Sub_InsSingalType.MinimumWidth = 150;
-            this.Sub_InsSingalType.Name = "Sub_InsSingalType";
-            this.Sub_InsSingalType.ReadOnly = true;
-            this.Sub_InsSingalType.Width = 150;
-            // 
-            // Sub_SystemType
-            // 
-            this.Sub_SystemType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Sub_SystemType.DataPropertyName = "Sub_SystemType";
-            this.Sub_SystemType.HeaderText = "Signal";
-            this.Sub_SystemType.MinimumWidth = 150;
-            this.Sub_SystemType.Name = "Sub_SystemType";
-            this.Sub_SystemType.ReadOnly = true;
-            this.Sub_SystemType.Width = 150;
-            // 
-            // Sub_Instrument
-            // 
-            this.Sub_Instrument.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Sub_Instrument.DataPropertyName = "Instrument";
-            this.Sub_Instrument.FillWeight = 111.8353F;
-            this.Sub_Instrument.HeaderText = "From";
-            this.Sub_Instrument.MinimumWidth = 6;
-            this.Sub_Instrument.Name = "Sub_Instrument";
-            this.Sub_Instrument.ReadOnly = true;
-            this.Sub_Instrument.Width = 60;
-            // 
-            // Sub_Type
-            // 
-            this.Sub_Type.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.Sub_Type.DataPropertyName = "Type";
-            this.Sub_Type.FillWeight = 152.2843F;
-            this.Sub_Type.HeaderText = "Cable Type";
-            this.Sub_Type.MinimumWidth = 6;
-            this.Sub_Type.Name = "Sub_Type";
-            this.Sub_Type.ReadOnly = true;
-            this.Sub_Type.Width = 95;
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.Location = new System.Drawing.Point(3, 0);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(247, 23);
-            this.label50.TabIndex = 0;
-            this.label50.Text = "▼";
-            this.label50.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // tableLayoutPanel56
-            // 
-            this.tableLayoutPanel56.ColumnCount = 1;
-            this.tableLayoutPanel56.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel56.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel56.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel56.Controls.Add(this.panel3, 0, 0);
-            this.tableLayoutPanel56.Location = new System.Drawing.Point(0, 537);
-            this.tableLayoutPanel56.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel56.Name = "tableLayoutPanel56";
-            this.tableLayoutPanel56.RowCount = 1;
-            this.tableLayoutPanel56.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel56.Size = new System.Drawing.Size(464, 30);
-            this.tableLayoutPanel56.TabIndex = 12;
-            // 
-            // panel3
-            // 
-            this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(3, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(458, 24);
-            this.panel3.TabIndex = 2;
-            // 
-            // tab_3table
-            // 
-            this.tab_3table.Controls.Add(this.tableLayoutPanel43);
-            this.tab_3table.Location = new System.Drawing.Point(4, 25);
-            this.tab_3table.Name = "tab_3table";
-            this.tab_3table.Size = new System.Drawing.Size(513, 573);
-            this.tab_3table.TabIndex = 4;
-            this.tab_3table.Text = "결과 추출";
-            this.tab_3table.UseVisualStyleBackColor = true;
-            this.tab_3table.Click += new System.EventHandler(this.tabPage3_Click);
-            // 
-            // tableLayoutPanel43
-            // 
-            this.tableLayoutPanel43.ColumnCount = 1;
-            this.tableLayoutPanel43.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel43.Controls.Add(this.label52, 0, 5);
-            this.tableLayoutPanel43.Controls.Add(this.label49, 0, 2);
-            this.tableLayoutPanel43.Controls.Add(this.label43, 0, 0);
-            this.tableLayoutPanel43.Controls.Add(this.dgv_2, 0, 6);
-            this.tableLayoutPanel43.Controls.Add(this.dgv_3, 0, 9);
-            this.tableLayoutPanel43.Controls.Add(this.btnCableTypeExport, 0, 10);
-            this.tableLayoutPanel43.Controls.Add(this.dgv_1, 0, 3);
-            this.tableLayoutPanel43.Controls.Add(this.tableLayoutPanel44, 0, 11);
-            this.tableLayoutPanel43.Controls.Add(this.btnDuctExport, 0, 4);
-            this.tableLayoutPanel43.Controls.Add(this.btnDuctTypeExport, 0, 7);
-            this.tableLayoutPanel43.Controls.Add(this.label53, 0, 8);
-            this.tableLayoutPanel43.Controls.Add(this.chk_SignalSegment, 0, 1);
-            this.tableLayoutPanel43.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel43.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel43.Name = "tableLayoutPanel43";
-            this.tableLayoutPanel43.RowCount = 12;
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 33.33334F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 23F));
-            this.tableLayoutPanel43.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.tableLayoutPanel43.Size = new System.Drawing.Size(513, 573);
-            this.tableLayoutPanel43.TabIndex = 0;
-            this.tableLayoutPanel43.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel43_Paint);
-            // 
-            // label52
-            // 
-            this.label52.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.Location = new System.Drawing.Point(15, 219);
-            this.label52.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(187, 16);
-            this.label52.TabIndex = 19;
-            this.label52.Text = "덕트 타입 별 총 케이블 덕트 길이 2";
-            // 
-            // label49
-            // 
-            this.label49.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.Location = new System.Drawing.Point(15, 56);
-            this.label49.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(187, 16);
-            this.label49.TabIndex = 18;
-            this.label49.Text = "덕트 타입 별 총 케이블 덕트 길이 1";
-            // 
-            // label43
-            // 
-            this.label43.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label43.AutoSize = true;
-            this.label43.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label43.Location = new System.Drawing.Point(15, 7);
-            this.label43.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(226, 16);
-            this.label43.TabIndex = 12;
-            this.label43.Text = "분석된 결과를 다양한 형식으로 추출합니다.";
-            // 
-            // dgv_2
-            // 
-            this.dgv_2.AllowUserToAddRows = false;
-            this.dgv_2.AllowUserToDeleteRows = false;
-            this.dgv_2.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dgv_2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colNo2,
-            this.colAssignedDuct2,
-            this.colDuctType2,
-            this.colTotalLength2,
-            this.colQuantity2});
-            this.dgv_2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv_2.EnableHeadersVisualStyles = false;
-            this.dgv_2.Location = new System.Drawing.Point(3, 242);
-            this.dgv_2.Name = "dgv_2";
-            this.dgv_2.ReadOnly = true;
-            this.dgv_2.RowHeadersVisible = false;
-            this.dgv_2.Size = new System.Drawing.Size(507, 111);
-            this.dgv_2.TabIndex = 14;
-            // 
-            // colNo2
-            // 
-            this.colNo2.DataPropertyName = "colNo2";
-            dataGridViewCellStyle642.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.colNo2.DefaultCellStyle = dataGridViewCellStyle642;
-            this.colNo2.HeaderText = "No";
-            this.colNo2.MinimumWidth = 50;
-            this.colNo2.Name = "colNo2";
-            this.colNo2.ReadOnly = true;
-            this.colNo2.Width = 50;
-            // 
-            // colAssignedDuct2
-            // 
-            this.colAssignedDuct2.DataPropertyName = "colAssignedDuct2";
-            this.colAssignedDuct2.HeaderText = "Assigned Duct";
-            this.colAssignedDuct2.MinimumWidth = 200;
-            this.colAssignedDuct2.Name = "colAssignedDuct2";
-            this.colAssignedDuct2.ReadOnly = true;
-            this.colAssignedDuct2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.colAssignedDuct2.Width = 200;
-            // 
-            // colDuctType2
-            // 
-            this.colDuctType2.DataPropertyName = "colDuctType2";
-            this.colDuctType2.HeaderText = "Duct Type";
-            this.colDuctType2.Name = "colDuctType2";
-            this.colDuctType2.ReadOnly = true;
-            this.colDuctType2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            // 
-            // colTotalLength2
-            // 
-            this.colTotalLength2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colTotalLength2.DataPropertyName = "colTotalLength2";
-            dataGridViewCellStyle643.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle643.Format = "N2";
-            this.colTotalLength2.DefaultCellStyle = dataGridViewCellStyle643;
-            this.colTotalLength2.HeaderText = "Total Length (m)";
-            this.colTotalLength2.Name = "colTotalLength2";
-            this.colTotalLength2.ReadOnly = true;
-            this.colTotalLength2.Width = 97;
-            // 
-            // colQuantity2
-            // 
-            this.colQuantity2.DataPropertyName = "colQuantity2";
-            dataGridViewCellStyle644.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.colQuantity2.DefaultCellStyle = dataGridViewCellStyle644;
-            this.colQuantity2.HeaderText = "Quantity";
-            this.colQuantity2.Name = "colQuantity2";
-            this.colQuantity2.ReadOnly = true;
-            // 
-            // dgv_3
-            // 
-            this.dgv_3.AllowUserToAddRows = false;
-            this.dgv_3.AllowUserToDeleteRows = false;
-            this.dgv_3.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dgv_3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colNo3,
-            this.colCableType3,
-            this.colTotalLength3,
-            this.colQuantity3});
-            this.dgv_3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv_3.EnableHeadersVisualStyles = false;
-            this.dgv_3.Location = new System.Drawing.Point(3, 405);
-            this.dgv_3.Name = "dgv_3";
-            this.dgv_3.ReadOnly = true;
-            this.dgv_3.RowHeadersVisible = false;
-            this.dgv_3.Size = new System.Drawing.Size(507, 111);
-            this.dgv_3.TabIndex = 15;
-            this.dgv_3.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_3_CellContentClick);
-            // 
-            // colNo3
-            // 
-            this.colNo3.DataPropertyName = "colNo3";
-            dataGridViewCellStyle645.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.colNo3.DefaultCellStyle = dataGridViewCellStyle645;
-            this.colNo3.HeaderText = "No";
-            this.colNo3.MinimumWidth = 50;
-            this.colNo3.Name = "colNo3";
-            this.colNo3.ReadOnly = true;
-            this.colNo3.Width = 50;
-            // 
-            // colCableType3
-            // 
-            this.colCableType3.DataPropertyName = "colCableType3";
-            this.colCableType3.HeaderText = "Cable Type";
-            this.colCableType3.MinimumWidth = 300;
-            this.colCableType3.Name = "colCableType3";
-            this.colCableType3.ReadOnly = true;
-            this.colCableType3.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.colCableType3.Width = 300;
-            // 
-            // colTotalLength3
-            // 
-            this.colTotalLength3.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colTotalLength3.DataPropertyName = "colTotalLength3";
-            dataGridViewCellStyle646.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle646.Format = "N2";
-            this.colTotalLength3.DefaultCellStyle = dataGridViewCellStyle646;
-            this.colTotalLength3.HeaderText = "Total Length (m)";
-            this.colTotalLength3.Name = "colTotalLength3";
-            this.colTotalLength3.ReadOnly = true;
-            this.colTotalLength3.Width = 97;
-            // 
-            // colQuantity3
-            // 
-            this.colQuantity3.DataPropertyName = "colQuantity3";
-            dataGridViewCellStyle647.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.colQuantity3.DefaultCellStyle = dataGridViewCellStyle647;
-            this.colQuantity3.HeaderText = "Quantity";
-            this.colQuantity3.Name = "colQuantity3";
-            this.colQuantity3.ReadOnly = true;
-            // 
-            // btnCableTypeExport
-            // 
-            this.btnCableTypeExport.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnCableTypeExport.BackColor = System.Drawing.Color.Green;
-            this.btnCableTypeExport.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.btnCableTypeExport.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.btnCableTypeExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnCableTypeExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCableTypeExport.ForeColor = System.Drawing.Color.White;
-            this.btnCableTypeExport.Location = new System.Drawing.Point(412, 520);
-            this.btnCableTypeExport.Margin = new System.Windows.Forms.Padding(1);
-            this.btnCableTypeExport.Name = "btnCableTypeExport";
-            this.btnCableTypeExport.Size = new System.Drawing.Size(100, 21);
-            this.btnCableTypeExport.TabIndex = 5;
-            this.btnCableTypeExport.Text = "CSV 추출하기";
-            this.btnCableTypeExport.UseVisualStyleBackColor = false;
-            this.btnCableTypeExport.Click += new System.EventHandler(this.btnCableTypeExport_Click);
-            // 
-            // dgv_1
-            // 
-            this.dgv_1.AllowUserToAddRows = false;
-            this.dgv_1.AllowUserToDeleteRows = false;
-            this.dgv_1.BackgroundColor = System.Drawing.SystemColors.Window;
-            this.dgv_1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgv_1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.colNo1,
-            this.colAssignedDuct1,
-            this.colTotalLength1,
-            this.colQuantity1});
-            this.dgv_1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv_1.EnableHeadersVisualStyles = false;
-            this.dgv_1.Location = new System.Drawing.Point(3, 79);
-            this.dgv_1.Name = "dgv_1";
-            this.dgv_1.ReadOnly = true;
-            this.dgv_1.RowHeadersVisible = false;
-            this.dgv_1.Size = new System.Drawing.Size(507, 111);
-            this.dgv_1.TabIndex = 13;
-            this.dgv_1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_1_CellContentClick);
-            // 
-            // colNo1
-            // 
-            this.colNo1.DataPropertyName = "colNo1";
-            dataGridViewCellStyle648.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.colNo1.DefaultCellStyle = dataGridViewCellStyle648;
-            this.colNo1.HeaderText = "No";
-            this.colNo1.MinimumWidth = 50;
-            this.colNo1.Name = "colNo1";
-            this.colNo1.ReadOnly = true;
-            this.colNo1.Width = 50;
-            // 
-            // colAssignedDuct1
-            // 
-            this.colAssignedDuct1.DataPropertyName = "colAssignedDuct1";
-            this.colAssignedDuct1.HeaderText = "Assigned Duct";
-            this.colAssignedDuct1.MinimumWidth = 300;
-            this.colAssignedDuct1.Name = "colAssignedDuct1";
-            this.colAssignedDuct1.ReadOnly = true;
-            this.colAssignedDuct1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.NotSortable;
-            this.colAssignedDuct1.Width = 300;
-            // 
-            // colTotalLength1
-            // 
-            this.colTotalLength1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.AllCells;
-            this.colTotalLength1.DataPropertyName = "colTotalLength1";
-            dataGridViewCellStyle649.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            dataGridViewCellStyle649.Format = "N2";
-            dataGridViewCellStyle649.NullValue = null;
-            this.colTotalLength1.DefaultCellStyle = dataGridViewCellStyle649;
-            this.colTotalLength1.HeaderText = "Total Length (m)";
-            this.colTotalLength1.Name = "colTotalLength1";
-            this.colTotalLength1.ReadOnly = true;
-            this.colTotalLength1.Width = 97;
-            // 
-            // colQuantity1
-            // 
-            this.colQuantity1.DataPropertyName = "colQuantity1";
-            dataGridViewCellStyle650.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight;
-            this.colQuantity1.DefaultCellStyle = dataGridViewCellStyle650;
-            this.colQuantity1.HeaderText = "Quantity";
-            this.colQuantity1.Name = "colQuantity1";
-            this.colQuantity1.ReadOnly = true;
-            // 
-            // tableLayoutPanel44
-            // 
-            this.tableLayoutPanel44.ColumnCount = 5;
-            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 12.35741F));
-            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.04563F));
-            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.27757F));
-            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.31939F));
-            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 186F));
-            this.tableLayoutPanel44.Controls.Add(this.button21, 0, 0);
-            this.tableLayoutPanel44.Controls.Add(this.button20, 4, 0);
-            this.tableLayoutPanel44.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel44.Location = new System.Drawing.Point(0, 542);
-            this.tableLayoutPanel44.Margin = new System.Windows.Forms.Padding(0);
-            this.tableLayoutPanel44.Name = "tableLayoutPanel44";
-            this.tableLayoutPanel44.RowCount = 1;
-            this.tableLayoutPanel44.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel44.Size = new System.Drawing.Size(513, 31);
-            this.tableLayoutPanel44.TabIndex = 16;
-            // 
-            // button21
-            // 
-            this.button21.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button21.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button21.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button21.Location = new System.Drawing.Point(3, 3);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(34, 25);
-            this.button21.TabIndex = 6;
-            this.button21.Text = "<<이전";
-            this.button21.UseVisualStyleBackColor = true;
-            this.button21.Visible = false;
-            this.button21.Click += new System.EventHandler(this.button21_Click_1);
-            // 
-            // button20
-            // 
-            this.button20.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button20.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
-            this.button20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button20.Location = new System.Drawing.Point(328, 3);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(182, 25);
-            this.button20.TabIndex = 8;
-            this.button20.Text = "다음>>";
-            this.button20.UseVisualStyleBackColor = true;
-            this.button20.Visible = false;
-            this.button20.Click += new System.EventHandler(this.button20_Click_1);
-            // 
-            // btnDuctExport
-            // 
-            this.btnDuctExport.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnDuctExport.BackColor = System.Drawing.Color.Green;
-            this.btnDuctExport.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.btnDuctExport.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.btnDuctExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDuctExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDuctExport.ForeColor = System.Drawing.Color.White;
-            this.btnDuctExport.Location = new System.Drawing.Point(412, 194);
-            this.btnDuctExport.Margin = new System.Windows.Forms.Padding(1);
-            this.btnDuctExport.Name = "btnDuctExport";
-            this.btnDuctExport.Size = new System.Drawing.Size(100, 21);
-            this.btnDuctExport.TabIndex = 7;
-            this.btnDuctExport.Text = "CSV 추출하기";
-            this.btnDuctExport.UseVisualStyleBackColor = false;
-            this.btnDuctExport.Click += new System.EventHandler(this.btnDuctExport_Click);
-            // 
-            // btnDuctTypeExport
-            // 
-            this.btnDuctTypeExport.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.btnDuctTypeExport.BackColor = System.Drawing.Color.Green;
-            this.btnDuctTypeExport.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.btnDuctTypeExport.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.btnDuctTypeExport.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnDuctTypeExport.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDuctTypeExport.ForeColor = System.Drawing.Color.White;
-            this.btnDuctTypeExport.Location = new System.Drawing.Point(412, 357);
-            this.btnDuctTypeExport.Margin = new System.Windows.Forms.Padding(1);
-            this.btnDuctTypeExport.Name = "btnDuctTypeExport";
-            this.btnDuctTypeExport.Size = new System.Drawing.Size(100, 21);
-            this.btnDuctTypeExport.TabIndex = 1;
-            this.btnDuctTypeExport.Text = "CSV 추출하기";
-            this.btnDuctTypeExport.UseVisualStyleBackColor = false;
-            this.btnDuctTypeExport.Click += new System.EventHandler(this.btnDuctTypeExport_Click);
-            // 
-            // label53
-            // 
-            this.label53.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.Location = new System.Drawing.Point(15, 382);
-            this.label53.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(160, 16);
-            this.label53.TabIndex = 20;
-            this.label53.Text = "케이블 타입 별 총 케이블 길이";
-            // 
-            // chk_SignalSegment
-            // 
-            this.chk_SignalSegment.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.chk_SignalSegment.AutoSize = true;
-            this.chk_SignalSegment.Location = new System.Drawing.Point(15, 33);
-            this.chk_SignalSegment.Margin = new System.Windows.Forms.Padding(15, 3, 3, 3);
-            this.chk_SignalSegment.Name = "chk_SignalSegment";
-            this.chk_SignalSegment.Size = new System.Drawing.Size(114, 17);
-            this.chk_SignalSegment.TabIndex = 17;
-            this.chk_SignalSegment.Text = "자세히 확인하기";
-            this.chk_SignalSegment.UseVisualStyleBackColor = true;
-            this.chk_SignalSegment.CheckedChanged += new System.EventHandler(this.chk_SignalSegment_CheckedChanged);
-            // 
             // tableLayoutPanel27
             // 
             this.tableLayoutPanel27.ColumnCount = 2;
@@ -5163,161 +5412,6 @@
             this.label31.TabIndex = 2;
             this.label31.Visible = false;
             // 
-            // LayerName
-            // 
-            this.LayerName.DataPropertyName = "LayerName";
-            this.LayerName.HeaderText = "LayerName";
-            this.LayerName.Name = "LayerName";
-            this.LayerName.Visible = false;
-            // 
-            // GUID
-            // 
-            this.GUID.DataPropertyName = "GUID";
-            this.GUID.HeaderText = "GUID";
-            this.GUID.MinimumWidth = 12;
-            this.GUID.Name = "GUID";
-            this.GUID.ReadOnly = true;
-            this.GUID.Visible = false;
-            this.GUID.Width = 250;
-            // 
-            // Iv
-            // 
-            this.Iv.HeaderText = "Iv";
-            this.Iv.Name = "Iv";
-            this.Iv.Visible = false;
-            // 
-            // colT1
-            // 
-            this.colT1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colT1.DataPropertyName = "T1";
-            this.colT1.HeaderText = "T1";
-            this.colT1.MinimumWidth = 12;
-            this.colT1.Name = "colT1";
-            this.colT1.ReadOnly = true;
-            // 
-            // colT2
-            // 
-            this.colT2.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colT2.DataPropertyName = "T2";
-            this.colT2.HeaderText = "T2";
-            this.colT2.MinimumWidth = 12;
-            this.colT2.Name = "colT2";
-            this.colT2.ReadOnly = true;
-            // 
-            // colType
-            // 
-            this.colType.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colType.DataPropertyName = "Type";
-            this.colType.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.colType.HeaderText = "Type";
-            this.colType.MinimumWidth = 12;
-            this.colType.Name = "colType";
-            // 
-            // colSystem
-            // 
-            this.colSystem.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colSystem.DataPropertyName = "System";
-            this.colSystem.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.colSystem.HeaderText = "System";
-            this.colSystem.MinimumWidth = 12;
-            this.colSystem.Name = "colSystem";
-            this.colSystem.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            // 
-            // colTo
-            // 
-            this.colTo.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.colTo.DataPropertyName = "To";
-            this.colTo.DisplayStyle = System.Windows.Forms.DataGridViewComboBoxDisplayStyle.ComboBox;
-            this.colTo.HeaderText = "Destination";
-            this.colTo.MinimumWidth = 12;
-            this.colTo.Name = "colTo";
-            // 
-            // col_Check_Instrument
-            // 
-            this.col_Check_Instrument.DataPropertyName = "Check_Instrument";
-            this.col_Check_Instrument.FalseValue = "False";
-            this.col_Check_Instrument.HeaderText = "";
-            this.col_Check_Instrument.IndeterminateValue = "True";
-            this.col_Check_Instrument.Name = "col_Check_Instrument";
-            this.col_Check_Instrument.TrueValue = "True";
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.chk_CheckAll);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Right;
-            this.panel2.Location = new System.Drawing.Point(340, 14);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(164, 27);
-            this.panel2.TabIndex = 15;
-            // 
-            // panel6
-            // 
-            this.panel6.Controls.Add(this.txtT2);
-            this.panel6.Controls.Add(this.txtT1);
-            this.panel6.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel6.Location = new System.Drawing.Point(3, 14);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(331, 27);
-            this.panel6.TabIndex = 16;
-            // 
-            // txtT1
-            // 
-            this.txtT1.Location = new System.Drawing.Point(2, 0);
-            this.txtT1.MaxLength = 12;
-            this.txtT1.Name = "txtT1";
-            this.txtT1.Size = new System.Drawing.Size(100, 27);
-            this.txtT1.TabIndex = 0;
-            this.txtT1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // txtT2
-            // 
-            this.txtT2.Location = new System.Drawing.Point(108, 0);
-            this.txtT2.MaxLength = 32;
-            this.txtT2.Name = "txtT2";
-            this.txtT2.Size = new System.Drawing.Size(100, 27);
-            this.txtT2.TabIndex = 1;
-            this.txtT2.TextChanged += new System.EventHandler(this.textBox2_TextChanged_1);
-            // 
-            // panel8
-            // 
-            this.panel8.Controls.Add(this.tableLayoutPanel38);
-            this.panel8.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel8.Location = new System.Drawing.Point(3, 436);
-            this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(521, 33);
-            this.panel8.TabIndex = 29;
-            // 
-            // tableLayoutPanel38
-            // 
-            this.tableLayoutPanel38.ColumnCount = 2;
-            this.tableLayoutPanel38.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel38.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel38.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel38.Controls.Add(this.button9, 1, 0);
-            this.tableLayoutPanel38.Controls.Add(this.btnMainRoute, 0, 0);
-            this.tableLayoutPanel38.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel38.Location = new System.Drawing.Point(0, 0);
-            this.tableLayoutPanel38.Name = "tableLayoutPanel38";
-            this.tableLayoutPanel38.RowCount = 1;
-            this.tableLayoutPanel38.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel38.Size = new System.Drawing.Size(521, 33);
-            this.tableLayoutPanel38.TabIndex = 0;
-            // 
-            // button9
-            // 
-            this.button9.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button9.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
-            this.button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(263, 4);
-            this.button9.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(255, 25);
-            this.button9.TabIndex = 2;
-            this.button9.Text = "모든 경로 제거 (Ctl+Alt+D)";
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Click += new System.EventHandler(this.button9_Click_1);
-            // 
             // MainP1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -5373,6 +5467,9 @@
             this.tableLayoutPanel40.ResumeLayout(false);
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel8.ResumeLayout(false);
+            this.tableLayoutPanel38.ResumeLayout(false);
+            this.panel9.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabControl2.ResumeLayout(false);
             this.tp_basic.ResumeLayout(false);
@@ -5403,9 +5500,13 @@
             this.tableLayoutPanel30.ResumeLayout(false);
             this.tableLayoutPanel30.PerformLayout();
             this.tableLayoutPanel28.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.instDGV)).EndInit();
             this.tableLayoutPanel36.ResumeLayout(false);
             this.tableLayoutPanel36.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.instDGV)).EndInit();
             this.tp_dest.ResumeLayout(false);
             this.splitContainer4.Panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
@@ -5431,21 +5532,6 @@
             this.tableLayoutPanel17.PerformLayout();
             this.tabPage2.ResumeLayout(false);
             this.tabControl3.ResumeLayout(false);
-            this.tab_Scope.ResumeLayout(false);
-            this.tableLayoutPanel24.ResumeLayout(false);
-            this.tableLayoutPanel24.PerformLayout();
-            this.tableLayoutPanel25.ResumeLayout(false);
-            this.pnl_Alternative.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dgv_alternaitve)).EndInit();
-            this.tableLayoutPanel5.ResumeLayout(false);
-            this.tableLayoutPanel49.ResumeLayout(false);
-            this.tableLayoutPanel49.PerformLayout();
-            this.tableLayoutPanel34.ResumeLayout(false);
-            this.tableLayoutPanel34.PerformLayout();
-            this.tableLayoutPanel26.ResumeLayout(false);
-            this.tableLayoutPanel33.ResumeLayout(false);
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
             this.tab_Analysis.ResumeLayout(false);
             this.tableLayoutPanel55.ResumeLayout(false);
             this.tableLayoutPanel60.ResumeLayout(false);
@@ -5486,15 +5572,24 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgv_3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_1)).EndInit();
             this.tableLayoutPanel44.ResumeLayout(false);
+            this.tab_Scope.ResumeLayout(false);
+            this.tableLayoutPanel24.ResumeLayout(false);
+            this.tableLayoutPanel24.PerformLayout();
+            this.tableLayoutPanel25.ResumeLayout(false);
+            this.pnl_Alternative.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dgv_alternaitve)).EndInit();
+            this.tableLayoutPanel5.ResumeLayout(false);
+            this.tableLayoutPanel49.ResumeLayout(false);
+            this.tableLayoutPanel49.PerformLayout();
+            this.tableLayoutPanel34.ResumeLayout(false);
+            this.tableLayoutPanel34.PerformLayout();
+            this.tableLayoutPanel26.ResumeLayout(false);
+            this.tableLayoutPanel33.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.tableLayoutPanel27.ResumeLayout(false);
             this.tableLayoutPanel27.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
-            this.panel8.ResumeLayout(false);
-            this.tableLayoutPanel38.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -5862,5 +5957,13 @@
         private System.Windows.Forms.Panel panel8;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel38;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button19;
+        private System.Windows.Forms.Button button22;
+        private System.Windows.Forms.Button button23;
+        private System.Windows.Forms.Button button24;
+        private System.Windows.Forms.Button button25;
+        private System.Windows.Forms.Button button26;
     }
 }

@@ -277,16 +277,19 @@ namespace RouteOptimizer
                 path = vdFC1.BaseControl.ActiveDocument.GetOpenFileNameDlg(0, pth, 0) as string;
                 //else
                 //    path = vdFC1.BaseControl.ActiveDocument.Open(pth) ? pth : null ;
-                if (string.IsNullOrEmpty(path)) return false;
+                if (string.IsNullOrEmpty(path)) 
+                    return false;
                 DocPath = path;
                 bool success = vdFC1.BaseControl.ActiveDocument.Open(DocPath);
-                if (!success) return false;
+                if (!success) 
+                    return false;
             }
             else
             {
                 DocPath = pth;
                 bool success = vdFC1.BaseControl.ActiveDocument.Open(DocPath);
-                if (!success) return false;
+                if (!success) 
+                    return false;
             }
             return true;
             //var f= new vdControls.vdFramedControl();//  vdFramedControl = new vdFramedControl;
@@ -1390,7 +1393,7 @@ namespace RouteOptimizer
             vdFC1.SetStatusBarOption(vdControls.vdFramedControl.StatusBarOptions.Menu, false);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.StatusBar, false);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.LayoutPopupMenu, false);
-            vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.CommandLine, false);
+            vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.CommandLine, true);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.VericalScroll, false);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.HorizodalScroll, false);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.PropertyGrid, false);
@@ -1405,6 +1408,7 @@ namespace RouteOptimizer
             }
             BindFrequency();
             progressBar1.Visible = false;
+             
         }
         private void BaseControl_MouseDown(object sender, MouseEventArgs e)
         {
@@ -2853,6 +2857,7 @@ namespace RouteOptimizer
             if (blk != null)
             {
                 ins.Block = blk;
+                
                 vdFC1.BaseControl.ActiveDocument.Model.Entities.AddItem(ins);
             }
 
@@ -2875,10 +2880,24 @@ namespace RouteOptimizer
         private void btnXRef_Click(object sender, EventArgs e)
         {
             OpenExternalReferencesDialog();
-            AddExternalReferences();
-            AddReferencesInserts();
+            SendKeys.Send("{ESC}");
+            //AddExternalReferences();
+            //AddReferencesInserts();
+            ChangeOrder();
         }
+        private void ChangeOrder()
+        {
+            var lst = vdFC1.BaseControl.ActiveDocument.ActiveLayOut.Entities.Last; //vdFC1.BaseControl.ActiveDocument.GetGripSelection();
 
+            if (lst is vdInsert ist)
+            {
+                //if (ist.Block.Name == "wmap")
+                //{
+                    vdFC1.BaseControl.ActiveDocument.CommandAction.CmdChangeOrder(lst  , true);
+                    RefreshCADSpace();
+                //}
+            }
+        }
         private void cbo_layer_Setting_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -8981,21 +9000,48 @@ namespace RouteOptimizer
             RefreshCADSpace();
             // vdFC1.BaseControl.Redraw(); 
         }
-
+        private void Doc_OnDrawAfter(object sender, vdRender render)
+        {
+         
+        }
+          int testLayer = 0;
         private void btnErase_Click(object sender, EventArgs e)
         {
             try
             {
-                var l = routeInfo.LstAllRoute();
-                foreach (var ls in l)
+                var re = vdFC1.BaseControl.ActiveDocument.ActionUtility.getUserPoint(out LeaderStartPoint);
+                if (re == StatusCode.Success)
                 {
-                  var s=  vdFC1.BaseControl.ActiveDocument.CommandAction.CmdSelect(ls);
-                    vdSelection vdSelection = new vdSelection();
-                    vdSelection.Add(ls);
-                    vdFC1.BaseControl.ActiveDocument.Selections.AddItem(vdSelection);
-                   
+                    testLayer++;
+                    vdLayer vl = new vdLayer();
+                    vl.Name = "Test_" + testLayer.ToString(); 
+                    vl.SetUnRegisterDocument(this.vdFC1.BaseControl.ActiveDocument);
+                    vl.setDocumentDefaults();
+                    vl.VisibleOnForms = true;
+                    vdFC1.BaseControl.ActiveDocument.Layers.Add(vl);
+                    SetCustomLayer(vl.Name);
+                    vl.Update(); 
+                    var userPoint2 = vdFC1.BaseControl.ActiveDocument.ActionUtility.getUserRefPointLine(LeaderStartPoint) as gPoint;
+                    gPoints gPoints = new gPoints();
+                    gPoints.Add(LeaderStartPoint);
+                    gPoints.Add(userPoint2);
+                    vdFC1.BaseControl.ActiveDocument.CommandAction.CmdLine(gPoints);
+                   var l= vdFC1.BaseControl.ActiveDocument.ActiveLayOut.Entities.Last as vdLine;
+                    l.PenColor.ColorIndex = (short)(testLayer);
+                    l.PenWidth = 100;
+                    l.Update();
+                    RefreshCADSpace();
                 }
-                RefreshCADSpace();
+                //var l = routeInfo.LstAllRoute();
+                //foreach (var ls in l)
+                //{
+                //  var s=  vdFC1.BaseControl.ActiveDocument.CommandAction.CmdSelect(ls);
+                //    vdSelection vdSelection = new vdSelection();
+                //    vdSelection.Add(ls);
+                //    vdFC1.BaseControl.ActiveDocument.Selections.AddItem(vdSelection);
+
+                //}
+                //RefreshCADSpace();
                 //var set = vdFC1.BaseControl.ActiveDocument.Selections[0];
                 //if (set == null) return;
                 //var se = set[0];
@@ -10959,6 +11005,52 @@ namespace RouteOptimizer
                     routeInfo.SyncronyzeRelatedUI(new List<int> { l.Id }, vdFramedControl, true);
                 }
             } 
+        }
+
+        private void button10_Click_1(object sender, EventArgs e)
+        {
+
+            this.vdFC1.BaseControl.ActiveDocument.EntitySelectMode = PickEntityMode.DrawOrder;
+        }
+
+        private void button19_Click(object sender, EventArgs e)
+        {
+            this.vdFC1.BaseControl.ActiveDocument.EntitySelectMode = PickEntityMode.Auto;
+
+        }
+
+        private void button22_Click(object sender, EventArgs e)
+        {
+            this.vdFC1.BaseControl.ActiveDocument.EntitySelectMode = PickEntityMode.Closest;
+        }
+
+        private void button23_Click(object sender, EventArgs e)
+        {
+            this.vdFC1.BaseControl.ActiveDocument.EntitySelectMode = PickEntityMode.EyeNearest;
+        }
+
+        private void button24_Click(object sender, EventArgs e)
+        {
+            var d = vdFC1.BaseControl.ActiveDocument.GetGripSelection();
+            if (d.Count > 0)
+            {
+                MessageBox.Show(d[0].Id.ToString());
+            }
+            var f = vdFC1.BaseControl.ActiveDocument.Selections;
+        }
+
+        private void button25_Click(object sender, EventArgs e)
+        {
+            var d = vdFC1.BaseControl.ActiveDocument.GetGripSelection();
+            vdFC1.BaseControl.ActiveDocument.CommandAction.CmdChangeOrder(d[0] as vdFigure, false );
+            RefreshCADSpace();
+        }
+
+        private void button26_Click(object sender, EventArgs e)
+        {
+            var d = vdFC1.BaseControl.ActiveDocument.GetGripSelection();
+            vdFC1.BaseControl.ActiveDocument.CommandAction.CmdChangeOrder(d[0] as vdFigure, true);
+            RefreshCADSpace();
         }
     }
 }
