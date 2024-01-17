@@ -257,6 +257,7 @@ namespace RouteOptimizer
             ExplodeBlock();
             BindFrequency();
             BindDecimalplace();
+            inputType = 0;
         }
         private void BindDecimalplace()
         {
@@ -277,18 +278,18 @@ namespace RouteOptimizer
                 path = vdFC1.BaseControl.ActiveDocument.GetOpenFileNameDlg(0, pth, 0) as string;
                 //else
                 //    path = vdFC1.BaseControl.ActiveDocument.Open(pth) ? pth : null ;
-                if (string.IsNullOrEmpty(path)) 
+                if (string.IsNullOrEmpty(path))
                     return false;
                 DocPath = path;
                 bool success = vdFC1.BaseControl.ActiveDocument.Open(DocPath);
-                if (!success) 
+                if (!success)
                     return false;
             }
             else
             {
                 DocPath = pth;
                 bool success = vdFC1.BaseControl.ActiveDocument.Open(DocPath);
-                if (!success) 
+                if (!success)
                     return false;
             }
             return true;
@@ -387,7 +388,7 @@ namespace RouteOptimizer
                 {
                     instListbox.Rows.Add(new object[] {
                         l,
-                      routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).Any()?  routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).FirstOrDefault().Type : "" , 
+                      routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).Any()?  routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).FirstOrDefault().Type : "" ,
                       routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).Any()?  routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).FirstOrDefault().System : "" ,
                        routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).Any()?  routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).FirstOrDefault().To  : ""
                     });
@@ -1066,35 +1067,35 @@ namespace RouteOptimizer
         public void SystemBind_Layer(ref string s1)
         {
             DataTable system = new DataTable();
-            system.Columns.Add("System"); 
+            system.Columns.Add("System");
             system.Columns.Add("dgv_System");
             BL.SettingBL sbl = new BL.SettingBL();
             if (sbl.GetSystemList().Count > 0)
             {
                 s1 = sbl.GetSystemList()[0].Title;
-               // system.Rows.Add(null, "");
+                // system.Rows.Add(null, "");
                 foreach (var t in sbl.GetSystemList())
                 {
                     system.Rows.Add(t.Id, t.Title);
-                 //   system.Rows.Add(t.Title);
+                    //   system.Rows.Add(t.Title);
                 }
                 DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"];
                 col.ValueMember = col.DataPropertyName = "System";
                 col.DisplayMember = "dgv_System";
-               
+
                 ((DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"]).DataSource = system;
             }
         }
         public void SystemBind(ref string s1)
         {
             DataTable system = new DataTable();
-            system.Columns.Add("System"); 
+            system.Columns.Add("System");
             system.Columns.Add("colSystem");
             BL.SettingBL sbl = new BL.SettingBL();
             if (sbl.GetSystemList().Count > 0)
             {
                 s1 = sbl.GetSystemList()[0].Title;
-              //  system.Rows.Add(null, "");
+                //  system.Rows.Add(null, "");
                 foreach (var t in sbl.GetSystemList())
                 {
                     system.Rows.Add(t.Id, t.Title);
@@ -1103,7 +1104,7 @@ namespace RouteOptimizer
                 //col.ValueMember = col.DisplayMember = col.DataPropertyName = "System";
                 col.ValueMember = col.DataPropertyName = "System";
                 col.DisplayMember = "colSystem";
-               
+
                 ((DataGridViewComboBoxColumn)instDGV.Columns["colSystem"]).DataSource = system;
             }
         }
@@ -1422,7 +1423,7 @@ namespace RouteOptimizer
             }
             BindFrequency();
             progressBar1.Visible = false;
-             
+
         }
         private void BaseControl_MouseDown(object sender, MouseEventArgs e)
         {
@@ -2871,7 +2872,7 @@ namespace RouteOptimizer
             if (blk != null)
             {
                 ins.Block = blk;
-                
+
                 vdFC1.BaseControl.ActiveDocument.Model.Entities.AddItem(ins);
             }
 
@@ -2907,8 +2908,8 @@ namespace RouteOptimizer
             {
                 //if (ist.Block.Name == "wmap")
                 //{
-                    vdFC1.BaseControl.ActiveDocument.CommandAction.CmdChangeOrder(lst  , true);
-                    RefreshCADSpace();
+                vdFC1.BaseControl.ActiveDocument.CommandAction.CmdChangeOrder(lst, true);
+                RefreshCADSpace();
                 //}
             }
         }
@@ -5327,6 +5328,7 @@ namespace RouteOptimizer
                     double len = 0.0;
                     foreach (var g in f.LstSegment)
                     {
+                        if (routeInfo.LstSegmentInfo == null || routeInfo.LstSegmentInfo.Count == 0) continue;
                         len += routeInfo.LstSegmentInfo.Where(x => x.SegmentName == g.Split(',').Last() && x.SignalType == g.Split(',').First()).FirstOrDefault().Length;
                     }
                     f.Length = len;
@@ -7256,8 +7258,8 @@ namespace RouteOptimizer
                 return;
             }
             if (e.Control && e.Alt && e.KeyCode == Keys.D)
-            { 
-                
+            {
+
                 string Msg = "Are you sure to remove all drawn paths?";
                 var resul = MessageBox.Show(Msg, "", MessageBoxButtons.YesNo);
                 if (resul == DialogResult.Yes)
@@ -7265,12 +7267,12 @@ namespace RouteOptimizer
                     var allLine = routeInfo.LstAllRoute();
                     foreach (var l in allLine)
                     {
-                        routeInfo.SyncronyzeRelatedUI(new List<int> { l.Id},vdFramedControl,true);
+                        routeInfo.SyncronyzeRelatedUI(new List<int> { l.Id }, vdFramedControl, true);
                     }
                 }
                 return;
             }
-                    if (e.Control && e.Alt && e.KeyCode == Keys.R)
+            if (e.Control && e.Alt && e.KeyCode == Keys.R)
             {
                 string Msg = "Are you sure to remove all URL Setters?";
                 var resul = MessageBox.Show(Msg, "", MessageBoxButtons.YesNo);
@@ -7462,6 +7464,7 @@ namespace RouteOptimizer
                 vdFC1.BaseControl.ActiveDocument.Layers.Add(lyr);
             }
         }
+        static int inputType = 0;
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -7510,6 +7513,7 @@ namespace RouteOptimizer
                         return;
                     }
                     Import(pathSourceCadFile);
+                    inputType = 1;
                 }
             }
             catch (Exception ex)
@@ -7779,16 +7783,29 @@ namespace RouteOptimizer
 
         private void MainP1_FormClosing(object sender, FormClosingEventArgs e)
         {
-            var dl = MessageBox.Show("현재 작업 내용을 저장하시겠습니까?", "Confirmation", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question, defaultButton: MessageBoxDefaultButton.Button2);
+            if (inputType == 0) // input dwg
+            {
+                var dl = MessageBox.Show("현재 작업 내용을 저장하시겠습니까?", "Confirmation", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question, defaultButton: MessageBoxDefaultButton.Button2);
 
-            if (dl == DialogResult.Yes)
-            {
-                toolStripButton3_Click(null, null);
+                if (dl == DialogResult.Yes)
+                {
+                    toolStripButton3_Click(null, null);
+                }
+                if (dl == DialogResult.Cancel)
+                {
+                    e.Cancel = true;
+                    return;
+                }
             }
-            if (dl == DialogResult.Cancel)
+            else//// input zip
             {
-                e.Cancel = true;
-                return;
+                var dl = MessageBox.Show("정말 닫으시겠어요?", "Confirmation", MessageBoxButtons.OKCancel, MessageBoxIcon.Question, defaultButton: MessageBoxDefaultButton.Button1);
+                 
+                if (dl == DialogResult.Cancel)
+                {
+                    e.Cancel = true;
+                    return;
+                }
             }
             DebugLog.WriteLog("Program ended ***************************************");
         }
@@ -9636,6 +9653,7 @@ namespace RouteOptimizer
                 routeInfo.LstAutoGuidedRoute = routeInfo.LstAllRoute();
                 foreach (vdLine connector in routeInfo.LstAutoGuidedRoute)
                 {
+                    if (connector != null )
                     routeInfo.SyncronyzeRelatedUI(new List<int> { connector.Id }, vdFC1);
                 }
                 ClearAllRoutes();

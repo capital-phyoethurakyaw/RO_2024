@@ -289,9 +289,12 @@ namespace RouteOptimizer.Object
                 foreach (DataGridViewRow dr in instListbox.Rows)
                 {
                     var die = new DictonaryTuple_ID_Exchanger();
+                    //die.LayerName = dr.Cells["dgv_Layer"].EditedFormattedValue.ToString();
+                    //die.System = dr.Cells["dgv_System"].EditedFormattedValue.ToString();
+                    //die.Type = dr.Cells["dgv_Type_Ins"].EditedFormattedValue.ToString();
                     die.LayerName = dr.Cells["dgv_Layer"].EditedFormattedValue.ToString();
-                    die.System = dr.Cells["dgv_System"].EditedFormattedValue.ToString();
-                    die.Type = dr.Cells["dgv_Type_Ins"].EditedFormattedValue.ToString();
+                    die.System = dr.Cells["dgv_System"].Value.ToString();
+                    die.Type = dr.Cells["dgv_Type_Ins"].Value.ToString();
                     var val = dr.Cells["Cable1"].Value == null ? "" : dr.Cells["Cable1"].Value.ToString();
                     if (!string.IsNullOrEmpty(val) && val != "-1")
                         die.To = GenerateEmbeddedURLId(e.FindFromId(Convert.ToInt32(val)));
@@ -529,6 +532,7 @@ namespace RouteOptimizer.Object
                 var lag = new List<Connector_ID_Exchanger>();
                 foreach (var c in LstAutoGuidedRoute)
                 {
+                    if (c == null) continue;
                     Connector_ID_Exchanger connector_ID_Exchanger = new Connector_ID_Exchanger();
                     connector_ID_Exchanger.connectorId = GenerateEmbeddedURLId(c);
                     connector_ID_Exchanger.sp = new Point(c.StartPoint.x, c.StartPoint.y);

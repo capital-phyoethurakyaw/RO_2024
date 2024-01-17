@@ -67,6 +67,28 @@
             BindInitialSetting();
             AdjustColumnSize(new DataGridView[] { dgv_Signal });
         }
+        public void SystemBind_Layer()
+        {
+            //DataTable system = new DataTable();
+            //system.Columns.Add("System");
+            //system.Columns.Add("dgv_System");
+            //BL.SettingBL sbl = new BL.SettingBL();
+            //if (sbl.GetSystemList().Count > 0)
+            //{
+            //    s1 = sbl.GetSystemList()[0].Title;
+            //    // system.Rows.Add(null, "");
+            //    foreach (var t in sbl.GetSystemList())
+            //    {
+            //        system.Rows.Add(t.Id, t.Title);
+            //        //   system.Rows.Add(t.Title);
+            //    }
+            //    DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"];
+            //    col.ValueMember = col.DataPropertyName = "System";
+            //    col.DisplayMember = "dgv_System";
+
+            //    ((DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"]).DataSource = system;
+            //}
+        }
         private void BindComboGrid()
         {
             var cbo1 = cf.ListToDataTable(SettingBL.GetInstrumetnType());
@@ -74,20 +96,38 @@
             cbo_T1.DataSource = cbo1;
 
             var cbo2 = cf.ListToDataTable(SettingBL.GetInstrumetnType());
-            cbo_T2.DisplayMember = cbo_T2.ValueMember = "Classification_3";
+       
+            cbo_T2.DisplayMember =  
+                cbo_T2.ValueMember =  "Classification_3";
             cbo_T2.DataSource = cbo2;
 
-            var cbo3 = cf.ListToDataTable(SettingBL.GetSystemList());
-            cbo_System.DisplayMember = cbo_System.ValueMember = "Title";
-            cbo_System.DataSource = cbo3;
+
+            DataTable system = new DataTable();
+            system.Columns.Add("System");
+            system.Columns.Add("dgv_System");
+            BL.SettingBL sbl = new BL.SettingBL();
+            if (sbl.GetSystemList().Count > 0)
+            {
+                foreach (var t in sbl.GetSystemList())
+                {
+                    system.Rows.Add(t.Id, t.Title);
+                    //   system.Rows.Add(t.Title);
+                }
+            }
+           // var cbo3 = cf.ListToDataTable(SettingBL.GetSystemList());
+            cbo_System.DisplayMember = "dgv_System";
+            cbo_System.ValueMember = "System";
+            cbo_System.DataSource = system;
 
             DataTable type = new DataTable();
             type.Columns.Add("GUID");
             type.Columns.Add("To");
             type.Rows.Add(null, -1);
             foreach (var t in RouteInfo.LstTBBOXes)
-              //  if (t.IsIO != eDestinationType.MCC)
-                    type.Rows.Add(t.Name, t.guid);
+            //  if (t.IsIO != eDestinationType.MCC)
+            {
+                type.Rows.Add(t.Name, t.guid);
+            }
             DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)dgv_Signal.Columns["colTo"];
             col.DisplayMember = "GUID";
             col.ValueMember = col.DataPropertyName = "To";
