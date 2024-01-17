@@ -387,8 +387,7 @@ namespace RouteOptimizer
                 {
                     instListbox.Rows.Add(new object[] {
                         l,
-                      routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).Any()?  routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).FirstOrDefault().Type : "" ,
-
+                      routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).Any()?  routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).FirstOrDefault().Type : "" , 
                       routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).Any()?  routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).FirstOrDefault().System : "" ,
                        routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).Any()?  routeInfo.LstLayerAllColumn.Where(x=>x.LayerName == l.name).FirstOrDefault().To  : ""
                     });
@@ -1067,29 +1066,44 @@ namespace RouteOptimizer
         public void SystemBind_Layer(ref string s1)
         {
             DataTable system = new DataTable();
+            system.Columns.Add("System"); 
             system.Columns.Add("dgv_System");
             BL.SettingBL sbl = new BL.SettingBL();
             if (sbl.GetSystemList().Count > 0)
             {
                 s1 = sbl.GetSystemList()[0].Title;
+               // system.Rows.Add(null, "");
                 foreach (var t in sbl.GetSystemList())
-                    system.Rows.Add(t.Title);
+                {
+                    system.Rows.Add(t.Id, t.Title);
+                 //   system.Rows.Add(t.Title);
+                }
                 DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"];
-                col.ValueMember = col.DisplayMember = col.DataPropertyName = "dgv_System";
+                col.ValueMember = col.DataPropertyName = "System";
+                col.DisplayMember = "dgv_System";
+               
                 ((DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"]).DataSource = system;
             }
         }
         public void SystemBind(ref string s1)
         {
             DataTable system = new DataTable();
-            system.Columns.Add("System");
+            system.Columns.Add("System"); 
+            system.Columns.Add("colSystem");
             BL.SettingBL sbl = new BL.SettingBL();
             if (sbl.GetSystemList().Count > 0)
             {
                 s1 = sbl.GetSystemList()[0].Title;
-                foreach (var t in sbl.GetSystemList()) system.Rows.Add(t.Title);
+              //  system.Rows.Add(null, "");
+                foreach (var t in sbl.GetSystemList())
+                {
+                    system.Rows.Add(t.Id, t.Title);
+                }
                 DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instDGV.Columns["colSystem"];
-                col.ValueMember = col.DisplayMember = col.DataPropertyName = "System";
+                //col.ValueMember = col.DisplayMember = col.DataPropertyName = "System";
+                col.ValueMember = col.DataPropertyName = "System";
+                col.DisplayMember = "colSystem";
+               
                 ((DataGridViewComboBoxColumn)instDGV.Columns["colSystem"]).DataSource = system;
             }
         }
@@ -8805,8 +8819,7 @@ namespace RouteOptimizer
             {
                 CheckDuplicate();
             }
-            if (tabControl2.SelectedIndex == 2)
-
+            if (tabControl2.SelectedIndex == 2) 
             {
                 btnAllDest_Click(null, null);
                 //CheckDuplicate();
@@ -10819,6 +10832,9 @@ namespace RouteOptimizer
             PS PS = new PS();
             PS.Owner = this;
             PS.ShowDialog();
+            string r = "";
+            SystemBind(ref r);
+            SystemBind_Layer(ref r);
         }
         static DataGridView dtMainTable = new DataGridView();
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -11051,6 +11067,24 @@ namespace RouteOptimizer
             var d = vdFC1.BaseControl.ActiveDocument.GetGripSelection();
             vdFC1.BaseControl.ActiveDocument.CommandAction.CmdChangeOrder(d[0] as vdFigure, true);
             RefreshCADSpace();
+        }
+
+        private void button27_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt.Columns.Add("type");
+            dt.Columns.Add("system");
+            dt.Columns.Add("destination");
+
+            foreach (DataGridViewRow dr in instDGV.Rows)
+            {
+                var d = dr.Cells["colSystem"].Value;
+                dt.Rows.Add(
+                    dr.Cells["colType"].Value,
+                    dr.Cells["colSystem"].Value,
+                    dr.Cells["colTo"].Value 
+                    ); ;
+            }
         }
     }
 }

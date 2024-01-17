@@ -56,6 +56,7 @@ namespace RouteOptimizer.PInfoForms
                 return;
             }
             dtSource = new DataTable();
+            dtSource.Columns.Add("Id");
             dtSource.Columns.Add("Title"); dtSource.Columns.Add("NW_W"); dtSource.Columns.Add("NW_D");
             dtSource.Columns.Add("NW_H"); dtSource.Columns.Add("NW_Check"); dtSource.Columns.Add("CPU_W");
             dtSource.Columns.Add("CPU_D"); dtSource.Columns.Add("CPU_H"); dtSource.Columns.Add("CPU_Check");
@@ -65,7 +66,7 @@ namespace RouteOptimizer.PInfoForms
             dtSource.Columns.Add("PLC_AI"); dtSource.Columns.Add("PLC_AI_C"); dtSource.Columns.Add("PLC_AO");
             dtSource.Columns.Add("RTD"); dtSource.Columns.Add("IO_Ratio");
 
-            List<SystemInfo> result = null; ;
+            List<SystemInfo> result = null;
             try
             {
                 using (TextReader fileReader = File.OpenText(DataSourceSystemList))
@@ -85,7 +86,7 @@ namespace RouteOptimizer.PInfoForms
             }
             foreach (SystemInfo S in result)
             {
-                dtSource.Rows.Add(new object[] { S.Title.Trim(), S.NW_W.Trim(), S.NW_D.Trim(), S.NW_H.Trim(), S.NW_Check.Trim()
+                dtSource.Rows.Add(new object[] {S.Id, S.Title.Trim(), S.NW_W.Trim(), S.NW_D.Trim(), S.NW_H.Trim(), S.NW_Check.Trim()
                 ,S.CPU_W.Trim(), S.CPU_D.Trim(), S.CPU_H.Trim(), S.CPU_Check.Trim()
                 ,S.RIO_W.Trim(), S.RIO_D.Trim(), S.RIO_H.Trim(), S.RIO_Check.Trim()
                 ,S.PLC_Qty.Trim(), S.PLC_Sl.Trim(), S.PLC_Sl_Spare.Trim()
@@ -94,9 +95,10 @@ namespace RouteOptimizer.PInfoForms
                 ,S.RTD.Trim(), S.IO_Ratio.Trim()});
             }
             dtTemp = new DataTable();
+            dtTemp.Columns.Add("Id");
             dtTemp.Columns.Add("Title");
             DataView dv = new DataView(dtSource);
-            dtTemp = dv.ToTable(true, "Title");
+            dtTemp = dv.ToTable(true, new string[] { "Id", "Title" });
             dataGridView1.DataSource = dtTemp;
         }
 
@@ -158,7 +160,8 @@ namespace RouteOptimizer.PInfoForms
             try
             {
                 dataGridView1.Update();
-                if (!checkDuplicate()) return;
+                if (!checkDuplicate()) 
+                    return;
                 SaveChanges("Save");
                 MessageBox.Show("Your changes have been successfully saved.");
             }
@@ -220,6 +223,7 @@ namespace RouteOptimizer.PInfoForms
                 foreach (DataRow dr in dtSource.Rows)
                 {
                     dr["Title"] = dtTemp.Rows[dtSource.Rows.IndexOf(dr)]["Title"].ToString();
+                    dr["Id"] = dtTemp.Rows[dtSource.Rows.IndexOf(dr)]["Id"].ToString();
                 }
 
                 //add new row
@@ -230,6 +234,7 @@ namespace RouteOptimizer.PInfoForms
                     {
                         DataRow row = dtSource.NewRow();
                         row["Title"] = dtTemp.Rows[y - 1]["Title"].ToString();
+                        row["Id"] = dtTemp.Rows[y - 1]["Id"].ToString();
                         dtSource.Rows.Add(row);
                     }
                 dtSource.AcceptChanges();
@@ -237,8 +242,7 @@ namespace RouteOptimizer.PInfoForms
             else
             {
                 List<DataRow> rowsToDelete = new List<DataRow>();
-                var idsNotInB = dtSource.AsEnumerable().Select(r => r.Field<string>("Title"))
-        .Except(dtTemp.AsEnumerable().Select(r => r.Field<string>("Title")));
+                var idsNotInB = dtSource.AsEnumerable().Select(r => r.Field<string>("Title")) .Except(dtTemp.AsEnumerable().Select(r => r.Field<string>("Title")));
                 var TableC = (from row in dtSource.AsEnumerable()
                               join Title in idsNotInB
                               on row.Field<string>("Title") equals Title
@@ -282,6 +286,7 @@ namespace RouteOptimizer.PInfoForms
                 foreach (DataRow dr in dtSource.Rows)
                 {
                     ie = new SystemInfo();
+                    ie.Id = dr["Id"].ToString().Trim(); 
                     ie.Title = dr["Title"].ToString().Trim();
                     ie.NW_W = dr["NW_W"].ToString().Trim();
                     ie.NW_D = dr["NW_D"].ToString().Trim();
@@ -369,7 +374,19 @@ namespace RouteOptimizer.PInfoForms
             }
 
         }
+        private string GetLastIndentity()
+        {
+            DataTable ds = dataGridView1.DataSource as DataTable;
+            if (ds != null && ds.Rows.Count > 0)
+            {
+                foreach (DataGridViewRow dr in dataGridView1.Rows)
+                {
 
+                }
+
+            }
+            return "";
+        }
         private void SaveChanges2(string mode)
         {
 
@@ -384,6 +401,7 @@ namespace RouteOptimizer.PInfoForms
             if (mode == "Save")
             {
                 DataRow newRow = dtSource.NewRow();
+                newRow["Id"] = GetLastIndentity(); 
                 newRow["Title"] = txtSystemTitle.Text.ToString();
                 newRow["NW_W"] = txtNW_W.Text.ToString();
                 newRow["NW_D"] = txtNW_D.Text.ToString();
@@ -425,6 +443,7 @@ namespace RouteOptimizer.PInfoForms
             {
                 DataRow newRow = dtSource.NewRow();
                 txtSystemTitle.Text = string.Empty;
+                newRow["Id"] ="0";
                 newRow["Title"] = string.Empty;
                 newRow["NW_W"] = string.Empty;
                 newRow["NW_D"] = string.Empty;
@@ -466,6 +485,8 @@ namespace RouteOptimizer.PInfoForms
                 foreach (DataRow dr in dtSource.Rows)
                 {
                     ie = new SystemInfo();
+                    ie.Id = dr["Id"].ToString().Trim();
+
                     ie.Title = dr["Title"].ToString().Trim();
                     ie.NW_W = dr["NW_W"].ToString().Trim();
                     ie.NW_D = dr["NW_D"].ToString().Trim();
@@ -562,6 +583,7 @@ namespace RouteOptimizer.PInfoForms
 
     public class SystemInfo
     {
+        public string Id { get; set; } 
         public string Title { get; set; }
         public string NW_W { get; set; }
         public string NW_D { get; set; }

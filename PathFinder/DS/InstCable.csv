@@ -1,13 +1,13 @@
 InstType,Type,System,Cable
+Flow Meter,Signal,AI,CVVS 1.5SQ x 2C
+Flow Meter,Signal,DI,CVVS 1.5SQ x 3C
+Flow Meter,Power,DC 24V,CVVS 1.5SQ x 3C
+MD_Motor Damper,Signal,DO,CVVS 1.5SQ x 2C
 Gas Detector,Signal,AI,CVVS 1.5SQ x 2C
 Gas Detector,Power,DC 24V,CVVS 1.5SQ x 3C
 Pressure Transmitter,Signal,AI,CVVS 1.5SQ x 2C
 Pressure Transmitter,Power,DC 24V,Loop Power
+Level Switch,Signal,DI,CVVS 1.5SQ x 4C
 Temp. Sensor_RTD_3wire type,Signal,AI,CVVS 1.5SQ x 4C
 Differential Pressure Transmitter,Signal,AI,CVVS 1.5SQ x 2C
 Differential Pressure Transmitter,Power,DC 24V,Loop Power
-Level Switch,Signal,DI,CVVS 1.5SQ x 4C
-MD_Motor Damper,Signal,DO,CVVS 1.5SQ x 2C
-Flow Meter,Signal,AI,CVVS 1.5SQ x 2C
-Flow Meter,Signal,DI,CVVS 1.5SQ x 3C
-Flow Meter,Power,DC 24V,CVVS 1.5SQ x 3C
