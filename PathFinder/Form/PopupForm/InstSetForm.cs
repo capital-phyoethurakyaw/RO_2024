@@ -96,28 +96,27 @@
             cbo_T1.DataSource = cbo1;
 
             var cbo2 = cf.ListToDataTable(SettingBL.GetInstrumetnType());
-       
-            cbo_T2.DisplayMember =  
-                cbo_T2.ValueMember =  "Classification_3";
+
+            cbo_T2.DisplayMember =
+                cbo_T2.ValueMember = "Classification_3";
             cbo_T2.DataSource = cbo2;
-
-
-            DataTable system = new DataTable();
-            system.Columns.Add("System");
-            system.Columns.Add("dgv_System");
-            BL.SettingBL sbl = new BL.SettingBL();
-            if (sbl.GetSystemList().Count > 0)
-            {
-                foreach (var t in sbl.GetSystemList())
-                {
-                    system.Rows.Add(t.Id, t.Title);
-                    //   system.Rows.Add(t.Title);
-                }
-            }
-           // var cbo3 = cf.ListToDataTable(SettingBL.GetSystemList());
+             
+            //DataTable system = new DataTable();
+            //system.Columns.Add("System");
+            //system.Columns.Add("dgv_System");
+            //BL.SettingBL sbl = new BL.SettingBL();
+            //if (sbl.GetSystemList().Count > 0)
+            //{
+            //    foreach (var t in sbl.GetSystemList())
+            //    {
+            //        system.Rows.Add(t.Id, t.Title);
+            //        //   system.Rows.Add(t.Title);
+            //    }
+            //}
+            var cbo3 = cf.ListToDataTable(SettingBL.GetSystemList());
             cbo_System.DisplayMember = "dgv_System";
             cbo_System.ValueMember = "System";
-            cbo_System.DataSource = system;
+            cbo_System.DataSource = cbo3;
 
             DataTable type = new DataTable();
             type.Columns.Add("GUID");

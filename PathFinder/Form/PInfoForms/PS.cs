@@ -43,6 +43,7 @@ namespace RouteOptimizer.PInfoForms
         private void btinst_Click(object sender, EventArgs e)
         {
             loadform(new Inst());
+            //
         }
 
         private void btcable_Click(object sender, EventArgs e)
@@ -63,6 +64,13 @@ namespace RouteOptimizer.PInfoForms
         private void btsys_Click(object sender, EventArgs e)
         {
             loadform(new Sys());
+            //string r = "";
+            //SystemBind(ref r);
+            //SystemBind_Layer(ref r);
+
+            //TypeBind(ref r);
+            //TypeBind_Layer(ref r);
+            //
         }
 
         private void btsignal_Click(object sender, EventArgs e)

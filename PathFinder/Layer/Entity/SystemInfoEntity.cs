@@ -8,7 +8,7 @@ namespace RouteOptimizer.Entity
 {
     public class SystemInfoEntity
     {
-        public string Id { get; set; } 
+        //public string Id { get; set; } 
         public string Title { get; set; }
         public string NW_W { get; set; }
         public string NW_D { get; set; }

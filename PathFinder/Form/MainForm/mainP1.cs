@@ -1067,46 +1067,65 @@ namespace RouteOptimizer
         public void SystemBind_Layer(ref string s1)
         {
             DataTable system = new DataTable();
-            system.Columns.Add("System");
             system.Columns.Add("dgv_System");
             BL.SettingBL sbl = new BL.SettingBL();
             if (sbl.GetSystemList().Count > 0)
             {
                 s1 = sbl.GetSystemList()[0].Title;
-                // system.Rows.Add(null, "");
                 foreach (var t in sbl.GetSystemList())
-                {
-                    system.Rows.Add(t.Id, t.Title);
-                    //   system.Rows.Add(t.Title);
-                }
+                    system.Rows.Add(t.Title);
                 DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"];
-                col.ValueMember = col.DataPropertyName = "System";
-                col.DisplayMember = "dgv_System";
-
+                col.ValueMember = col.DisplayMember = col.DataPropertyName = "dgv_System";
                 ((DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"]).DataSource = system;
             }
+            //DataTable system = new DataTable();
+            //system.Columns.Add("System");
+            //system.Columns.Add("dgv_System");
+            //BL.SettingBL sbl = new BL.SettingBL();
+            //if (sbl.GetSystemList().Count > 0)
+            //{
+            //    s1 = sbl.GetSystemList()[0].Title; 
+            //    foreach (var t in sbl.GetSystemList())
+            //    {
+            //        system.Rows.Add(t.Id, t.Title); 
+            //    }
+            //    DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"];
+            //    col.ValueMember = col.DataPropertyName = "System";
+            //    col.DisplayMember = "dgv_System";
+
+            //    ((DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"]).DataSource = system;
+            //}
         }
         public void SystemBind(ref string s1)
         {
             DataTable system = new DataTable();
             system.Columns.Add("System");
-            system.Columns.Add("colSystem");
             BL.SettingBL sbl = new BL.SettingBL();
             if (sbl.GetSystemList().Count > 0)
             {
                 s1 = sbl.GetSystemList()[0].Title;
-                //  system.Rows.Add(null, "");
-                foreach (var t in sbl.GetSystemList())
-                {
-                    system.Rows.Add(t.Id, t.Title);
-                }
+                foreach (var t in sbl.GetSystemList()) system.Rows.Add(t.Title);
                 DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instDGV.Columns["colSystem"];
-                //col.ValueMember = col.DisplayMember = col.DataPropertyName = "System";
-                col.ValueMember = col.DataPropertyName = "System";
-                col.DisplayMember = "colSystem";
-
+                col.ValueMember = col.DisplayMember = col.DataPropertyName = "System";
                 ((DataGridViewComboBoxColumn)instDGV.Columns["colSystem"]).DataSource = system;
             }
+            //DataTable system = new DataTable();
+            //system.Columns.Add("System");
+            //system.Columns.Add("colSystem");
+            //BL.SettingBL sbl = new BL.SettingBL();
+            //if (sbl.GetSystemList().Count > 0)
+            //{
+            //    s1 = sbl.GetSystemList()[0].Title; 
+            //    foreach (var t in sbl.GetSystemList())
+            //    {
+            //        system.Rows.Add(t.Id, t.Title);
+            //    }
+            //    DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instDGV.Columns["colSystem"]; 
+            //    col.ValueMember = col.DataPropertyName = "System";
+            //    col.DisplayMember = "colSystem";
+
+            //    ((DataGridViewComboBoxColumn)instDGV.Columns["colSystem"]).DataSource = system;
+            //}
         }
         List<string> ListComboAllDestination = new List<string>();
         private bool DrawPolyObs()
@@ -10853,6 +10872,11 @@ namespace RouteOptimizer
             string r = "";
             SystemBind(ref r);
             SystemBind_Layer(ref r);
+
+            TypeBind(ref r);
+            TypeBind_Layer(ref r);
+
+
         }
         static DataGridView dtMainTable = new DataGridView();
         private void textBox1_TextChanged(object sender, EventArgs e)

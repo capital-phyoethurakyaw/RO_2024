@@ -29,7 +29,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel5 = new System.Windows.Forms.TableLayoutPanel();
             this.btn_Save = new System.Windows.Forms.Button();
@@ -363,10 +363,10 @@
             // 
             this.colS_Check.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.ColumnHeader;
             this.colS_Check.DataPropertyName = "S_Check";
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle3.Format = "false";
-            dataGridViewCellStyle3.NullValue = "False";
-            this.colS_Check.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.Format = "false";
+            dataGridViewCellStyle1.NullValue = "False";
+            this.colS_Check.DefaultCellStyle = dataGridViewCellStyle1;
             this.colS_Check.FalseValue = "0";
             this.colS_Check.HeaderText = "#";
             this.colS_Check.IndeterminateValue = "0";

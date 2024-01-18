@@ -1204,7 +1204,7 @@
             this.cboObst.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboObst.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cboObst.FormattingEnabled = true;
-            this.cboObst.Location = new System.Drawing.Point(119, 6);
+            this.cboObst.Location = new System.Drawing.Point(119, 7);
             this.cboObst.Name = "cboObst";
             this.cboObst.Size = new System.Drawing.Size(275, 24);
             this.cboObst.TabIndex = 3;
@@ -1249,7 +1249,7 @@
             this.cbo_polyTypes.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_polyTypes.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cbo_polyTypes.FormattingEnabled = true;
-            this.cbo_polyTypes.Location = new System.Drawing.Point(119, 6);
+            this.cbo_polyTypes.Location = new System.Drawing.Point(119, 7);
             this.cbo_polyTypes.Name = "cbo_polyTypes";
             this.cbo_polyTypes.Size = new System.Drawing.Size(275, 24);
             this.cbo_polyTypes.TabIndex = 4;
@@ -1289,7 +1289,7 @@
             this.cboDest.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboDest.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cboDest.FormattingEnabled = true;
-            this.cboDest.Location = new System.Drawing.Point(119, 6);
+            this.cboDest.Location = new System.Drawing.Point(119, 7);
             this.cboDest.Name = "cboDest";
             this.cboDest.Size = new System.Drawing.Size(275, 24);
             this.cboDest.TabIndex = 4;
@@ -1376,7 +1376,7 @@
             "I/O Room",
             "T/B Box",
             "MCC"});
-            this.cboDestType.Location = new System.Drawing.Point(119, 6);
+            this.cboDestType.Location = new System.Drawing.Point(119, 7);
             this.cboDestType.Name = "cboDestType";
             this.cboDestType.Size = new System.Drawing.Size(275, 24);
             this.cboDestType.TabIndex = 7;
@@ -1432,7 +1432,7 @@
             this.cboBoun.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboBoun.ForeColor = System.Drawing.SystemColors.ControlText;
             this.cboBoun.FormattingEnabled = true;
-            this.cboBoun.Location = new System.Drawing.Point(119, 6);
+            this.cboBoun.Location = new System.Drawing.Point(119, 7);
             this.cboBoun.Name = "cboBoun";
             this.cboBoun.Size = new System.Drawing.Size(275, 24);
             this.cboBoun.TabIndex = 5;
@@ -2090,7 +2090,7 @@
             this.tableLayoutPanel22.ColumnCount = 3;
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.5098F));
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.4902F));
-            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 349F));
+            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 350F));
             this.tableLayoutPanel22.Controls.Add(this.label24, 0, 4);
             this.tableLayoutPanel22.Controls.Add(this.label19, 0, 0);
             this.tableLayoutPanel22.Controls.Add(this.txtPanelbay, 1, 0);
@@ -2127,7 +2127,7 @@
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(3, 147);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(116, 13);
+            this.label24.Size = new System.Drawing.Size(115, 13);
             this.label24.TabIndex = 20;
             this.label24.Text = "벽면(측면) 이격 거리";
             // 
@@ -2138,14 +2138,14 @@
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(3, 19);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(116, 13);
+            this.label19.Size = new System.Drawing.Size(115, 13);
             this.label19.TabIndex = 10;
             this.label19.Text = "판넬 열반 개수 (Max)";
             // 
             // txtPanelbay
             // 
             this.txtPanelbay.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtPanelbay.Location = new System.Drawing.Point(125, 3);
+            this.txtPanelbay.Location = new System.Drawing.Point(124, 3);
             this.txtPanelbay.Name = "txtPanelbay";
             this.txtPanelbay.Size = new System.Drawing.Size(35, 27);
             this.txtPanelbay.TabIndex = 11;
@@ -2153,7 +2153,7 @@
             // txtFrontpart
             // 
             this.txtFrontpart.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtFrontpart.Location = new System.Drawing.Point(125, 35);
+            this.txtFrontpart.Location = new System.Drawing.Point(124, 35);
             this.txtFrontpart.Name = "txtFrontpart";
             this.txtFrontpart.Size = new System.Drawing.Size(35, 27);
             this.txtFrontpart.TabIndex = 12;
@@ -2161,7 +2161,7 @@
             // txtRearClearence
             // 
             this.txtRearClearence.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtRearClearence.Location = new System.Drawing.Point(125, 67);
+            this.txtRearClearence.Location = new System.Drawing.Point(124, 67);
             this.txtRearClearence.Name = "txtRearClearence";
             this.txtRearClearence.Size = new System.Drawing.Size(35, 27);
             this.txtRearClearence.TabIndex = 13;
@@ -2169,7 +2169,7 @@
             // txtWallFrontSeparate
             // 
             this.txtWallFrontSeparate.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtWallFrontSeparate.Location = new System.Drawing.Point(125, 99);
+            this.txtWallFrontSeparate.Location = new System.Drawing.Point(124, 99);
             this.txtWallFrontSeparate.Name = "txtWallFrontSeparate";
             this.txtWallFrontSeparate.Size = new System.Drawing.Size(35, 27);
             this.txtWallFrontSeparate.TabIndex = 14;
@@ -2177,7 +2177,7 @@
             // txtWallSideDistance
             // 
             this.txtWallSideDistance.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtWallSideDistance.Location = new System.Drawing.Point(125, 131);
+            this.txtWallSideDistance.Location = new System.Drawing.Point(124, 131);
             this.txtWallSideDistance.Name = "txtWallSideDistance";
             this.txtWallSideDistance.Size = new System.Drawing.Size(35, 27);
             this.txtWallSideDistance.TabIndex = 15;
@@ -2189,7 +2189,7 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(3, 51);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(116, 13);
+            this.label20.Size = new System.Drawing.Size(115, 13);
             this.label20.TabIndex = 16;
             this.label20.Text = "전면부 이격 거리";
             // 
@@ -2200,7 +2200,7 @@
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(3, 83);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(116, 13);
+            this.label21.Size = new System.Drawing.Size(115, 13);
             this.label21.TabIndex = 17;
             this.label21.Text = "후면부 이격 거리";
             // 
@@ -2211,7 +2211,7 @@
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label22.Location = new System.Drawing.Point(3, 115);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(116, 13);
+            this.label22.Size = new System.Drawing.Size(115, 13);
             this.label22.TabIndex = 18;
             this.label22.Text = "벽면(전/후) 이격 거리";
             // 
@@ -2220,9 +2220,9 @@
             this.label23.AutoSize = true;
             this.label23.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(166, 19);
+            this.label23.Location = new System.Drawing.Point(165, 19);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(344, 13);
+            this.label23.Size = new System.Drawing.Size(345, 13);
             this.label23.TabIndex = 19;
             this.label23.Text = "ea";
             // 
@@ -2231,9 +2231,9 @@
             this.label25.AutoSize = true;
             this.label25.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(166, 51);
+            this.label25.Location = new System.Drawing.Point(165, 51);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(344, 13);
+            this.label25.Size = new System.Drawing.Size(345, 13);
             this.label25.TabIndex = 21;
             this.label25.Text = "m";
             // 
@@ -2242,9 +2242,9 @@
             this.label26.AutoSize = true;
             this.label26.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(166, 83);
+            this.label26.Location = new System.Drawing.Point(165, 83);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(344, 13);
+            this.label26.Size = new System.Drawing.Size(345, 13);
             this.label26.TabIndex = 22;
             this.label26.Text = "m";
             // 
@@ -2253,9 +2253,9 @@
             this.label27.AutoSize = true;
             this.label27.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(166, 115);
+            this.label27.Location = new System.Drawing.Point(165, 115);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(344, 13);
+            this.label27.Size = new System.Drawing.Size(345, 13);
             this.label27.TabIndex = 23;
             this.label27.Text = "m";
             // 
@@ -2264,9 +2264,9 @@
             this.label28.AutoSize = true;
             this.label28.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(166, 147);
+            this.label28.Location = new System.Drawing.Point(165, 147);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(344, 13);
+            this.label28.Size = new System.Drawing.Size(345, 13);
             this.label28.TabIndex = 24;
             this.label28.Text = "m";
             // 
@@ -2547,7 +2547,7 @@
             this.tableLayoutPanel16.ColumnCount = 3;
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.76687F));
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.23313F));
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 188F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 189F));
             this.tableLayoutPanel16.Controls.Add(this.label32, 0, 0);
             this.tableLayoutPanel16.Controls.Add(this.btn_Duplicate, 2, 0);
             this.tableLayoutPanel16.Controls.Add(this.chk_Notify, 1, 0);
@@ -2594,7 +2594,7 @@
             this.chk_Notify.Checked = true;
             this.chk_Notify.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chk_Notify.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chk_Notify.Location = new System.Drawing.Point(244, 3);
+            this.chk_Notify.Location = new System.Drawing.Point(243, 3);
             this.chk_Notify.Name = "chk_Notify";
             this.chk_Notify.Size = new System.Drawing.Size(71, 54);
             this.chk_Notify.TabIndex = 14;
@@ -2705,7 +2705,6 @@
             this.button27.TabIndex = 1;
             this.button27.Text = "button27";
             this.button27.UseVisualStyleBackColor = true;
-            this.button27.Visible = false;
             this.button27.Click += new System.EventHandler(this.button27_Click);
             // 
             // button2
@@ -3567,7 +3566,7 @@
             this.cbo_Colorhighlight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cbo_Colorhighlight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_Colorhighlight.FormattingEnabled = true;
-            this.cbo_Colorhighlight.Location = new System.Drawing.Point(397, 4);
+            this.cbo_Colorhighlight.Location = new System.Drawing.Point(397, 6);
             this.cbo_Colorhighlight.Margin = new System.Windows.Forms.Padding(0);
             this.cbo_Colorhighlight.Name = "cbo_Colorhighlight";
             this.cbo_Colorhighlight.Size = new System.Drawing.Size(110, 24);
@@ -3640,7 +3639,7 @@
             this.cbo_MaxLineWeight.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.cbo_MaxLineWeight.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbo_MaxLineWeight.FormattingEnabled = true;
-            this.cbo_MaxLineWeight.Location = new System.Drawing.Point(397, 3);
+            this.cbo_MaxLineWeight.Location = new System.Drawing.Point(397, 4);
             this.cbo_MaxLineWeight.Margin = new System.Windows.Forms.Padding(0);
             this.cbo_MaxLineWeight.Name = "cbo_MaxLineWeight";
             this.cbo_MaxLineWeight.Size = new System.Drawing.Size(110, 24);
@@ -4675,7 +4674,7 @@
             this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.04563F));
             this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.27757F));
             this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.31939F));
-            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 202F));
+            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 203F));
             this.tableLayoutPanel44.Controls.Add(this.button21, 0, 0);
             this.tableLayoutPanel44.Controls.Add(this.button20, 4, 0);
             this.tableLayoutPanel44.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -4712,9 +4711,9 @@
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.button20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button20.Location = new System.Drawing.Point(313, 3);
+            this.button20.Location = new System.Drawing.Point(311, 3);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(197, 25);
+            this.button20.Size = new System.Drawing.Size(199, 25);
             this.button20.TabIndex = 8;
             this.button20.Text = "다음>>";
             this.button20.UseVisualStyleBackColor = true;

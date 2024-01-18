@@ -255,6 +255,12 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Form\PInfoForms\Sys.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form\PInfoForms\Sys.Designer.cs">
+      <DependentUpon>Sys.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form\TestForm\Testform3D.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -470,11 +476,11 @@
     <Compile Include="Form\PInfoForms\SignalList.Designer.cs">
       <DependentUpon>SignalList.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form\PInfoForms\Sys.cs">
+    <Compile Include="Form\PInfoForms\Sys_Old.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form\PInfoForms\Sys.Designer.cs">
-      <DependentUpon>Sys.cs</DependentUpon>
+    <Compile Include="Form\PInfoForms\Sys_Old.Designer.cs">
+      <DependentUpon>Sys_Old.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -516,6 +522,9 @@
     <Compile Include="Hub\XMLBuffer\TB_ID_Exchanger.cs" />
     <Compile Include="Hub\XMLBuffer\TB_Node_Exchanger.cs" />
     <Compile Include="Hub\XMLBuffer\TB_SubRoute_Exchanger.cs" />
+    <EmbeddedResource Include="Form\PInfoForms\Sys.resx">
+      <DependentUpon>Sys.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form\TestForm\Testform3D.resx">
       <DependentUpon>Testform3D.cs</DependentUpon>
     </EmbeddedResource>
@@ -597,8 +606,8 @@
     <EmbeddedResource Include="Form\PInfoForms\SignalList.resx">
       <DependentUpon>SignalList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form\PInfoForms\Sys.resx">
-      <DependentUpon>Sys.cs</DependentUpon>
+    <EmbeddedResource Include="Form\PInfoForms\Sys_Old.resx">
+      <DependentUpon>Sys_Old.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\licenses.licx" />
     <EmbeddedResource Include="Properties\Resources.resx">
