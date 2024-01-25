@@ -114,8 +114,8 @@
             //    }
             //}
             var cbo3 = cf.ListToDataTable(SettingBL.GetSystemList());
-            cbo_System.DisplayMember = "dgv_System";
-            cbo_System.ValueMember = "System";
+            cbo_System.DisplayMember = "Title";
+            cbo_System.ValueMember = "Title";
             cbo_System.DataSource = cbo3;
 
             DataTable type = new DataTable();

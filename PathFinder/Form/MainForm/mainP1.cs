@@ -1427,7 +1427,7 @@ namespace RouteOptimizer
             vdFC1.SetStatusBarOption(vdControls.vdFramedControl.StatusBarOptions.Menu, false);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.StatusBar, false);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.LayoutPopupMenu, false);
-            vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.CommandLine, true);
+            vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.CommandLine, false);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.VericalScroll, false);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.HorizodalScroll, false);
             vdFC1.SetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.PropertyGrid, false);
