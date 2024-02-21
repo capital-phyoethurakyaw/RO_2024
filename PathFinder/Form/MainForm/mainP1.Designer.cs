@@ -223,6 +223,7 @@
             this.panel4 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel37 = new System.Windows.Forms.TableLayoutPanel();
             this.btn_GappedItem = new System.Windows.Forms.Button();
+            this.panel10 = new System.Windows.Forms.Panel();
             this.btConfirm = new System.Windows.Forms.Button();
             this.tableLayoutPanel30 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel28 = new System.Windows.Forms.TableLayoutPanel();
@@ -230,7 +231,6 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel36 = new System.Windows.Forms.TableLayoutPanel();
-            this.label54 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.chk_CheckAll = new System.Windows.Forms.CheckBox();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -473,6 +473,7 @@
             this.tableLayoutPanel16.SuspendLayout();
             this.panel4.SuspendLayout();
             this.tableLayoutPanel37.SuspendLayout();
+            this.panel10.SuspendLayout();
             this.tableLayoutPanel30.SuspendLayout();
             this.tableLayoutPanel28.SuspendLayout();
             this.tableLayoutPanel36.SuspendLayout();
@@ -2090,7 +2091,7 @@
             this.tableLayoutPanel22.ColumnCount = 3;
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 74.5098F));
             this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25.4902F));
-            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 354F));
+            this.tableLayoutPanel22.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 356F));
             this.tableLayoutPanel22.Controls.Add(this.label24, 0, 4);
             this.tableLayoutPanel22.Controls.Add(this.label19, 0, 0);
             this.tableLayoutPanel22.Controls.Add(this.txtPanelbay, 1, 0);
@@ -2127,7 +2128,7 @@
             this.label24.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label24.Location = new System.Drawing.Point(3, 147);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(112, 13);
+            this.label24.Size = new System.Drawing.Size(110, 13);
             this.label24.TabIndex = 20;
             this.label24.Text = "벽면(측면) 이격 거리";
             // 
@@ -2138,14 +2139,14 @@
             this.label19.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label19.Location = new System.Drawing.Point(3, 19);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(112, 13);
+            this.label19.Size = new System.Drawing.Size(110, 13);
             this.label19.TabIndex = 10;
             this.label19.Text = "판넬 열반 개수 (Max)";
             // 
             // txtPanelbay
             // 
             this.txtPanelbay.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtPanelbay.Location = new System.Drawing.Point(121, 3);
+            this.txtPanelbay.Location = new System.Drawing.Point(119, 3);
             this.txtPanelbay.Name = "txtPanelbay";
             this.txtPanelbay.Size = new System.Drawing.Size(34, 27);
             this.txtPanelbay.TabIndex = 11;
@@ -2153,7 +2154,7 @@
             // txtFrontpart
             // 
             this.txtFrontpart.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtFrontpart.Location = new System.Drawing.Point(121, 35);
+            this.txtFrontpart.Location = new System.Drawing.Point(119, 35);
             this.txtFrontpart.Name = "txtFrontpart";
             this.txtFrontpart.Size = new System.Drawing.Size(34, 27);
             this.txtFrontpart.TabIndex = 12;
@@ -2161,7 +2162,7 @@
             // txtRearClearence
             // 
             this.txtRearClearence.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtRearClearence.Location = new System.Drawing.Point(121, 67);
+            this.txtRearClearence.Location = new System.Drawing.Point(119, 67);
             this.txtRearClearence.Name = "txtRearClearence";
             this.txtRearClearence.Size = new System.Drawing.Size(34, 27);
             this.txtRearClearence.TabIndex = 13;
@@ -2169,7 +2170,7 @@
             // txtWallFrontSeparate
             // 
             this.txtWallFrontSeparate.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtWallFrontSeparate.Location = new System.Drawing.Point(121, 99);
+            this.txtWallFrontSeparate.Location = new System.Drawing.Point(119, 99);
             this.txtWallFrontSeparate.Name = "txtWallFrontSeparate";
             this.txtWallFrontSeparate.Size = new System.Drawing.Size(34, 27);
             this.txtWallFrontSeparate.TabIndex = 14;
@@ -2177,7 +2178,7 @@
             // txtWallSideDistance
             // 
             this.txtWallSideDistance.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.txtWallSideDistance.Location = new System.Drawing.Point(121, 131);
+            this.txtWallSideDistance.Location = new System.Drawing.Point(119, 131);
             this.txtWallSideDistance.Name = "txtWallSideDistance";
             this.txtWallSideDistance.Size = new System.Drawing.Size(34, 27);
             this.txtWallSideDistance.TabIndex = 15;
@@ -2189,7 +2190,7 @@
             this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label20.Location = new System.Drawing.Point(3, 51);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(112, 13);
+            this.label20.Size = new System.Drawing.Size(110, 13);
             this.label20.TabIndex = 16;
             this.label20.Text = "전면부 이격 거리";
             // 
@@ -2200,7 +2201,7 @@
             this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label21.Location = new System.Drawing.Point(3, 83);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(112, 13);
+            this.label21.Size = new System.Drawing.Size(110, 13);
             this.label21.TabIndex = 17;
             this.label21.Text = "후면부 이격 거리";
             // 
@@ -2209,9 +2210,9 @@
             this.label22.AutoSize = true;
             this.label22.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label22.Location = new System.Drawing.Point(3, 115);
+            this.label22.Location = new System.Drawing.Point(3, 102);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(112, 13);
+            this.label22.Size = new System.Drawing.Size(110, 26);
             this.label22.TabIndex = 18;
             this.label22.Text = "벽면(전/후) 이격 거리";
             // 
@@ -2220,9 +2221,9 @@
             this.label23.AutoSize = true;
             this.label23.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label23.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label23.Location = new System.Drawing.Point(161, 19);
+            this.label23.Location = new System.Drawing.Point(159, 19);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(349, 13);
+            this.label23.Size = new System.Drawing.Size(351, 13);
             this.label23.TabIndex = 19;
             this.label23.Text = "ea";
             // 
@@ -2231,9 +2232,9 @@
             this.label25.AutoSize = true;
             this.label25.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label25.Location = new System.Drawing.Point(161, 51);
+            this.label25.Location = new System.Drawing.Point(159, 51);
             this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(349, 13);
+            this.label25.Size = new System.Drawing.Size(351, 13);
             this.label25.TabIndex = 21;
             this.label25.Text = "m";
             // 
@@ -2242,9 +2243,9 @@
             this.label26.AutoSize = true;
             this.label26.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label26.Location = new System.Drawing.Point(161, 83);
+            this.label26.Location = new System.Drawing.Point(159, 83);
             this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(349, 13);
+            this.label26.Size = new System.Drawing.Size(351, 13);
             this.label26.TabIndex = 22;
             this.label26.Text = "m";
             // 
@@ -2253,9 +2254,9 @@
             this.label27.AutoSize = true;
             this.label27.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label27.Location = new System.Drawing.Point(161, 115);
+            this.label27.Location = new System.Drawing.Point(159, 115);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(349, 13);
+            this.label27.Size = new System.Drawing.Size(351, 13);
             this.label27.TabIndex = 23;
             this.label27.Text = "m";
             // 
@@ -2264,9 +2265,9 @@
             this.label28.AutoSize = true;
             this.label28.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(161, 147);
+            this.label28.Location = new System.Drawing.Point(159, 147);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(349, 13);
+            this.label28.Size = new System.Drawing.Size(351, 13);
             this.label28.TabIndex = 24;
             this.label28.Text = "m";
             // 
@@ -2547,7 +2548,7 @@
             this.tableLayoutPanel16.ColumnCount = 3;
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 75.76687F));
             this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 24.23313F));
-            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 193F));
+            this.tableLayoutPanel16.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 195F));
             this.tableLayoutPanel16.Controls.Add(this.label32, 0, 0);
             this.tableLayoutPanel16.Controls.Add(this.btn_Duplicate, 2, 0);
             this.tableLayoutPanel16.Controls.Add(this.chk_Notify, 1, 0);
@@ -2594,9 +2595,9 @@
             this.chk_Notify.Checked = true;
             this.chk_Notify.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chk_Notify.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.chk_Notify.Location = new System.Drawing.Point(240, 3);
+            this.chk_Notify.Location = new System.Drawing.Point(239, 3);
             this.chk_Notify.Name = "chk_Notify";
-            this.chk_Notify.Size = new System.Drawing.Size(70, 54);
+            this.chk_Notify.Size = new System.Drawing.Size(69, 54);
             this.chk_Notify.TabIndex = 14;
             this.chk_Notify.Text = "계측기기\r\n중복알림";
             this.chk_Notify.UseVisualStyleBackColor = true;
@@ -2612,46 +2613,57 @@
             // 
             // tableLayoutPanel37
             // 
-            this.tableLayoutPanel37.ColumnCount = 2;
-            this.tableLayoutPanel37.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.34615F));
-            this.tableLayoutPanel37.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.65385F));
-            this.tableLayoutPanel37.Controls.Add(this.btn_GappedItem, 1, 0);
-            this.tableLayoutPanel37.Controls.Add(this.btConfirm, 0, 0);
+            this.tableLayoutPanel37.ColumnCount = 3;
+            this.tableLayoutPanel37.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 69.86028F));
+            this.tableLayoutPanel37.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 30.13972F));
+            this.tableLayoutPanel37.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
+            this.tableLayoutPanel37.Controls.Add(this.btn_GappedItem, 2, 0);
+            this.tableLayoutPanel37.Controls.Add(this.panel10, 0, 0);
+            this.tableLayoutPanel37.Dock = System.Windows.Forms.DockStyle.Right;
             this.tableLayoutPanel37.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel37.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel37.Name = "tableLayoutPanel37";
             this.tableLayoutPanel37.RowCount = 1;
             this.tableLayoutPanel37.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel37.Size = new System.Drawing.Size(501, 30);
+            this.tableLayoutPanel37.Size = new System.Drawing.Size(501, 29);
             this.tableLayoutPanel37.TabIndex = 0;
             // 
             // btn_GappedItem
             // 
-            this.btn_GappedItem.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_GappedItem.BackColor = System.Drawing.Color.Cornsilk;
+            this.btn_GappedItem.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btn_GappedItem.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btn_GappedItem.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_GappedItem.Font = new System.Drawing.Font("Yu Gothic", 8F);
-            this.btn_GappedItem.Location = new System.Drawing.Point(382, 4);
+            this.btn_GappedItem.Location = new System.Drawing.Point(388, 0);
             this.btn_GappedItem.Margin = new System.Windows.Forms.Padding(0);
             this.btn_GappedItem.Name = "btn_GappedItem";
-            this.btn_GappedItem.Size = new System.Drawing.Size(119, 22);
+            this.btn_GappedItem.Size = new System.Drawing.Size(113, 29);
             this.btn_GappedItem.TabIndex = 9;
             this.btn_GappedItem.Text = "QLIDAR 체크하기";
             this.btn_GappedItem.UseVisualStyleBackColor = false;
             this.btn_GappedItem.Click += new System.EventHandler(this.btn_GappedItem_Click);
             // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.btConfirm);
+            this.panel10.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panel10.Location = new System.Drawing.Point(3, 3);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(265, 23);
+            this.panel10.TabIndex = 0;
+            // 
             // btConfirm
             // 
-            this.btConfirm.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.btConfirm.Dock = System.Windows.Forms.DockStyle.Fill;
             this.btConfirm.FlatAppearance.BorderColor = System.Drawing.Color.Silver;
             this.btConfirm.FlatAppearance.CheckedBackColor = System.Drawing.Color.SeaShell;
             this.btConfirm.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btConfirm.Font = new System.Drawing.Font("Yu Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btConfirm.Location = new System.Drawing.Point(4, 4);
+            this.btConfirm.Location = new System.Drawing.Point(0, 0);
             this.btConfirm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.btConfirm.Name = "btConfirm";
-            this.btConfirm.Size = new System.Drawing.Size(374, 21);
+            this.btConfirm.Size = new System.Drawing.Size(265, 23);
             this.btConfirm.TabIndex = 10;
             this.btConfirm.Text = "레이어 내 계측기기 확인하기";
             this.btConfirm.UseVisualStyleBackColor = true;
@@ -2745,9 +2757,9 @@
             this.tableLayoutPanel36.ColumnCount = 2;
             this.tableLayoutPanel36.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 66.66666F));
             this.tableLayoutPanel36.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 33.33333F));
-            this.tableLayoutPanel36.Controls.Add(this.label54, 0, 0);
             this.tableLayoutPanel36.Controls.Add(this.panel2, 1, 1);
             this.tableLayoutPanel36.Controls.Add(this.panel6, 0, 1);
+            this.tableLayoutPanel36.Dock = System.Windows.Forms.DockStyle.Fill;
             this.tableLayoutPanel36.Location = new System.Drawing.Point(0, 0);
             this.tableLayoutPanel36.Margin = new System.Windows.Forms.Padding(0);
             this.tableLayoutPanel36.Name = "tableLayoutPanel36";
@@ -2756,19 +2768,6 @@
             this.tableLayoutPanel36.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 75F));
             this.tableLayoutPanel36.Size = new System.Drawing.Size(507, 44);
             this.tableLayoutPanel36.TabIndex = 12;
-            // 
-            // label54
-            // 
-            this.label54.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.Location = new System.Drawing.Point(15, 0);
-            this.label54.Margin = new System.Windows.Forms.Padding(15, 0, 3, 0);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(189, 11);
-            this.label54.TabIndex = 14;
-            this.label54.Text = "아래 계측기기로 분석을 진행합니다.";
-            this.label54.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // panel2
             // 
@@ -4675,7 +4674,7 @@
             this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 26.04563F));
             this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 29.27757F));
             this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 32.31939F));
-            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 210F));
+            this.tableLayoutPanel44.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 215F));
             this.tableLayoutPanel44.Controls.Add(this.button21, 0, 0);
             this.tableLayoutPanel44.Controls.Add(this.button20, 4, 0);
             this.tableLayoutPanel44.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -4697,7 +4696,7 @@
             this.button21.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.button21.Location = new System.Drawing.Point(3, 3);
             this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(31, 25);
+            this.button21.Size = new System.Drawing.Size(30, 25);
             this.button21.TabIndex = 6;
             this.button21.Text = "<<이전";
             this.button21.UseVisualStyleBackColor = true;
@@ -4712,9 +4711,9 @@
             this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button20.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.button20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button20.Location = new System.Drawing.Point(303, 3);
+            this.button20.Location = new System.Drawing.Point(299, 3);
             this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(207, 25);
+            this.button20.Size = new System.Drawing.Size(211, 25);
             this.button20.TabIndex = 8;
             this.button20.Text = "다음>>";
             this.button20.UseVisualStyleBackColor = true;
@@ -5511,11 +5510,11 @@
             this.tableLayoutPanel16.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.tableLayoutPanel37.ResumeLayout(false);
+            this.panel10.ResumeLayout(false);
             this.tableLayoutPanel30.ResumeLayout(false);
             this.tableLayoutPanel30.PerformLayout();
             this.tableLayoutPanel28.ResumeLayout(false);
             this.tableLayoutPanel36.ResumeLayout(false);
-            this.tableLayoutPanel36.PerformLayout();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel6.ResumeLayout(false);
@@ -5872,7 +5871,6 @@
         private System.Windows.Forms.Label label35;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel30;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel36;
-        private System.Windows.Forms.Label label54;
         private System.Windows.Forms.TableLayoutPanel tableLayoutPanel28;
         private System.Windows.Forms.Button btn333;
         private System.Windows.Forms.Label label34;
@@ -5980,5 +5978,6 @@
         private System.Windows.Forms.Button button25;
         private System.Windows.Forms.Button button26;
         private System.Windows.Forms.Button button27;
+        private System.Windows.Forms.Panel panel10;
     }
 }

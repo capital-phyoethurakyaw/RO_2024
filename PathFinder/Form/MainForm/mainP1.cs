@@ -7291,7 +7291,7 @@ namespace RouteOptimizer
                 }
                 return;
             }
-            if (e.Control && e.Alt && e.KeyCode == Keys.R)
+            if (e.Control && e.Alt && e.KeyCode == Keys.V)
             {
                 string Msg = "Are you sure to remove all URL Setters?";
                 var resul = MessageBox.Show(Msg, "", MessageBoxButtons.YesNo);
