@@ -30,11 +30,10 @@ using Aspose.Zip;
 using ICSharpCode.SharpZipLib.Zip;
 using System.Threading;
 using System.Drawing.Printing;
-using RouteOptimizer.Analysis1;//using RouteOptimizer.Analysis;
+using RouteOptimizer.Analysis1; 
 using System.Reflection;
 using VectorDraw.Render;
-using System.Runtime.InteropServices;
-//using DocumentFormat.OpenXml.Presentation;
+using System.Runtime.InteropServices; 
 
 namespace RouteOptimizer
 {
@@ -91,6 +90,12 @@ namespace RouteOptimizer
             txtYTolerence.Text = "1";
             CheckForIllegalCrossThreadCalls = false;
         }
+        /// <summary>
+        /// Button Action Click
+        /// To add new instrument with param value T1, T2
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button4_Click(object sender, EventArgs e)
         {
             if (routeInfo == null)
@@ -121,9 +126,14 @@ namespace RouteOptimizer
             }
             routeInfo.CURRENT_MODE = RouteInfo.eACTION_MODE.INSTRUMENT;
             SetCustomLayer(cboInst.Text);
-            AddInsertObjects();
-            //  AddBlockInstrument();
+            AddInsertObjects(); 
         }
+        /// <summary>
+        /// Button Action Click
+        /// Open the build-in popup up form to get insertblock
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void OpenBlocksForm(string blkName = null)
         {
 
@@ -174,6 +184,12 @@ namespace RouteOptimizer
         gPoint LeaderEndPoint = null;
         vdLeader LeaderLine = null;
         vdInsert LeaderInsert = null;
+        /// <summary>
+        /// Button Action Click
+        /// To add new param values T1, T2 from user input
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void AddInsertObjects(InstrumentParams instrumentParams = null)
         {
             var Ut1 = txtT1Name.Text; //instrumentParams.T1;
@@ -221,7 +237,12 @@ namespace RouteOptimizer
             else
                 MessageBox.Show("블록을 찾을 수 없습니다.");
         }
-
+        /// <summary>
+        /// Button Action Click
+        /// Set attribute's value Key, Value
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void SetValue(vdAttribDef vdAttribDef, string Key, string value)
         {
             if (vdAttribDef.TextString == Key)
@@ -233,6 +254,11 @@ namespace RouteOptimizer
         {
             Import("");
         }
+        /// <summary> 
+        /// Import input file such as DWG, Zip files
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void Import(string pth)
         {
 
@@ -242,7 +268,7 @@ namespace RouteOptimizer
             string s1 = "";
             SystemBind_Layer(ref s1);
             TypeBind_Layer(ref s1);
-            AnalysisBind();
+            //AnalysisBind();
             if (!ReadXML())
             {
                 MessageBox.Show("파일을 불러오는 데에 오류가 발생했습니다. (오류 내용 - xml deserializing)");
@@ -259,6 +285,12 @@ namespace RouteOptimizer
             BindDecimalplace();
             inputType = 0;
         }
+        /// <summary> 
+        /// Cut decimal place from the UI table
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private void BindDecimalplace()
         {
 
@@ -269,6 +301,12 @@ namespace RouteOptimizer
             PutDecimal(dgv_2, new List<string> { "colTotalLength2" });
             PutDecimal(dgv_3, new List<string> { "colTotalLength3" });
         }
+        /// <summary> 
+        /// Import file input whether it is legal or notz
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>true</returns>
+        /// 
         private bool ImportDialog(string pth)
         {
 
@@ -292,10 +330,14 @@ namespace RouteOptimizer
                 if (!success)
                     return false;
             }
-            return true;
-            //var f= new vdControls.vdFramedControl();//  vdFramedControl = new vdFramedControl;
-            // f.BaseControl
+            return true; 
         }
+        /// <summary> 
+        /// Read input XML by serializing and deserilizing
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private bool ReadXML()
         {
             try
@@ -346,26 +388,27 @@ namespace RouteOptimizer
             }
             catch (Exception ex)
             {
-                DebugLog.WriteLog(ex);
-                //   var msg = MessageBox.Show(ex.Message + Environment.NewLine + ex.StackTrace);
+                DebugLog.WriteLog(ex); 
             }
             return false;
         }
         string lbl_ImportedLayer = "";
+        /// <summary> 
+        /// Check Filter for check box whether it checked or not
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private void BindAlternativeGrid()
         {
-            CheckFilter();
-            //try
-            //{
-            //   // var CaseRoute = routeInfo.CaseRoutes;
-
-            //    chk_relation_CheckedChanged(null, null);
-            //}
-            //catch(Exception ex)
-            //{
-
-            //}
+            CheckFilter(); 
         }
+        /// <summary> 
+        /// Set initial input value to main UI 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private void BindBasicInfo()
         {
             var bi = routeInfo.BasicInfo;
@@ -380,6 +423,11 @@ namespace RouteOptimizer
             txtWallFrontSeparate.Text = bi.WallFront;
             txtWallSideDistance.Text = bi.SideFront;
         }
+        /// <summary> 
+        /// Bind all layer to UI including from RouteInfo class 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void BindLayer()
         {
             foreach (var l in routeInfo.LstLayer)
@@ -403,11 +451,11 @@ namespace RouteOptimizer
             cbo_layer_Setting.SelectedIndex = routeInfo.SelectedDestination;
             SegmentaionSetting(true);
         }
-        private void BaseControl_ActionStart(object sender, string actionName, ref bool cancel)
-        {
-
-        }
-
+        /// <summary> 
+        /// Start action after file was imported
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private bool SettingAfterImported()
         {
             bool IsBoundaryOk = true;
@@ -536,7 +584,11 @@ namespace RouteOptimizer
                 return false;
             return true;
         }
-
+        /// <summary> 
+        /// Switch UI state Save and Saveas 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void SaveButtonState()
         {
             if (string.IsNullOrEmpty(vdFC1.BaseControl.ActiveDocument.FileName))
@@ -550,6 +602,11 @@ namespace RouteOptimizer
                 saveAsToolStripMenuItem.Enabled = true;
             }
         }
+        /// <summary> 
+        /// Bind Combo data Destination, Type, System 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BindInsCombo()
         {
             int r1 = 0;
@@ -576,13 +633,22 @@ namespace RouteOptimizer
             //    //((DataGridViewComboBoxColumn)dgv_SegAnalysis.Columns["A_UserDefinedSize"]).DataSource = type;
             //}
         }
+        /// <summary>  
+        /// Decompose block insert
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void ExplodeBlock()
         {
             SettingSource();
             RefreshUpdate();
             DrawPolyline();
         }
-
+        /// <summary>  
+        /// Create table data
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private DataTable SettingTable()
         {
             DataTable dt = new DataTable();
@@ -596,6 +662,11 @@ namespace RouteOptimizer
             return dt;
         }
         DataTable dtEntities;
+        /// <summary>  
+        /// Get All Control from VDF file
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         public IEnumerable<Control> GetAllControls(Control root)
         {
             foreach (Control control in root.Controls)
@@ -607,6 +678,11 @@ namespace RouteOptimizer
             }
             yield return root;
         }
+        /// <summary>  
+        /// Initialize all ui data 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void Initialize()
         {
             ListComboAllDestination = new List<string>();
@@ -660,6 +736,11 @@ namespace RouteOptimizer
             btnExport.Enabled = false;
             rdo_withroute.Checked = true;
         }
+        /// <summary>  
+        /// Clear whole grid rows 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void ClearGridView(DataGridView dgv)
         {
             List<DataGridViewRow> dgr = new List<DataGridViewRow>();
@@ -673,6 +754,11 @@ namespace RouteOptimizer
             }
             dgv.Refresh();
         }
+        /// <summary>  
+        /// Refresh nd Redraw CAD UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void RefreshUpdate()
         {
             var prim = vdFC1.BaseControl.ActiveDocument.Blocks.GetNotDeletedItems();
@@ -687,6 +773,11 @@ namespace RouteOptimizer
             vdFC1.BaseControl.ActiveDocument.Redraw(true);
 
         }
+        /// <summary>  
+        /// Decompose or break if coming data is blockObject
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void SettingSource()
         {
             dtEntities = new DataTable();
@@ -733,6 +824,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>  
+        /// Check line object or others
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private bool CheckAllOnlyLines(vdEntities ve)
         {
             foreach (var lines in ve)
@@ -742,6 +838,11 @@ namespace RouteOptimizer
             }
             return true;
         }
+        /// <summary>  
+        /// Draw polyline with 4 edges
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void DrawPolyline()
         {
             int completeOnepolygon = 0;
@@ -771,7 +872,11 @@ namespace RouteOptimizer
         }
         protected static bool IsRoute = false;
         protected static bool IsRelocate = false;
-
+        /// <summary>  
+        /// Insert Text in CAD UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void TextInsert(double x, double y, string txt, out int id, bool isSegment = false, vdColor vdColor = null)
         {
             VectorDraw.Professional.vdFigures.vdText text = new VectorDraw.Professional.vdFigures.vdText();
@@ -796,7 +901,11 @@ namespace RouteOptimizer
             vdFC1.BaseControl.ActiveDocument.ActiveLayOut.Entities.AddItem(text);
             vdFC1.BaseControl.ActiveDocument.Redraw(true);
         }
-
+        /// <summary>  
+        /// Check vertex point exist in or not
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>bool</returns> 
         public static bool contains(Vertexes _pts, gPoint pt)
         {
             bool isIn = false;
@@ -820,7 +929,11 @@ namespace RouteOptimizer
             }
             return isIn;
         }
-
+        /// <summary>  
+        /// Bind Destination and Update ListBox and Table information
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void AddLayer(Control ctl, DataGridView dgv)
         {
             int ii = 0;
@@ -859,6 +972,11 @@ namespace RouteOptimizer
             instListbox.Update();
 
         }
+        /// <summary>  
+        /// Add Layer to Instrument table
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         public void addLyr_Click(object sender, EventArgs e)
         {
 
@@ -868,14 +986,15 @@ namespace RouteOptimizer
                 instListbox.Rows[0].Selected = true;
 
         }
-
+        /// <summary>  
+        /// Remove Instrument from UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void removeLyr_Click_1(object sender, EventArgs e)
         {
             if (instListbox.Rows.Count == 0)
-                return;
-            //if (instListbox.CurrentCell == null)
-            //    instListbox.Rows[0].Selected = true;
-
+                return; 
             var index = instListbox.SelectedCells[0].RowIndex;
             var lst = instListbox.Rows[index];
 
@@ -890,14 +1009,23 @@ namespace RouteOptimizer
             if (instListbox.Rows.Count > 0)
                 instListbox.Rows[0].Selected = true;
         }
-
+        /// <summary>  
+        /// Add Obs Layer to UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void addObsLyr_Click(object sender, EventArgs e)
         {
             AddLayer(ObstListbox, obstLyrDGV);
             if (instListbox.Rows.Count > 0)
                 instListbox.Rows[0].Selected = true;
         }
-
+        /// <summary>  
+        /// ButtonAction
+        /// Remove Obs Layer from UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         private void removeObsLyr_Click_1(object sender, EventArgs e)
         {
             var lst = ObstListbox.SelectedItem;
@@ -914,17 +1042,22 @@ namespace RouteOptimizer
         }
 
         public static DataTable dtOptimalResult;
-
-        private gPoint Gp(string pts)
-        {
-            return new gPoint(Convert.ToDouble(pts.Split(',')[0].ToString()), Convert.ToDouble(pts.Split(',')[1].ToString()), Convert.ToDouble(pts.Split(',')[2].ToString()));
-        }
-
+         
+        /// <summary>  
+        /// generate datetime stamp
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>dateformat</returns> 
         private string GetFileName(string fileName = "")
         {
             return fileName + DateTime.Now.ToString("yyyyMMddHHmmss").Replace(" ", "").Replace(":", "").Replace("-", "").Replace("/", "");
         }
-
+        /// <summary>  
+        /// Button action
+        /// Bind Instrument informations to UI table
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>guid</returns> 
         private void btConfirm_Click(object sender, EventArgs e)
         {
             if (routeInfo == null) return;
@@ -939,8 +1072,7 @@ namespace RouteOptimizer
             }
             IsInstrumentBox = false;
             if (instListbox.Rows.Count > 0)
-            {
-                // routeInfo.LstLayer = routeInfo.GetAllLayer(vdFramedControl, routeInfo, instListbox, ObstListbox);
+            { 
                 routeInfo.LstLayer = new List<Layer>();
                 foreach (DataGridViewRow dr in instListbox.Rows)
                 {
@@ -991,6 +1123,11 @@ namespace RouteOptimizer
             //  SetInsCable();
         }
         bool isTriggerConfirmedClick = false;
+        /// <summary>  
+        /// Bind destination information "colTO", "Cable1"
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>guid</returns> 
         public void DestinationBind(ref int r1)
         {
             if (routeInfo == null) return;
@@ -1004,17 +1141,12 @@ namespace RouteOptimizer
                 foreach (var t in routeInfo.LstTBBOXes)
                     //if (t.IsIO != eDestinationType.MCC) 
                     type.Rows.Add(t.Name, t.guid);
-
-                //Ins
+                 
                 DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instDGV.Columns["colTo"];
                 col.DisplayMember = "GUID";
                 col.ValueMember = col.DataPropertyName = "To";
                 ((DataGridViewComboBoxColumn)instDGV.Columns["colTo"]).DataSource = type;
-
-                //cbo_tbboxes_alternative.DisplayMember = "GUID";
-                //cbo_tbboxes_alternative.ValueMember = col.DataPropertyName = "To";
-                //cbo_tbboxes_alternative.DataSource = type;
-
+                 
                 DataTable type1 = new DataTable();
                 type1.Columns.Add("GUID");
                 type1.Columns.Add("To");
@@ -1034,6 +1166,11 @@ namespace RouteOptimizer
             instDGV.Update();
             instListbox.Update();
         }
+        /// <summary>  
+        /// Bind Type information to instrument table column "colType"
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         public void TypeBind(ref string t1)
         {
             DataTable type = new DataTable();
@@ -1049,6 +1186,11 @@ namespace RouteOptimizer
 
             }
         }
+        /// <summary>  
+        /// Bind Type information to instrument table column "dgv_Type_Ins"
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         public void TypeBind_Layer(ref string t1)
         {
             DataTable type = new DataTable();
@@ -1064,6 +1206,11 @@ namespace RouteOptimizer
                 ((DataGridViewComboBoxColumn)instListbox.Columns["dgv_Type_Ins"]).DataSource = type;
             }
         }
+        /// <summary>  
+        /// Bind InstrumentListinformation to instrument column "dgv_System"
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         public void SystemBind_Layer(ref string s1)
         {
             DataTable system = new DataTable();
@@ -1077,25 +1224,13 @@ namespace RouteOptimizer
                 DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"];
                 col.ValueMember = col.DisplayMember = col.DataPropertyName = "dgv_System";
                 ((DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"]).DataSource = system;
-            }
-            //DataTable system = new DataTable();
-            //system.Columns.Add("System");
-            //system.Columns.Add("dgv_System");
-            //BL.SettingBL sbl = new BL.SettingBL();
-            //if (sbl.GetSystemList().Count > 0)
-            //{
-            //    s1 = sbl.GetSystemList()[0].Title; 
-            //    foreach (var t in sbl.GetSystemList())
-            //    {
-            //        system.Rows.Add(t.Id, t.Title); 
-            //    }
-            //    DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"];
-            //    col.ValueMember = col.DataPropertyName = "System";
-            //    col.DisplayMember = "dgv_System";
-
-            //    ((DataGridViewComboBoxColumn)instListbox.Columns["dgv_System"]).DataSource = system;
-            //}
+            } 
         }
+        /// <summary>  
+        /// Bind systeminformation to instrument column ColSystem
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns> 
         public void SystemBind(ref string s1)
         {
             DataTable system = new DataTable();
@@ -1108,26 +1243,16 @@ namespace RouteOptimizer
                 DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instDGV.Columns["colSystem"];
                 col.ValueMember = col.DisplayMember = col.DataPropertyName = "System";
                 ((DataGridViewComboBoxColumn)instDGV.Columns["colSystem"]).DataSource = system;
-            }
-            //DataTable system = new DataTable();
-            //system.Columns.Add("System");
-            //system.Columns.Add("colSystem");
-            //BL.SettingBL sbl = new BL.SettingBL();
-            //if (sbl.GetSystemList().Count > 0)
-            //{
-            //    s1 = sbl.GetSystemList()[0].Title; 
-            //    foreach (var t in sbl.GetSystemList())
-            //    {
-            //        system.Rows.Add(t.Id, t.Title);
-            //    }
-            //    DataGridViewComboBoxColumn col = (DataGridViewComboBoxColumn)instDGV.Columns["colSystem"]; 
-            //    col.ValueMember = col.DataPropertyName = "System";
-            //    col.DisplayMember = "colSystem";
-
-            //    ((DataGridViewComboBoxColumn)instDGV.Columns["colSystem"]).DataSource = system;
-            //}
+            } 
         }
         List<string> ListComboAllDestination = new List<string>();
+        /// <summary> 
+        /// Button action
+        /// Draw polyline with connecting lines to UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private bool DrawPolyObs()
         {
             IsManualDrawn = true;
@@ -1170,6 +1295,13 @@ namespace RouteOptimizer
             IsManualDrawn = false;
             return true;
         }
+        /// <summary> 
+        /// Button action
+        /// Add polyline to UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private void DrawRecObs()
         {
             IsManualDrawn = true;
@@ -1196,25 +1328,23 @@ namespace RouteOptimizer
 
                 gPoint userpoint2 = userPoint.Polar(0.0, width);
 
-                userpoint2 = userpoint2.Polar(VectorDraw.Geometry.Globals.HALF_PI, height);
-                // this.status = STATUS_IOROOM;
-                //vdFC1.BaseControl.ActiveDocument.CommandAction.CmdRect(userPoint, userpoint2);
-
+                userpoint2 = userpoint2.Polar(VectorDraw.Geometry.Globals.HALF_PI, height); 
                 gPoints gp = new gPoints();
                 gp.Add(userPoint);
                 gp.Add(userpoint2);
                 gp = gp.GetBox().GetPoints();
                 gp.Add(gp.GetBox().GetPoints()[0]);
-                vdFC1.BaseControl.ActiveDocument.CommandAction.CmdPolyLine(gp);
-                //if (vdFC1.BaseControl.ActiveDocument.CommandAction.CmdPolyLine(gp) && !string.IsNullOrEmpty(TBName))
-                //{
-                //    var midPt = gp.GetBox().MidPoint;
-                //    if (TBName != "")
-                //        TextInsert(midPt.x, midPt.y, TBName, false, routeInfo.MainDestination.polyline.Layer.PenColor);
-                //}
+                vdFC1.BaseControl.ActiveDocument.CommandAction.CmdPolyLine(gp); 
             }
             IsManualDrawn = false;
         }
+        /// <summary> 
+        /// Button action
+        /// Add obstacle objects to UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private void button5_Click(object sender, EventArgs e)
         {
             vdFC1.BaseControl.ActiveDocument.OrthoMode = true;
@@ -1242,13 +1372,15 @@ namespace RouteOptimizer
                 }
             }
             if (cbo_polyTypes.Text == "Rect")
-                DrawRecObs();
-            //if (cbo_polyTypes.Text == "Circle")
-            //    DrawCircleObs();
-
-            // routeInfo.DoCheckOverlapping(vdFC1);
+                DrawRecObs(); 
         }
-
+        /// <summary> 
+        /// Button action
+        /// Draw destination rectangle to UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private void button6_Click(object sender, EventArgs e)
         {
 
@@ -1276,6 +1408,13 @@ namespace RouteOptimizer
             }
 
         }
+        /// <summary> 
+        /// Button action
+        /// Write CSV record
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private void button3_Click(object sender, EventArgs e)
         {
             if (routeInfo == null || routeInfo.DGV_LstInstrument == null || routeInfo.DGV_LstInstrument.Count == 0)
@@ -1351,6 +1490,13 @@ namespace RouteOptimizer
         {
 
         }
+        /// <summary> 
+        /// Button action
+        /// Add line rectangle to UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
+        /// 
         private void button7_Click(object sender, EventArgs e)
         {
 
@@ -1401,6 +1547,12 @@ namespace RouteOptimizer
 
             }
         }
+        /// <summary>  
+        /// Form Load action
+        /// Add Event Handlers
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void MainP1_Load(object sender, EventArgs e)
         {
             this.KeyPreview = true;
@@ -1410,14 +1562,10 @@ namespace RouteOptimizer
             dgv_SegAnalysis.AutoGenerateColumns = false;
             dgv_1.AutoGenerateColumns = false;
             dgv_2.AutoGenerateColumns = false;
-            dgv_3.AutoGenerateColumns = false;
-
-            //lblInsertName.Text = "TAG No.";
+            dgv_3.AutoGenerateColumns = false; 
             vdFC1.BaseControl.GripSelectionModified += BaseControl_GripSelectionModified;
             vdFC1.BaseControl.AfterOpenDocument += BaseControl_AfterOpenDocument;
-            vdFC1.BaseControl.EraseObject += BaseControl_EraseObject;
-            vdFC1.BaseControl.ActionStart += BaseControl_ActionStart;
-            //vdFC1.BaseControl.DrawAfter += BaseControl_DrawAfter;
+            vdFC1.BaseControl.EraseObject += BaseControl_EraseObject; 
             vdFC1.BaseControl.ActiveDocument.OnCommandExecute += ActiveDocument_OnCommandExecute1;
             vdFC1.BaseControl.vdKeyUp += BaseControl_vdKeyUp;
             vdFC1.BaseControl.ActiveDocument.ActionStart += ActiveDocument_ActionStart1;
@@ -1444,6 +1592,12 @@ namespace RouteOptimizer
             progressBar1.Visible = false;
 
         }
+        /// <summary>  
+        /// Bring UI to Front
+        /// Add Event Handlers
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BaseControl_MouseDown(object sender, MouseEventArgs e)
         {
             if (di != null)
@@ -1451,7 +1605,11 @@ namespace RouteOptimizer
                 di.BringToFront();
             }
         }
-
+        /// <summary>   
+        /// Bind Frequency count for Looping times
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BindFrequency()
         {
             DataTable dtFre = new DataTable();
@@ -1498,6 +1656,11 @@ namespace RouteOptimizer
             cbo_MaxLineWeight.SelectedIndex = 2;
 
         }
+        /// <summary>   
+        /// Adjust Column sizes of GridView 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void AdjustColumnSize(DataGridView[] dgv)
         {
             foreach (var g in dgv)
@@ -1508,6 +1671,11 @@ namespace RouteOptimizer
                 g.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             }
         }
+        /// <summary>   
+        /// Make directory by powershell script 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         public void MakeDirectory(string dir)
         {
             try
@@ -1539,6 +1707,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>   
+        /// Add KeyUp Handler
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BaseControl_vdKeyUp(KeyEventArgs e, ref bool cancel)
         {
             if (routeInfo == null) return;
@@ -1558,7 +1731,11 @@ namespace RouteOptimizer
                 vdFC1.BaseControl.ActiveDocument.Prompt(null);
             }
         }
-
+        /// <summary>   
+        /// ActionEnd Handler
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ActiveDocument_ActionEnd(object sender, string actionName)
         {
             if (actionName == "BaseAction_ActionGetRectFromPointSelectDCS")
@@ -1566,6 +1743,11 @@ namespace RouteOptimizer
                 return;
             }
         }
+        /// <summary>   
+        /// ActionStart Handler
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ActiveDocument_ActionStart1(object sender, string actionName, ref bool cancel)
         {
             if (actionName == "BaseAction_ActionGetRectFromPointSelectDCS")
@@ -1579,6 +1761,11 @@ namespace RouteOptimizer
 
         }
         List<int> LstSelectedID = new List<int>();
+        /// <summary>   
+        /// Add Objects deleted from base Control 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BaseControl_EraseObject(object sender, ref bool cancel)
         {
             if (sender is vdInsert)
@@ -1591,13 +1778,16 @@ namespace RouteOptimizer
                     LstSelectedID.Add((vf).Id);
             }
 
-        }
-
+        } 
         private void BaseControl_AfterOpenDocument(object sender)
         {
 
         }
-
+        /// <summary>   
+        /// Make Grid selection and deselection operation
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BaseControl_GripSelectionModified(object sender, vdLayout layout, vdSelection gripSelection)
         {
             if (routeInfo is null) return;
@@ -1706,6 +1896,11 @@ namespace RouteOptimizer
             vdFC1.BaseControl.Redraw();
         }
         bool IsMainRouteIntersect = false;
+        /// <summary>   
+        /// AfterAdded Item to base Concontrol EventHandler
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BaseControl_AfterAddItem(object obj)
         {
             if (routeInfo == null) return;
@@ -2039,7 +2234,7 @@ namespace RouteOptimizer
         }
         bool IsDeleted = false;
         List<vdPolyline> lstPolyIDTemp = new List<vdPolyline>();
-        private vdFigure vdFigureTemp = null;
+        private vdFigure vdFigureTemp = null; 
         private void BaseControl_AddItem(object obj, ref bool Cancel)
         {
             if (!IsManualDrawn)
@@ -2174,6 +2369,11 @@ namespace RouteOptimizer
             ////}
 
         }
+        /// <summary>   
+        /// Detect Boundary from Imported CAD 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private vdPolyline GetMainBoundary()
         {
 
@@ -2192,7 +2392,11 @@ namespace RouteOptimizer
             }
             return null;
         }
-
+        /// <summary>   
+        /// Set Custom Layer
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void SetCustomLayer(string LayerName)
         {
             vdLayer layer = this.vdFC1.BaseControl.ActiveDocument.Layers.FindName(LayerName);
@@ -2202,13 +2406,22 @@ namespace RouteOptimizer
             }
             catch { }
         }
-        //
+        /// <summary>   
+        /// Get All Layer 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private List<Layer> GetAllLayer()
         {
             return routeInfo.GetAllLayer(vdFC1, routeInfo, instListbox, ObstListbox);
         }
         string TBName = "";
         bool IsManualDrawn = false;
+        /// <summary>   
+        /// Draw destination
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void DrawDestination()
         {
             LstSelectedID = new List<int>();
@@ -2273,6 +2486,11 @@ namespace RouteOptimizer
             routeInfo.SyncronyzeRelatedUI(LstSelectedID, vdFC1);  // Prepare TBBox Info 
             IsManualDrawn = false;
         }
+        /// <summary>   
+        /// Draw Destinatino manually 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void DrawDestination_Manual()
         {
             LstSelectedID = new List<int>();
@@ -2353,6 +2571,11 @@ namespace RouteOptimizer
         }
         private int TBName_Id = 0;
         System.Windows.Forms.Form di = null;
+        /// <summary>   
+        /// Check Duplicate items 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private bool AnalyzeSetting()
         {
             try
@@ -2388,7 +2611,11 @@ namespace RouteOptimizer
             }
             return true;
         }
-
+        /// <summary>   
+        /// Make Grid with Adjency matrix
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         public void makeGrid(out Tuple<int, int> tuple, bool IsAlternative = false)
         {
             tuple = null;
@@ -2614,13 +2841,23 @@ namespace RouteOptimizer
                 MessageBox.Show(ex.Message + Environment.NewLine + "Error at Grid Algorithm. " + Environment.NewLine + "Close and Try with Relocate action.");
             }
         }
-
+        /// <summary>   
+        /// Open Layer Dialog
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void OpenLayersDialog()
         {
             VectorDraw.Professional.Dialogs.LayersDialog.Show
            (vdFC1.BaseControl.ActiveDocument);
 
         }
+        /// <summary> 
+        /// Button Action
+        /// Open Layer 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnLayer_Click(object sender, EventArgs e)
         {
             OpenLayersDialog();
@@ -2631,7 +2868,12 @@ namespace RouteOptimizer
 
         }
 
-
+        /// <summary>   
+        /// Button Action
+        /// Delete Check Item and Update
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button1_Click(object sender, EventArgs e)
         {
             IsCellEditing = true;
@@ -2658,19 +2900,14 @@ namespace RouteOptimizer
                 instDGV.Rows.Remove(dr);
             }
             instDGV.Update();
-            BindGrid(true);
-            //IsCellEditing = true;
-            //if (routeInfo == null || routeInfo.DGV_LstInstrument == null || routeInfo.DGV_LstInstrument.Count == 0) return;
-            //UpdateCurrentState();
-            //if (instDGV.SelectedCells.Count == 0)
-            //    return;
-            //var index = instDGV.SelectedCells[0].RowIndex;
-            //var guid = Convert.ToInt32(instDGV.Rows[index].Cells["GUID"].Value);
-            //routeInfo.DGV_LstInstrument.Remove(routeInfo.FindDGV_Instrument(guid));
-            //SetInsCable();
-            //BindGrid(true);
+            BindGrid(true); 
 
         }
+        /// <summary>    
+        /// Update grid for GUID hiddened
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void UpdateCurrentState()
         {
             try
@@ -2688,7 +2925,12 @@ namespace RouteOptimizer
 
             }
         }
-
+        /// <summary>   
+        /// Button Action
+        /// Open instrument form
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button2_Click(object sender, EventArgs e)
         {
             if (routeInfo == null || routeInfo.DGV_LstInstrument == null || routeInfo.DGV_LstInstrument.Count == 0) return;
@@ -2705,6 +2947,11 @@ namespace RouteOptimizer
             }
         }
         bool IsInstrumentBox = false;
+        /// <summary>    
+        /// Bind Grid
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         public void BindGrid(bool IsRemove = false)
         {
 
@@ -2728,6 +2975,11 @@ namespace RouteOptimizer
             //}
         }
         bool IsCellEditing = false;
+        /// <summary>    
+        /// Update GridValue
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void UpdateGridValueChange()
         {
             foreach (DataGridViewRow dr in instDGV.Rows)
@@ -2748,6 +3000,12 @@ namespace RouteOptimizer
                 catch { }
             }
         }
+        /// <summary>   
+        /// Button Action
+        /// Update Grid after editing cell
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void instDGV_CellEndEdit(object sender, DataGridViewCellEventArgs e)
         {
             VisibleAll();
@@ -2785,7 +3043,11 @@ namespace RouteOptimizer
             UpdateGridValueChange();
             IsCellEditing = false;
         }
-
+        /// <summary>    
+        /// Updating InstrumentInfo Entity class
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void SetInsCable(DataGridViewCellEventArgs e, bool IsMulti = false)
         {
             if (routeInfo == null || routeInfo.DGV_LstInstrument == null)
@@ -2910,7 +3172,12 @@ namespace RouteOptimizer
         }
         #endregion
 
-
+        /// <summary>   
+        /// Button Action
+        /// Add Xref reference from external
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnXRef_Click(object sender, EventArgs e)
         {
             OpenExternalReferencesDialog();
@@ -2919,6 +3186,11 @@ namespace RouteOptimizer
             //AddReferencesInserts();
             ChangeOrder();
         }
+        /// <summary>    
+        /// Change Order of Object Layer to frontmost
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ChangeOrder()
         {
             var lst = vdFC1.BaseControl.ActiveDocument.ActiveLayOut.Entities.Last; //vdFC1.BaseControl.ActiveDocument.GetGripSelection();
@@ -2932,6 +3204,12 @@ namespace RouteOptimizer
                 //}
             }
         }
+        /// <summary>   
+        /// Combo Action
+        /// Update grid after changing combo
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void cbo_layer_Setting_SelectedIndexChanged(object sender, EventArgs e)
         {
             try
@@ -2971,7 +3249,12 @@ namespace RouteOptimizer
             }
         }
 
-
+        /// <summary>   
+        /// Button Action
+        /// Open Destination box
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnDestDetails_Click(object sender, EventArgs e)
         {
             if (routeInfo == null || dgv_destination.Rows.Count == 0) return;
@@ -3039,6 +3322,12 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>   
+        /// Button Action
+        /// Save changes from destination value
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnDestSave_Click(object sender, EventArgs e)
         {
             if (routeInfo == null || dgv_destination.Rows.Count == 0) return;
@@ -3084,6 +3373,11 @@ namespace RouteOptimizer
                 MessageBox.Show("업데이트에 실패했습니다.");
             }
         }
+        /// <summary>    
+        /// Bind desitnation value after changes
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BindDestinationSettningForm()
         {
             if (!string.IsNullOrEmpty(cbo_layer_Setting.Text))
@@ -3101,10 +3395,22 @@ namespace RouteOptimizer
                 btnAllDest.PerformClick();
             }
         }
+        /// <summary>   
+        /// Content click Action
+        /// Cell Content Click handler
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void dgv_destination_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (dgv_destination.CurrentCell is DataGridViewTextBoxCell) dgv_destination.BeginEdit(false);
         }
+        /// <summary>   
+        /// Button Action
+        /// Bind destination after layer combo have changed
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void UpdateDestinationGrid()
         {
             //  routeInfo.LstTBBOXes = tb
@@ -3113,6 +3419,11 @@ namespace RouteOptimizer
             DestinationBind(ref i);
         }
         private List<vdLine> LstTempvdline = new List<vdLine>();
+        /// <summary>    
+        /// Convert Line to poly by ID
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ConvertStraightLinePoly(int id)
         {
 
@@ -3135,6 +3446,11 @@ namespace RouteOptimizer
             ChangeSegmentsIntoLine(vdEntities, id);
 
         }
+        /// <summary>    
+        /// Change Segment into Line by ID
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ChangeSegmentsIntoLine(vdEntities ets, int id)
         {
             LstTempvdline = new List<vdLine>();
@@ -3219,6 +3535,12 @@ namespace RouteOptimizer
             RefreshCADSpace();
         }
         List<vdLine> LstRemovedLine = new List<vdLine>();
+        /// <summary>   
+        /// Button Action
+        /// Add main route by action
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnMainRoute_Click(object sender, EventArgs e)
         {
             try
@@ -3239,6 +3561,11 @@ namespace RouteOptimizer
                 Debug.WriteLine(ex);
             }
         }
+        /// <summary>    
+        /// Pick point cmd promt
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void cmd_point(string prompt, out gPoint userPoint)
         {
             StatusCode ret =
@@ -3247,6 +3574,12 @@ namespace RouteOptimizer
             vdFC1.BaseControl.ActiveDocument.Prompt(prompt);
         }
         TBBOXDestination tbTemp;
+        /// <summary>   
+        /// Button Action
+        /// Change line to poly
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void DrawRouteConverter()
         {
             if (lstPolyIDTemp.Count > 0)
@@ -3258,6 +3591,11 @@ namespace RouteOptimizer
             }
 
         }
+        /// <summary>    
+        /// Draw main Route line
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void DrawMainRoute()
         {
             lstPolyIDTemp.Clear();
@@ -3510,6 +3848,11 @@ namespace RouteOptimizer
 
             IsManualDrawn = false;
         }
+        /// <summary>    
+        /// Check shortest line in parent line
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private bool IsTooShortinParent(gPoints gPoints, gPoint gp)
         {
             if (tbTemp == null)
@@ -3527,6 +3870,11 @@ namespace RouteOptimizer
             }
             return false;
         }
+        /// <summary>    
+        /// Check line is in inside box or not
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private bool IsLINKInsideTBBoxes(gPoints gPoints, gPoint gp)
         {
             var targetRoute = new vdPolyline();
@@ -3590,6 +3938,11 @@ namespace RouteOptimizer
 
             return false;
         }
+        /// <summary>    
+        /// Check intersect route to others
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private bool IsOthersRouteIntersect(gPoints gPoints, gPoint gp, out gPoint ispoint, out bool IsAlreadyJoined)
         {
             IsAlreadyJoined = false;
@@ -3633,6 +3986,11 @@ namespace RouteOptimizer
             }
             return false;
         }
+        /// <summary>    
+        /// Check parent route intersect
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private bool IsParentRouteIntersect(gPoints gPoints, gPoint gp)
         {
             var p = (new vdPolyline());
@@ -3688,28 +4046,34 @@ namespace RouteOptimizer
 
         }
         string DestinationID = "";
+        
         private void instDGV_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
-            bool validClick = (e.RowIndex != -1 && e.ColumnIndex != -1);
-            var datagridview = sender as DataGridView;
-            if (datagridview.Columns[e.ColumnIndex] is DataGridViewComboBoxColumn && validClick)
-            {
-                //ptk mented 18 august
-                //if (datagridview.Columns[e.ColumnIndex].Name == "colTo")
-                //{
-                //    DestinationID = datagridview.CurrentCell.Value.ToString();
-                //    IsCellEditing = false;
-                //}
-                //else
-                //{
-                //    IsCellEditing = true;
-                //}
-                //datagridview.BeginEdit(true);
-                //((ComboBox)datagridview.EditingControl).DroppedDown = true;
+            //bool validClick = (e.RowIndex != -1 && e.ColumnIndex != -1);
+            //var datagridview = sender as DataGridView;
+            //if (datagridview.Columns[e.ColumnIndex] is DataGridViewComboBoxColumn && validClick)
+            //{
+            //    //ptk mented 18 august
+            //    //if (datagridview.Columns[e.ColumnIndex].Name == "colTo")
+            //    //{
+            //    //    DestinationID = datagridview.CurrentCell.Value.ToString();
+            //    //    IsCellEditing = false;
+            //    //}
+            //    //else
+            //    //{
+            //    //    IsCellEditing = true;
+            //    //}
+            //    //datagridview.BeginEdit(true);
+            //    //((ComboBox)datagridview.EditingControl).DroppedDown = true;
 
-            }
+            //}
         }
-
+        /// <summary>   
+        /// Button Action
+        /// Add Object Types
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void button10_Click(object sender, EventArgs e)
         {
             int vp = 0;
@@ -3777,6 +4141,11 @@ namespace RouteOptimizer
         {
 
         }
+        /// <summary>    
+        /// Write XMl file to base directory
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private bool WriteXML(bool IsSaveas = true)
         {
             try
@@ -3909,7 +4278,11 @@ namespace RouteOptimizer
             return true;
         }
         string lbl_savedLayer = "";
-
+        /// <summary>    
+        /// Throw DataError in gridView
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void instDGV_DataError(object sender, DataGridViewDataErrorEventArgs e)
         {
             if (e.Exception.Message == "DataGridViewComboBoxCell value is not valid")
@@ -3923,7 +4296,12 @@ namespace RouteOptimizer
             }
             e.Cancel = true;
         }
-
+        /// <summary>   
+        /// Button Action
+        /// Save button from toolstrip
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
 
@@ -3953,6 +4331,11 @@ namespace RouteOptimizer
                 MessageBox.Show("저장에 실패하였습니다. 다시 한 번 시도해주세요.");
             }
         }
+        /// <summary>    
+        /// Delete file with admin right
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void DeleteWithAdminRight(string path)
         {
             try
@@ -3983,6 +4366,12 @@ namespace RouteOptimizer
         }
         string SaveDialogFile = "";
         string SaveXmlFile = "";
+        /// <summary>   
+        /// Button Action
+        /// Import file filtering
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void toolStripButton4_Click(object sender, EventArgs e)
         {
             if (routeInfo == null || string.IsNullOrEmpty(vdFC1.BaseControl.ActiveDocument.FileName))
@@ -4011,7 +4400,12 @@ namespace RouteOptimizer
                 }
             }
         }
-
+        /// <summary>   
+        /// Button Action
+        /// Erase object and set ID to list
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void button5_Click_1(object sender, EventArgs e) // Erase Function
         {
             if (routeInfo == null) return;
@@ -4040,7 +4434,11 @@ namespace RouteOptimizer
         {
             instListbox.CommitEdit(DataGridViewDataErrorContexts.Commit);
         }
-
+        /// <summary>    
+        /// Make dropdown showing asa put cursor
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void instListbox_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
             bool validClick = (e.RowIndex != -1 && e.ColumnIndex != -1);
@@ -4053,6 +4451,11 @@ namespace RouteOptimizer
             }
         }
         bool IsInsAdd = false;
+        /// <summary>    
+        /// Update value while cell value change from other grid
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void instListbox_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
             VisibleAll();
@@ -4092,6 +4495,11 @@ namespace RouteOptimizer
             instDGV_CellEndEdit(null, null);
             //UpdateCurrentState();
         }
+        /// <summary>    
+        /// Update Instrument Grid
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void updateInstGrid()
         {
 
@@ -4131,7 +4539,12 @@ namespace RouteOptimizer
         {
 
         }
-
+        /// <summary>   
+        /// Button Action
+        /// Start Analysis process 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void button5_Click_2(object sender, EventArgs e)
         {
             if (routeInfo == null || (t != null && t.IsAlive)) return;
@@ -4165,6 +4578,11 @@ namespace RouteOptimizer
             progressBar1.Value = 0;
 
         }
+        /// <summary>    
+        /// Clear All Grid
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void DatagridSetting()
         {
             dgv_SubIns.EndEdit();
@@ -4216,6 +4634,11 @@ namespace RouteOptimizer
 
             }
         }
+        /// <summary>    
+        /// Scope check setting (radio option, lines are within range, analyzable lines)
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void ScopeCheckSetting()
         {
             var et = vdFC1.BaseControl.ActiveDocument.ActiveLayOut.Entities;
@@ -4417,6 +4840,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>    
+        /// Make deletion if line is in box
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void InternalSegmentSetting()
         {
             var et = vdFC1.BaseControl.ActiveDocument.ActiveLayOut.Entities.GetNotDeletedItems();
@@ -4434,6 +4862,11 @@ namespace RouteOptimizer
             }
             routeInfo.SyncronyzeRelatedUI(lstInternalLine, vdFramedControl);
         }
+        /// <summary>    
+        /// Reflect to CAD UI if there is a change
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void UpdateRoutetoCADSetting()
         {
             var et = vdFC1.BaseControl.ActiveDocument.ActiveLayOut.Entities;
@@ -4463,6 +4896,11 @@ namespace RouteOptimizer
             }
 
         }
+        /// <summary>    
+        /// Make Analysis
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void analysis()
         {
             try
@@ -4528,6 +4966,11 @@ namespace RouteOptimizer
             routeInfo.DoneAnalysis = true;
             BindDecimalplace();
         }
+        /// <summary>    
+        /// Clear remaing cached lines in CAD UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void ClearRouteCacheSetting()
         {
             routeInfo.AllNodeInEachDuct = new Dictionary<vdLine, List<gPoint>>();
@@ -4560,7 +5003,11 @@ namespace RouteOptimizer
 
             RefreshCADSpace();
         }
-
+        /// <summary>    
+        /// Clear All Connect Lines
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void ClearConnector()
         {
             var e = vdFC1.BaseControl.ActiveDocument.ActiveLayOut.Entities;
@@ -4572,6 +5019,11 @@ namespace RouteOptimizer
             routeInfo.SyncronyzeRelatedUI(ids, vdFramedControl, true);
             routeInfo.lstConnector.Clear();
         }
+        /// <summary>    
+        /// Refresh and Update CAD UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void RefreshCADSpace()
         {
             try
@@ -4588,6 +5040,11 @@ namespace RouteOptimizer
 
             }
         }
+        /// <summary>    
+        /// MCC Setting for Analysis (DFS algorithm applying)
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void MCCPkgSetting()
         {
             lstRouteInfoTemp = new List<InstrumentRouteInfoEntity>();
@@ -4953,6 +5410,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>    
+        /// Destination Setting for Analysis (DFS algorithm applying)
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void DestinationSetting()
         {
             var sbl = new RouteOptimizer.BL.SettingBL();
@@ -5325,6 +5787,11 @@ namespace RouteOptimizer
             }
         }
         delegate void SetTableCallback(DataTable dt);
+        /// <summary>    
+        /// Segmentation setting for generating result outputs to UI tables
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void SegmentaionSetting(bool isSystemFile = false)
         {
             try
@@ -5631,6 +6098,11 @@ namespace RouteOptimizer
         List<vdLine> LstDuctLinkedtemp = new List<vdLine>();
         List<InstrumentRouteInfoEntity> lstRouteInfoTemp = null;
         DataTable CheckdataTable = new DataTable();
+        /// <summary>    
+        /// Remove all external Leading Lines that are not in use
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private List<vdLine> RemoveExtraLeadingLine(gPoint iie, List<vdLine> lines, Instrument ins, bool IsDestination = false)
         {
             if (IsDestination)
@@ -5718,6 +6190,11 @@ namespace RouteOptimizer
 
             return vdLines;
         }
+        /// <summary>    
+        /// RouteSetting by applying Recursive function
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void RouteSetting()
         {
             if (routeInfo.DGV_LstInstrument == null) return;
@@ -6068,6 +6545,11 @@ namespace RouteOptimizer
         }
         bool RetFlg = false;
         List<List<vdLine>> LstAllPath = null;
+        /// <summary>    
+        /// Recursive function for Analysing Route
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void Recursive_DFS(IEnumerable<Instrument> selectedIns, string TargetDB, TBBOXDestination CurrentDB, vdLine refPoly)
         {
             //if (RetFlg) return;
@@ -6120,6 +6602,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>    
+        /// Recursive function for Analysing Route
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns>userPoint</returns>
         private void Recursive(IEnumerable<Instrument> selectedIns, string TargetDB, TBBOXDestination CurrentDB, vdLine refPoly)
         {
             if (RetFlg) return;
@@ -6156,6 +6643,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>    
+        /// Add Segment lable about mid point of Line
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void LabelSegementSetting()
         {
             var types = (new BL.SettingBL()).GetCableDuctTypeList();//new string[] { "Signal", "Power", "SMCS", "Communication", "Destination" }; // get from List
@@ -6638,7 +7130,7 @@ namespace RouteOptimizer
                 }
             }
 
-        }
+        } 
         private void dataGridView3_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
@@ -6648,6 +7140,11 @@ namespace RouteOptimizer
         {
 
         }
+        /// <summary>    
+        /// Show Analysis result to Child table after Click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void dgv_SegAnalysis_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             //return;
@@ -6712,6 +7209,11 @@ namespace RouteOptimizer
             }
         }
         List<vdLine> hightlightedLines = new List<vdLine>();
+        /// <summary>    
+        /// Remove all highlighted lines
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void RemoveHightlightedLines()
         {
             var en = vdFC1.BaseControl.ActiveDocument.ActiveLayOut.Entities;
@@ -6723,6 +7225,11 @@ namespace RouteOptimizer
             hightlightedLines.Clear();
             RefreshCADSpace();
         }
+        /// <summary>    
+        /// Calculate which line must be highlight
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ExecuteHightlight(List<vdLine> lines, bool isDuct = false)
         {
             RemoveHightlightedLines();
@@ -6754,6 +7261,11 @@ namespace RouteOptimizer
 
 
         }
+        /// <summary>    
+        /// Show respective data in child grid on click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void dataGridView2_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             //return;
@@ -6878,7 +7390,12 @@ namespace RouteOptimizer
         {
 
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Export CSV data from schedule table
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button6_Click_1(object sender, EventArgs e)
         {
 
@@ -7030,6 +7547,12 @@ namespace RouteOptimizer
             // Datatable for selected part is maded.
             // CSV Writer is not in the packate.. // ***Jeaeun
         }
+        /// <summary>    
+        /// Button Action
+        /// Export CSV data from table
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button7_Click_1(object sender, EventArgs e)
         {
 
@@ -7180,6 +7703,11 @@ namespace RouteOptimizer
 
         }
         DataGridViewRow tempInsRow = null;
+        /// <summary>     
+        /// Update gridcell backcolor on value change
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void instDGV_CellValueChanged(object sender, DataGridViewCellEventArgs e)
         {
             VisibleAll();
@@ -7215,6 +7743,11 @@ namespace RouteOptimizer
             // instListbox_CellValueChanged(null, null); // PTK mented on  2023 08 21
             // instDGV_CellEndEdit(null,null);
         }
+        /// <summary>     
+        /// Change cell values from table on trigger click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void MultiSelectionDropdown(object sender, DataGridViewCellEventArgs e)
         {
             if (tempInsRow == null && !isTriggerConfirmedClick)
@@ -7266,6 +7799,12 @@ namespace RouteOptimizer
             mouse_event(MOUSEEVENTF_RIGHTDOWN, x, y, 0, 0);
             mouse_event(MOUSEEVENTF_RIGHTUP, x, y, 0, 0);
         }
+        /// <summary>    
+        /// Keydown Action
+        /// Fire KeyDown evnt handler on Main Panel
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void MainP1_KeyDown(object sender, KeyEventArgs e)
         {
             if (routeInfo == null) return;
@@ -7390,7 +7929,11 @@ namespace RouteOptimizer
                 return;
             }
         }
-
+        /// <summary>     
+        /// Change Decimal Valye on grid
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         public void PutDecimal(DataGridView dgv, List<string> lst)
         {
             foreach (DataGridViewRow dr in dgv.Rows)
@@ -7404,6 +7947,12 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>    
+        /// Button Action
+        /// Export current data state as Zips
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnExport_Click(object sender, EventArgs e)
         {
             try
@@ -7450,7 +7999,11 @@ namespace RouteOptimizer
                 return;
             }
         }
-
+        /// <summary>     
+        /// Save DGW as DWG file 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void SaveDWG(string layerName, string path)
         {
             var lyrs = vdFC1.BaseControl.ActiveDocument.Layers.GetNotDeletedItems();
@@ -7484,6 +8037,12 @@ namespace RouteOptimizer
             }
         }
         static int inputType = 0;
+        /// <summary>    
+        /// Button Action
+        /// Import a Zip File with filtering
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
@@ -7546,6 +8105,11 @@ namespace RouteOptimizer
 
 
         }
+        /// <summary>     
+        /// Copy File with Admin permission
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         public void FileCopy(string source, string desti)
         {
             try
@@ -7575,7 +8139,12 @@ namespace RouteOptimizer
                 }
             }
         }
-
+        /// <summary>
+        /// Button Action
+        /// New CAD window creation
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btn_New_Click(object sender, EventArgs e)
         {
             var res = MessageBox.Show("새 파일을 만드시겠습니까? 이전 작업 내용은 삭제됩니다.", "New document", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
@@ -7593,7 +8162,12 @@ namespace RouteOptimizer
                 //this.Refresh();
             }
         }
-
+        /// <summary>    
+        /// EditingControlshowing Action
+        /// Show Combo data on handling with Mouse
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void instListbox_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
         {
             VisibleAll();
@@ -7634,6 +8208,12 @@ namespace RouteOptimizer
                 comboBox.SelectedIndexChanged += new EventHandler(dgv_AnalysisSegcomboBox_SelectedIndexChanged);
             }
         }
+        /// <summary>    
+        /// Button Action
+        /// Segmentation Combobox Changing Action for Ratio of Userdefine, DuctSize . . . 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void dgv_AnalysisSegcomboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (routeInfo == null) return;
@@ -7696,7 +8276,12 @@ namespace RouteOptimizer
             if (routeInfo == null) return;
             dgv_SegAnalysis.CommitEdit(DataGridViewDataErrorContexts.Commit);
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Show All Destination on table on Click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnAllDest_Click(object sender, EventArgs e)
         {
             if (routeInfo == null) return;
@@ -7732,6 +8317,12 @@ namespace RouteOptimizer
             }
         }
         public bool UseAdmin { get; set; } = true;
+        /// <summary>    
+        /// Button Action
+        /// Create batch script in C# for admin permission
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btn_Runas_Click(object sender, EventArgs e)
         {
             if (UseAdmin)
@@ -7753,12 +8344,22 @@ namespace RouteOptimizer
                 btn_Runas.Font = new Font(btn_Runas.Font, FontStyle.Regular);
             }
         }
-
+        /// <summary>    
+        /// TextChange Action
+        /// Space Gap change event handler 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void txtHTolerance_TextChanged(object sender, EventArgs e)
         {
             txtYTolerence.Text = txtHTolerance.Text;
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Print Out Function
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void toolStripButton5_Click(object sender, EventArgs e)
         {
             try
@@ -7799,7 +8400,12 @@ namespace RouteOptimizer
             }
         }
 
-
+        /// <summary>    
+        /// Closing Action
+        /// Form Closing Action on Close Ribbon button Click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void MainP1_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (inputType == 0) // input dwg
@@ -8453,6 +9059,12 @@ namespace RouteOptimizer
         {
             //  pnl_alternative_tbbox.Visible = pnl_Alternative.Visible= btn_GenerateRoute.Enabled;
         }
+        /// <summary>    
+        /// Mouse Action
+        /// Changed GridCell State on Mouse Up event handler
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void dgv_alternaitve_MouseUp(object sender, MouseEventArgs e)
         {
             DataGridView.HitTestInfo hti = dgv_alternaitve.HitTest(e.X, e.Y);
@@ -8461,6 +9073,11 @@ namespace RouteOptimizer
                 CheckState(hti);
             }
         }
+        /// <summary>     
+        /// Change Cell Appearence for Mouse action
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void CheckState(DataGridView.HitTestInfo hti = null)
         {
             DataGridViewCheckBoxCell cell = dgv_alternaitve[hti.ColumnIndex, hti.RowIndex] as DataGridViewCheckBoxCell;
@@ -8493,7 +9110,12 @@ namespace RouteOptimizer
         {
 
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Change Cell appearence on mouse click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void dgv_alternaitve_CellContentClick_1(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex < 0 || e.ColumnIndex != 5) return;
@@ -8523,7 +9145,11 @@ namespace RouteOptimizer
             }
         }
 
-
+        /// <summary>    
+        /// remove all route on CAD UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ClearAllRoutes(bool IsincludeText = false, TBBOXDestination tbb = null)
         {
             if (routeInfo == null) return;
@@ -8580,12 +9206,23 @@ namespace RouteOptimizer
                 ClearText();
             RefreshCADSpace();
         }
+        /// <summary>     
+        /// Reset all drawn route
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btn_Reset(object sender, EventArgs e)
         {
             if (Off) return;
             if (routeInfo == null || dgv_alternaitve.Rows.Count == 0) return;
             ResetAllDrawnLine();
         }
+        /// <summary>    
+        /// Button Action
+        /// Export CSV data from table
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ResetAllDrawnLine()
         {
             if (rdo_WithoutRoute.Checked)
@@ -8613,6 +9250,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>     
+        /// Reset All routeline 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ResetAllRouteLine()
         {
             foreach (var t in routeInfo.LstTBBOXes)
@@ -8633,7 +9275,12 @@ namespace RouteOptimizer
         {
 
         }
-
+        /// <summary>    
+        /// Button Action
+        /// on/off switch for properties changes
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void toolStripMenuItem1_Click(object sender, EventArgs e)
         {
             if (vdFC1.GetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.PropertyGrid))
@@ -8650,7 +9297,12 @@ namespace RouteOptimizer
             RefreshCADSpace();
 
         }
-
+        /// <summary>    
+        /// Button Action
+        /// on/off switch for properties changes
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void txt_MenuPopup_Click(object sender, EventArgs e)
         {
             if (vdFC1.GetLayoutStyle(vdControls.vdFramedControl.LayoutStyle.LayoutPopupMenu))
@@ -8667,7 +9319,11 @@ namespace RouteOptimizer
             }
             RefreshCADSpace();
         }
-      
+        /// <summary>     
+        /// Check change event handler
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void chk_CheckAll_CheckedChanged(object sender, EventArgs e)
         {
             VisibleAll();
@@ -8703,6 +9359,11 @@ namespace RouteOptimizer
 
 
         List<InstrumentInfoEntity> iiet = new List<InstrumentInfoEntity>();
+        /// <summary>     
+        ///  Change Metre value to Milimeter value
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void AlternativeChangemmTom()
         {
             foreach (DataGridViewRow dr in dgv_alternaitve.Rows)
@@ -8722,12 +9383,21 @@ namespace RouteOptimizer
 
         public int unitDestinationNeareast { get; set; } = 1000;  // For destination's nearest distance to its center as Instrument
         public int unitGrid { get; set; } = 1000;// For Grid Scale
+        /// <summary>     
+        /// Filtering event on Checkchange
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
 
         private void chk_relation_CheckedChanged(object sender, EventArgs e)
         {
             CheckFilter();
         }
-
+        /// <summary>     
+        /// Filtering data 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void CheckFilter()
         {
             foreach (var r in routeInfo.CaseRoutes)
@@ -8794,6 +9464,12 @@ namespace RouteOptimizer
             AlternativeChangemmTom();
             this.vdFC1.BaseControl.Redraw();
         }
+        /// <summary>    
+        /// Button Action
+        /// Panel slide narrow or wider drawer on click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ribbon_Click(object sender, EventArgs e)
         {
 
@@ -8806,7 +9482,12 @@ namespace RouteOptimizer
                 splitContainer1.SplitterDistance = 1200;
             }
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Duplicate Item Check on click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button9_Click_3(object sender, EventArgs e)
         {
             if (routeInfo != null && vdFramedControl.BaseControl.ActiveDocument != null)
@@ -8819,13 +9500,17 @@ namespace RouteOptimizer
                 }
                 DuplicateItem duplicateItem = new DuplicateItem(routeInfo, vdFramedControl, true);
                 duplicateItem.Owner = this;
-                duplicateItem.Show();
-
-                CheckDuplicate();
-
+                duplicateItem.Show(); 
+                CheckDuplicate(); 
             }
 
         }
+        /// <summary>    
+        /// Button Action
+        /// Duplicate Check for Item instruments on CAD UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void CheckDuplicate()
         {
             if ((thread != null && (thread.IsAlive)) || routeInfo == null) return;
@@ -8848,7 +9533,12 @@ namespace RouteOptimizer
             });
             thread.Start();
         }
-
+        /// <summary>    
+        /// Panel Action
+        /// Change value for Desitnation and Duplicate on tab panel change
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void tabControl2_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (tabControl2.SelectedIndex == 1)
@@ -8861,7 +9551,12 @@ namespace RouteOptimizer
                 //CheckDuplicate();
             }
         }
-
+        /// <summary>    
+        /// Edit Control showing action
+        /// On Datagridview Editing time, Event is fired
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void instDGV_EditingControlShowing(object sender, DataGridViewEditingControlShowingEventArgs e)
         {
             VisibleAll();
@@ -8884,6 +9579,12 @@ namespace RouteOptimizer
             }
         }
         bool IsCellEndEditing = false;
+        /// <summary>    
+        /// Button Action
+        /// Change destination value with confirmation
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void DGVcomboBox_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (!IsCellEditing && instDGV.CurrentCell.OwningColumn.Name == "colTo")
@@ -8934,7 +9635,12 @@ namespace RouteOptimizer
         {
 
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Lines on CAD UI is measured on mouse select
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void measureToolStripMenuItem_Click(object sender, EventArgs e)
         {
             if (btn_Measure.Text == "선 길이 측정 - On") //선 길이 측정 - Off
@@ -8946,12 +9652,22 @@ namespace RouteOptimizer
                 btn_Measure.Text = "선 길이 측정 - On";
             }
         }
-
+        /// <summary>    
+        /// Check  Action
+        /// Segment Changed event
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void chk_TinySegment_CheckedChanged(object sender, EventArgs e)
         {
             CheckFilter();
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Update destination on tab panel change
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (tabControl2.SelectedIndex == 1)
@@ -8965,6 +9681,12 @@ namespace RouteOptimizer
         string TBColor = (new RouteInfo()).TBColor;
         string MCCColor = (new RouteInfo()).MCCcolor;
         string IOColor = (new RouteInfo()).IOcolor;
+        /// <summary>    
+        /// Button Action
+        /// Open Box customized form
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btn_BoxSize_Click(object sender, EventArgs e)
         {
             int w = BoxWidth;
@@ -8988,7 +9710,12 @@ namespace RouteOptimizer
                 }
             }
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Show outRange item on CAD UI
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btn_GappedItem_Click(object sender, EventArgs e)
         {
             if (routeInfo == null) return;
@@ -9002,13 +9729,17 @@ namespace RouteOptimizer
             Gapped_Item gapped_Item = new Gapped_Item(vdFC1, routeInfo);
             gapped_Item.Owner = this;
             gapped_Item.Show();
-        }
-
+        } 
         private void checkBox1_CheckedChanged_1(object sender, EventArgs e)
         {
 
         }
-
+        /// <summary>    
+        /// CMd Action
+        /// Move on click action
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button15_Click(object sender, EventArgs e)
         {
             if (routeInfo == null) return;
@@ -9024,7 +9755,12 @@ namespace RouteOptimizer
             }
             vdFC1.BaseControl.ActiveDocument.OrthoMode = true;
         }
-
+        /// <summary>    
+        /// Cmd Action
+        /// Undo action on click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button16_Click(object sender, EventArgs e)
         {
             if (routeInfo == null) return;
@@ -9040,7 +9776,12 @@ namespace RouteOptimizer
             }
             //  vdFC1.BaseControl.ActiveDocument.OrthoMode = true;
         }
-
+        /// <summary>    
+        /// Cmd Action
+        /// Redo on clcik
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button17_Click_1(object sender, EventArgs e)
         {
             if (routeInfo == null) return;
@@ -9054,6 +9795,12 @@ namespace RouteOptimizer
          
         }
           int testLayer = 0;
+        /// <summary>    
+        /// Button Action
+        /// Erase object on Clcik
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnErase_Click(object sender, EventArgs e)
         {
             try
@@ -9108,7 +9855,12 @@ namespace RouteOptimizer
             {
             }
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Open ThirdParty installer form
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void fileConverterToolStripMenuItem_Click(object sender, EventArgs e)
         {
             VD_File_Converter vD_File_Converter = new VD_File_Converter();
@@ -9129,6 +9881,11 @@ namespace RouteOptimizer
         {
 
         }
+        /// <summary>     
+        /// Start Route process
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void StartRoutedThreading()
         {
             try
@@ -9148,6 +9905,12 @@ namespace RouteOptimizer
                 var msg = ex.Message;
             }
         }
+        /// <summary>    
+        /// Button Action
+        /// Generate Alternative actions on Click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btn_GenerateRoute_Click(object sender, EventArgs e)
         {
 
@@ -9158,7 +9921,12 @@ namespace RouteOptimizer
             t = new Thread(StartRoutedThreading);
             t.Start();
         }
-
+        /// <summary>    
+        /// Button Action
+        /// Regenerate Route with new matrix
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button9_Click_2(object sender, EventArgs e)
         {
             //if (Off) return;
@@ -9173,6 +9941,11 @@ namespace RouteOptimizer
             // t = new Thread(ReStartRouteThreading);
             t.Start();
         }
+        /// <summary>     
+        /// Matrix Setting process for route analysis
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         public void Regenerate(int[,] matrix, List<vdLine> selectedLines)
         {
             try
@@ -9188,6 +9961,11 @@ namespace RouteOptimizer
                 MessageBox.Show("경로 재생성에 실패하였습니다. 설정 내용을 다시 확인해주세요.");
             }
         }
+        /// <summary>     
+        /// Object Setting for location of them
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ObjectSetting()
         {
             int minDistance = int.MaxValue;
@@ -9319,6 +10097,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>     
+        /// Setting Matrix for all Objects
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         public void setMatrix()
         {
             //Box box = this.offsetBoundary.BoundingBox;
@@ -9371,6 +10154,11 @@ namespace RouteOptimizer
             }
 
         }
+        /// <summary>
+        /// Restart Route Thread as common function 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         public void ReStartRouteThreading(int[,] matrix, List<vdLine> selectedLines)
         {
             if (matrix == null) return;
@@ -9621,6 +10409,12 @@ namespace RouteOptimizer
         {
 
         }
+        /// <summary>    
+        /// Check Action
+        /// Chenck Change action 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void rdo_WithoutRoute_CheckedChanged(object sender, EventArgs e)
         {
             if (routeInfo == null || (t != null && t.IsAlive)) return;
@@ -9650,6 +10444,12 @@ namespace RouteOptimizer
             ClearText();
             RefreshCADSpace();
         }
+        /// <summary>    
+        /// Check Action
+        /// Check Change action for WithoutRoute
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void rdo_withroute_CheckedChanged(object sender, EventArgs e)
         {
             if (routeInfo == null || (t != null && t.IsAlive)) return;
@@ -9680,6 +10480,12 @@ namespace RouteOptimizer
             ClearText();
             RefreshCADSpace();
         }
+        /// <summary>    
+        /// Check Action
+        /// Check Change action for Userdefined mode
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void rdo_UserDefine_CheckedChanged(object sender, EventArgs e)
         {
             if (routeInfo == null || (t != null && t.IsAlive)) return;
@@ -9728,7 +10534,11 @@ namespace RouteOptimizer
         {
             tabControl3.SelectedIndex = 1;
         }
-
+        /// <summary>     
+        /// Bind final result to UI table1
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BindFinalResult1()
         {
             var dtAnalysis = dgv_SegAnalysis.DataSource as DataTable;
@@ -9811,6 +10621,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>     
+        /// Bind final result to UI table2
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BindFinalResult2()
         {
             // A_SegSignalType
@@ -9898,6 +10713,11 @@ namespace RouteOptimizer
                 }
             }
         }
+        /// <summary>     
+        /// Bind final result to UI table3
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BindFinalResult3()
         {
             // A_SegSignalType
@@ -9978,6 +10798,11 @@ namespace RouteOptimizer
             }
 
         }
+        /// <summary>     
+        /// Bind final function
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BindFinalSetting()
         {
 
@@ -9990,7 +10815,11 @@ namespace RouteOptimizer
 
 
         }
-
+        /// <summary>     
+        /// Export Duct schedule table
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnDuctExport_Click(object sender, EventArgs e)
         {
             if (!Directory.Exists(DataSourceAnalysisDuctSchedule))
@@ -10023,7 +10852,11 @@ namespace RouteOptimizer
             }
             System.Diagnostics.Process.Start(DataSourceAnalysisDuctSchedule);
         }
-
+        /// <summary>     
+        /// Export DuctType schedule table
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnDuctTypeExport_Click(object sender, EventArgs e)
         {
             if (!Directory.Exists(DataSourceAnalysisDuctTypeSchedule))
@@ -10056,7 +10889,11 @@ namespace RouteOptimizer
             }
             System.Diagnostics.Process.Start(DataSourceAnalysisDuctTypeSchedule);
         }
-
+        /// <summary>     
+        /// Export CableType schedule table 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void btnCableTypeExport_Click(object sender, EventArgs e)
         {
             if (!Directory.Exists(DataSourceAnalysisDuctCableSchedule))
@@ -10087,13 +10924,21 @@ namespace RouteOptimizer
             }
             System.Diagnostics.Process.Start(DataSourceAnalysisDuctCableSchedule);
         }
-
+        /// <summary>     
+        /// Check action is fired on check changed for final setting and decimal places
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void chk_SignalSegment_CheckedChanged(object sender, EventArgs e)
         {
             BindFinalSetting();
             BindDecimalplace();
         }
-
+        /// <summary>     
+        /// Create known color list
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private List<Color> KnowColors()
         {
             List<Color> colorList = new List<Color>();
@@ -10124,6 +10969,11 @@ namespace RouteOptimizer
         protected int gapduct { get; set; } = 200;
 
         double ConnectorAquare = 0;
+        /// <summary>     
+        /// Show DuctCable 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ShowDuctWithCables()
         {
             if (routeInfo == null || vdFC1.BaseControl.ActiveDocument.FileName == null)
@@ -10381,7 +11231,11 @@ namespace RouteOptimizer
 
             RefreshCADSpace();
         }
-
+        /// <summary>     
+        /// Execute Duct pipe on radio check change
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
             try
@@ -10399,6 +11253,11 @@ namespace RouteOptimizer
 
             }
         }
+        /// <summary>     
+        /// change Visibility of Ductline Color
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ShowbackGroundColor()
         {
             var lstColor = KnowColors();
@@ -10517,6 +11376,11 @@ namespace RouteOptimizer
             }
             RefreshCADSpace();
         }
+        /// <summary>     
+        /// Cable Duct check action 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void rdo_CableDuct_CheckedChanged(object sender, EventArgs e)
         {
             try
@@ -10535,6 +11399,11 @@ namespace RouteOptimizer
 
             }
         }
+        /// <summary>     
+        /// Execute for Duct appearence 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void ExecuteDuct(bool IsDefault)
         {
 
@@ -10603,7 +11472,11 @@ namespace RouteOptimizer
         {
             tabControl3.SelectedIndex = 3;
         }
-
+        /// <summary>
+        /// Progress bar setting with changing percentage
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button19_Click_1(object sender, EventArgs e)
         {
             if (routeInfo == null || (t != null && t.IsAlive)) return;
@@ -10700,13 +11573,21 @@ namespace RouteOptimizer
 
 
         }
-
+        /// <summary>     
+        /// Progress bar visible on/off
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void progressBar1_VisibleChanged(object sender, EventArgs e)
         {
             button5.Enabled = !progressBar1.Visible;
         }
 
-
+        /// <summary>     
+        /// Show back Color
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void dgv_SegAnalysis_Sorted(object sender, EventArgs e)
         {
             ShowbackGroundColor();
@@ -10756,7 +11637,11 @@ namespace RouteOptimizer
         {
 
         }
-
+        /// <summary>     
+        /// Check minimal input 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void CheckMinimalInput()
         {
             var input = txtConnectable.Text.Trim();
@@ -10777,12 +11662,21 @@ namespace RouteOptimizer
 
             unit = val * 1000;
         }
-
+        /// <summary>     
+        /// Leave action
+        /// fire leave action
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void txtConnectable_Leave(object sender, EventArgs e)
         {
             CheckMinimalInput();
         }
-
+        /// <summary>     
+        /// Enter keydown event is fired 
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void txtConnectable_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyData == Keys.Enter)
@@ -10812,7 +11706,12 @@ namespace RouteOptimizer
         {
 
         }
-
+        /// <summary>     
+        /// Cmd action
+        /// Zoom the selected space to screen
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void xtextbox_TextChanged(object sender, EventArgs e)
         {
             var l = vdFC1.BaseControl.ActiveDocument.ActiveLayOut;
@@ -10863,7 +11762,11 @@ namespace RouteOptimizer
         {
 
         }
-
+        /// <summary>     
+        /// Open Project information form
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void toolStripButton2_Click_1(object sender, EventArgs e)
         {
             PS PS = new PS();
@@ -10879,6 +11782,11 @@ namespace RouteOptimizer
 
         }
         static DataGridView dtMainTable = new DataGridView();
+        /// <summary>     
+        /// Bind instrument on Textbox changed
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
@@ -10886,13 +11794,22 @@ namespace RouteOptimizer
             txtT1.Focus();
 
         }
-
+        /// <summary>     
+        /// Bind instrument on Textbox changed
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void textBox2_TextChanged_1(object sender, EventArgs e)
         {
             BindSearchedInstruments();
             txtT2.Focus();
 
         }
+        /// <summary>     
+        /// Bind searching instrument function
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void BindSearchedInstruments()
         {
             if (routeInfo == null || string.IsNullOrEmpty(vdFramedControl.BaseControl.ActiveDocument.FileName)) return;
@@ -10991,31 +11908,31 @@ namespace RouteOptimizer
             //instDGV.Update(); 
         }
 
-        private void button9_Click(object sender, EventArgs e)
-        {
-            try
-            {
-                CurrencyManager currencyManager1 = (CurrencyManager)BindingContext[instDGV.DataSource];
-                currencyManager1.SuspendBinding();
+        //private void button9_Click(object sender, EventArgs e)
+        //{
+        //    try
+        //    {
+        //        CurrencyManager currencyManager1 = (CurrencyManager)BindingContext[instDGV.DataSource];
+        //        currencyManager1.SuspendBinding();
 
 
-                List<DataGridViewRow> lstR = new List<DataGridViewRow>();
-                foreach (DataGridViewRow gr in instDGV.Rows)
-                {
-                    lstR.Add(gr);
-                }
-                instDGV.Update();
-                foreach (var r in lstR)
-                {
-                    r.Visible = false;
-                }
-                currencyManager1.ResumeBinding();
-            }
-            catch (Exception ex)
-            {
-                var exc = ex;
-            }
-        }
+        //        List<DataGridViewRow> lstR = new List<DataGridViewRow>();
+        //        foreach (DataGridViewRow gr in instDGV.Rows)
+        //        {
+        //            lstR.Add(gr);
+        //        }
+        //        instDGV.Update();
+        //        foreach (var r in lstR)
+        //        {
+        //            r.Visible = false;
+        //        }
+        //        currencyManager1.ResumeBinding();
+        //    }
+        //    catch (Exception ex)
+        //    {
+        //        var exc = ex;
+        //    }
+        //}
         private void VisibleAll()
         {
             //txtT1.Text = "";
@@ -11050,9 +11967,15 @@ namespace RouteOptimizer
             //    var exc = ex;
             //}
         }
-
+        /// <summary>     
+        /// Button action
+        /// Collect all drawn route and delete it
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button9_Click_1(object sender, EventArgs e)
         {
+
             string Msg = "그려진 경로를 모두 제거하시겠습니까?";
             var resul = MessageBox.Show(Msg, "", MessageBoxButtons.YesNo);
             if (resul == DialogResult.Yes)
@@ -11086,24 +12009,48 @@ namespace RouteOptimizer
         {
             this.vdFC1.BaseControl.ActiveDocument.EntitySelectMode = PickEntityMode.EyeNearest;
         }
+        private void button27_Click(object sender, EventArgs e)
+        {
+            //DataTable dt = new DataTable();
+            //dt.Columns.Add("type");
+            //dt.Columns.Add("system");
+            //dt.Columns.Add("destination");
 
+            //foreach (DataGridViewRow dr in instDGV.Rows)
+            //{
+            //    var d = dr.Cells["colSystem"].Value;
+            //    dt.Rows.Add(
+            //        dr.Cells["colType"].Value,
+            //        dr.Cells["colSystem"].Value,
+            //        dr.Cells["colTo"].Value 
+            //        ); ;
+            //}
+        }
         private void button24_Click(object sender, EventArgs e)
         {
-            var d = vdFC1.BaseControl.ActiveDocument.GetGripSelection();
-            if (d.Count > 0)
-            {
-                MessageBox.Show(d[0].Id.ToString());
-            }
-            var f = vdFC1.BaseControl.ActiveDocument.Selections;
+            //var d = vdFC1.BaseControl.ActiveDocument.GetGripSelection();
+            //if (d.Count > 0)
+            //{
+            //    MessageBox.Show(d[0].Id.ToString());
+            //}
+            //var f = vdFC1.BaseControl.ActiveDocument.Selections;
         }
-
+        /// <summary>     
+        /// Change order of layer of object on click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button25_Click(object sender, EventArgs e)
         {
             var d = vdFC1.BaseControl.ActiveDocument.GetGripSelection();
             vdFC1.BaseControl.ActiveDocument.CommandAction.CmdChangeOrder(d[0] as vdFigure, false );
             RefreshCADSpace();
         }
-
+        /// <summary>     
+        /// Change order of layer of object on click
+        /// </summary>
+        /// <param name="searchKey">Keys</param>
+        /// <returns></returns>
         private void button26_Click(object sender, EventArgs e)
         {
             var d = vdFC1.BaseControl.ActiveDocument.GetGripSelection();
@@ -11111,22 +12058,6 @@ namespace RouteOptimizer
             RefreshCADSpace();
         }
 
-        private void button27_Click(object sender, EventArgs e)
-        {
-            DataTable dt = new DataTable();
-            dt.Columns.Add("type");
-            dt.Columns.Add("system");
-            dt.Columns.Add("destination");
 
-            foreach (DataGridViewRow dr in instDGV.Rows)
-            {
-                var d = dr.Cells["colSystem"].Value;
-                dt.Rows.Add(
-                    dr.Cells["colType"].Value,
-                    dr.Cells["colSystem"].Value,
-                    dr.Cells["colTo"].Value 
-                    ); ;
-            }
-        }
     }
 }
